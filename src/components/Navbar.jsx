@@ -16,6 +16,11 @@ export default function Navbar() {
             </a>
           </li>
           <li className="nav-item">
+            <a href="#works" alt="Works">
+              Works
+            </a>
+          </li>
+          <li className="nav-item">
             <a href="./resume/index.html" alt="Resume">
               Resume
             </a>
