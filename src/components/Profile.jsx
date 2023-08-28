@@ -8,7 +8,7 @@ export default function Profile() {
         <h2 className="section-title">Profile</h2>
         {about.map((text) => (
           <div className="profile-about-info" key={text.name}>
-            <p>{text.text}</p>
+            <p className="profile-about-text">{text.text}</p>
             <div className="profile-about-links">
               <ul className="profile-about-links-list">
                 <li key={text.about_page}>
@@ -33,8 +33,8 @@ export default function Profile() {
                     rel="noreferrer"
                     alt={client.name}
                   >
-                    {client.name}
                     <span className="client-since">{client.since}</span>
+                    {client.name}
                   </a>
                 </li>
               ))}
@@ -44,8 +44,8 @@ export default function Profile() {
             <h3 className="about-subtitle">Soft Skills</h3>
             <ul className="about-soft-skills">
               {soft_skills.map((soft_skill) => (
-                <li className="soft-skill-item" key={soft_skill.soft_skills}>
-                  {soft_skill.soft_skills}
+                <li className="soft-skill-item" key={soft_skill.skill}>
+                  {soft_skill.skill}
                 </li>
               ))}
             </ul>
