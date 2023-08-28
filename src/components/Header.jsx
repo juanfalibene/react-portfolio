@@ -9,6 +9,5 @@ export default function Header() {
         <Navbar />
       </header>
     </>
-    {git add src/components/Header.jsx}
   );
 }
