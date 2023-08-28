@@ -20,11 +20,11 @@ export default function Navbar() {
               Works
             </a>
           </li>
-          <li className="nav-item">
+          {/*<li className="nav-item">
             <a href="./resume/index.html" alt="Resume">
               Resume
             </a>
-          </li>
+  </li>*/}
           <li className="nav-item">
             <a href="#contact" alt="Contact">
               Contact
