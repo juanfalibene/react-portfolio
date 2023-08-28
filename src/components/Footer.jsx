@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { about_links } from "../data";
 
 export default function Footer() {
+  const clock = () => {
+    const date = new Date();
+    const h = date.getHours();
+    const m = date.getMinutes();
+    const s = date.getSeconds();
+    return `${h}:${m}:${s}`;
+  };
+  const [time, setTime] = useState(clock());
   const professional_links = about_links.filter(
     (link_pro) => link_pro.category === "professional"
   );
@@ -11,6 +19,15 @@ export default function Footer() {
   const credit_links = about_links.filter(
     (link_credit) => link_credit.category === "credit"
   );
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setTime(clock());
+    }, 1000);
+
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, []);
   return (
     <>
       <footer className="footer" id="footer">
@@ -44,19 +61,11 @@ export default function Footer() {
             ))}
           </ul>
 
-          <ul className="footer-links">
+          <ul className="footer-links" id="credits">
             {credit_links.map((link_cre) => (
-              <li key={link_cre.name}>
-                <a
-                  href={link_cre.link}
-                  alt={link_cre.name}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {link_cre.name}
-                </a>
-              </li>
+              <li key={link_cre.name}>{link_cre.name}</li>
             ))}
+            <li>{time}</li>
           </ul>
         </div>
       </footer>
