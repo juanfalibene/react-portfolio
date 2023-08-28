@@ -18,7 +18,7 @@ export default function Hero() {
       ))}
       <div className="intro-mini-footer">
         <p>Portfolio 2020 - 2023</p>
-        <p>Available Now</p>
+        <p>Available for Works</p>
       </div>
     </section>
   );
