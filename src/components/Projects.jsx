@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <>
       <section id="projects" className="projects">
-        <h2 className="section-title">Projects</h2>
+        <h2 className="section-title-invert">Projects</h2>
         <div className="projects-list">
           {projects.map((project) => (
             <a href={project.link} key={project.cover} className="project-link">
@@ -17,7 +17,7 @@ export default function Projects() {
                 />
               </div>
               <div className="project-info">
-                <h3>
+                <h3 className="project-title">
                   {project.title}
                   <span className="project-subtitle">{project.subtitle}</span>
                 </h3>
