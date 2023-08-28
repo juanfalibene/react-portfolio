@@ -16,7 +16,7 @@ export const projects = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     category: "Front End Development",
     tags: ["React", "React Router", "React Hooks"],
-    cover: "./img/projects/project02.jpg",
+    cover: "./img/projects/project01.jpg",
     link: "https://development.juanfalibene.com/today-list-app",
   },
   {
@@ -26,7 +26,7 @@ export const projects = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     category: "Front End Development",
     tags: ["React Native", "React Router", "React Hooks"],
-    cover: "./img/projects/project03.jpg",
+    cover: "./img/projects/project01.jpg",
     link: "https://especialistasdeldeporte.com",
   },
 ];
@@ -37,7 +37,7 @@ export const works = [
     subtitle: "Copywriter & Set Design",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    category: "Wordpress Developer",
+    category: "Wordpress Development",
     tags: ["ACF", "CSS3", "CPT"],
     cover: "./img/projects/work01.jpg",
     link: "https://rocioley.com",
@@ -47,7 +47,7 @@ export const works = [
     subtitle: "Ceramics in Corsia",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    category: "Wordpress Developer",
+    category: "Wordpress Development",
     tags: ["ACF", "CSS3", "CPT"],
     cover: "./img/projects/work02.jpg",
     link: "https://atelierramia.com",
@@ -57,7 +57,7 @@ export const works = [
     subtitle: "NFL",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    category: "Wordpress Developer",
+    category: "Wordpress Development",
     tags: ["ACF", "CSS3", "CPT"],
     cover: "./img/projects/work03.jpg",
     link: "https://especialistasdeldeporte.com",
@@ -113,15 +113,25 @@ export const hard_skills = [
 
 export const soft_skills = [
   {
-    soft_skills: [
-      "Problem Solving",
-      "Creativity",
-      "Effective Communication",
-      "Detail Orientation",
-      "Team Collaboration",
-      "Time Management",
-      "Adherence to Deadlines",
-    ],
+    skill: "Problem Solving",
+  },
+  {
+    skill: "Creativity",
+  },
+  {
+    skill: "Effective Communication",
+  },
+  {
+    skill: "Detail Orientation",
+  },
+  {
+    skill: "Team Collaboration",
+  },
+  {
+    skill: "Time Management",
+  },
+  {
+    skill: "Adherence to Deadlines",
   },
 ];
 
@@ -175,10 +185,6 @@ export const about_links = [
   },
   {
     name: "Barcelona",
-    category: "credit",
-  },
-  {
-    name: "The Hour",
     category: "credit",
   },
 ];
