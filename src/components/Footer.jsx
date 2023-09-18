@@ -32,7 +32,7 @@ export default function Footer() {
     <>
       <footer className="footer" id="footer">
         <div className="footer-container">
-          <ul className="footer-links">
+          <ul className="footer-links" id="links">
             {professional_links.map((link_pro) => (
               <li key={link_pro.name}>
                 <a
@@ -46,7 +46,7 @@ export default function Footer() {
               </li>
             ))}
           </ul>
-          <ul className="footer-links">
+          <ul className="footer-links" id="mail">
             {personal_links.map((link_per) => (
               <li key={link_per.name}>
                 <a

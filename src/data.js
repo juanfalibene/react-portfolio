@@ -27,11 +27,21 @@ export const projects = [
     category: "Front End Development",
     tags: ["React Native", "React Router", "React Hooks"],
     cover: "./img/projects/project01.jpg",
-    link: "https://especialistasdeldeporte.com",
+    link: "https://development.juanfalibene.com/react-native",
   },
 ];
 
 export const works = [
+  {
+    title: "Tapias Rueda",
+    subtitle: "Construction & Services",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    category: "Wordpress Design",
+    tags: ["UI", "XD", "CSS3"],
+    cover: "./img/projects/work04.jpg",
+    link: "https://tapiasrueda.com",
+  },
   {
     title: "Rocio Ley",
     subtitle: "Copywriter & Set Design",
@@ -44,7 +54,7 @@ export const works = [
   },
   {
     title: "Atelier Ramia",
-    subtitle: "Ceramics in Corsia",
+    subtitle: "Ceramics",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     category: "Wordpress Development",
@@ -52,7 +62,7 @@ export const works = [
     cover: "./img/projects/work02.jpg",
     link: "https://atelierramia.com",
   },
-  {
+  /*{
     title: "Especialistas Del Deporte",
     subtitle: "NFL",
     description:
@@ -61,7 +71,7 @@ export const works = [
     tags: ["ACF", "CSS3", "CPT"],
     cover: "./img/projects/work03.jpg",
     link: "https://especialistasdeldeporte.com",
-  },
+  },*/
 ];
 
 export const clients = [
@@ -103,7 +113,7 @@ export const hard_skills = [
   },
   {
     skill: "Git",
-    image: "./img/skills/github.svg",
+    image: "./img/skills/github-mark-white.svg",
   },
   {
     skill: "Wordpress",
@@ -166,12 +176,12 @@ export const about_links = [
   },
   {
     name: "Mail",
-    link: "juanignaciofalibene@gmail.com",
+    link: "mailto:juanignaciofalibene@gmail.com",
     category: "personal",
   },
   {
     name: "Phone",
-    link: "651552278",
+    link: "tel:651552278",
     category: "personal",
   },
   {
@@ -180,7 +190,7 @@ export const about_links = [
     category: "personal",
   },
   {
-    name: "© Juan 2023",
+    name: "©Juan 2023",
     category: "credit",
   },
   {
