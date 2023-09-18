@@ -79,11 +79,16 @@ ul.navbar-items-container li.nav-item {
   padding-top: 0.575rem;
 }
 
-ul.navbar-items-container li.nav-item a {
+ul.navbar-items-container li.nav-item a,
+.menu-trigger {
   color: #ffffff;
   font-size: 0.975rem;
   text-decoration: none;
   font-weight: 300;
+}
+
+.menu-trigger {
+  display: none;
 }
 
 section {
@@ -137,7 +142,7 @@ section.intro {
   font-size: 0.875rem;
   line-height: 0.975rem;
   letter-spacing: 0.275px;
-  word-wrap: break-word;
+  text-wrap: balance;
   overflow-wrap: break-word;
   hyphens: auto;
   width: 60%;
@@ -153,6 +158,14 @@ section.intro {
   line-height: 0.975rem;
   text-decoration: none;
   color: #ffffff;
+}
+
+.hero-data a.hero-profile-button:hover,
+.profile-about-links-list a:hover,
+.profile-about-links-list a:hover {
+  background-color: #ffffff;
+  color: #202020;
+  opacity: 1;
 }
 
 .intro-mini-footer {
@@ -392,6 +405,10 @@ section.contact {
   text-decoration: none;
 }
 
+.contact .contact-text a:hover {
+  text-decoration: underline;
+}
+
 .profile-about-links-list,
 .experience ul.about-hard-skills {
   display: flex;
@@ -405,7 +422,7 @@ section.contact {
 }
 
 .profile-about-links-list a {
-  border: 1px solid #ffff0550;
+  border: 1px solid #8f8f8f1a;
 }
 
 .experience ul.about-hard-skills {
@@ -423,6 +440,10 @@ section.contact {
 .experience ul.about-clients li a {
   text-decoration: none;
   color: #fafafa;
+}
+
+.experience ul.about-clients li a:hover {
+  color: #FFFF05;
 }
 
 .experience ul.about-clients li a span.client-since {
@@ -486,6 +507,8 @@ section.contact {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   padding: 1.975rem;
 }
@@ -493,9 +516,9 @@ footer {
 .footer-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  gap: 1.975rem;
-  flex-basis: 25%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 2.975rem;
 }
 
 .footer-container .footer-links li a {
@@ -507,11 +530,16 @@ footer {
   text-decoration: none;
 }
 
+.footer-container .footer-links li a:hover {
+  color: #a1a1a1;
+}
+
 ul.footer-links#credits {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
-  align-self: flex-end;
+  align-items: center;
+  justify-content: center;
+  padding-right: 0.5rem;
 }
 
 .footer-links#credits li {
@@ -531,4 +559,163 @@ ul.footer-links#credits {
 .footer-links#credits li:nth-last-child(2)::after {
   content: ". ";
   padding-right: 0.025rem;
+}
+
+/* responsive mobile */
+
+@media (max-width: 809px) and (min-width: 0px) {
+  header {
+    padding: 1.4875rem 0.9875rem;
+    background-color: #202020;
+    mix-blend-mode: normal;
+  }
+
+  nav {
+    width: auto;
+  }
+
+  nav.navbar ul.navbar-items-container.is-close {
+    display: none;
+  }
+
+  nav.navbar ul.navbar-items-container.is-open {
+    position: absolute;
+    top: 1.975rem;
+    left: 0;
+    padding: 1.4875rem 0.9875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.875rem;
+    width: 100%;
+    z-index: 900;
+    height: 100dvh;
+    background-color: #010101;
+  }
+
+  ul.navbar-items-container li.nav-item a {
+    font-size: 1.975rem;
+    width: 100%;
+    color: #ffffff;
+  }
+
+  ul.navbar-items-container li.nav-item a:hover {
+    color: #a1a1a1d6;
+  }
+
+  .menu-trigger {
+    display: flex;
+    align-self: flex-end;
+    color: #fafafa;
+    cursor: pointer;
+  }
+
+  .menu-trigger:hover {
+    color: #FFFF05;
+  }
+
+  section {
+    padding: 1.4875rem;
+  }
+
+  section.intro {
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 95dvh;
+  }
+
+  .hero-data {
+    width: 100%;
+    gap: 1.0875rem;
+  }
+
+  .hero-data .hero-profile-img {
+    width: 80%;
+  }
+
+  .hero-data img {
+    width: 80%;
+    height: auto;
+    aspect-ratio: 1/1;
+  }
+
+  .hero-data h2.hero-profile-title {
+    font-size: 1.2875rem;
+  }
+
+  .hero-data p.hero-profile-text {
+    text-wrap: balance;
+    width: 90%;
+    font-size: 1rem;
+    line-height: 1.2875rem;
+  }
+
+  .hero-data a.hero-profile-button,
+  .profile-about-links-list a {
+    font-size: 1rem;
+  }
+
+  section.projects {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.275rem;
+    padding: 1.75rem 0.9875rem;
+    background: #fafafa;
+    height: auto;
+  }
+
+  .projects-list {
+    display: grid;
+    flex: none;
+    gap: 1rem;
+    grid-auto-rows: min-content;
+    grid-template-columns: repeat(1, minmax(10rem, 1fr));
+    grid-template-rows: repeat(1, min-content);
+  }
+
+  section.profile {
+    height: auto;
+    padding: 1.75rem 0.9875rem;
+  }
+
+  .profile .profile-about-text,
+  .contact .contact-text {
+    width: 100%;
+    font-size: 1.6875rem;
+    line-height: 1.9875rem;
+    padding-right: 1.0875rem;
+  }
+
+  .profile-about-links-list {
+    margin-top: 1.875rem;
+  }
+
+  .profile .about-experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    gap: 1.875rem;
+    height: auto;
+    width: 100%;
+  }
+
+  .experience h3.about-subtitle {
+    font-size: 1.2875rem;
+  }
+
+  .experience ul.about-soft-skills li,
+  .experience ul.about-clients li {
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: 0.5rem 0;
+  }
+
+  .experience ul.about-hard-skills {
+    gap: 0.575rem;
+  }
 }
