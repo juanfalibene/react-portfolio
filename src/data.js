@@ -62,16 +62,26 @@ export const works = [
     cover: "./img/projects/work02.jpg",
     link: "https://atelierramia.com",
   },
-  /*{
-    title: "Especialistas Del Deporte",
-    subtitle: "NFL",
+  {
+    title: "Gianfranco Quattrini",
+    subtitle: "Film Director",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     category: "Wordpress Development",
-    tags: ["ACF", "CSS3", "CPT"],
-    cover: "./img/projects/work03.jpg",
-    link: "https://especialistasdeldeporte.com",
-  },*/
+    tags: ["ACF", "CPT", "Video API"],
+    cover: "./img/projects/work05.jpg",
+    link: "https://gianfrancoquattrini.net/",
+  },
+  {
+    title: "Poblenou Community Radio",
+    subtitle: "Radio Station",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    category: "Wordpress Development",
+    tags: ["Membership Site", "CPT", "Streaming API"],
+    cover: "./img/projects/work06.jpg",
+    link: "https://poblenoucommunityradio.com/",
+  },
 ];
 
 export const clients = [
