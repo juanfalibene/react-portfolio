@@ -12,6 +12,8 @@ const keepTheme = () => {
     } else {
       setTheme("theme-dark");
     }
+  } else {
+    setTheme("theme-dark");
   }
 };
 
