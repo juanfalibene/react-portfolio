@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import { setTheme } from "../theme";
-import { useEffect } from "react";
 
 const Toggle = () => {
   const [togClass, setTogClass] = useState(localStorage.getItem("theme"));
-  //let theme = localStorage.getItem("theme");
 
   const handleOnClick = () => {
     if (localStorage.getItem("theme") === "theme-dark") {
