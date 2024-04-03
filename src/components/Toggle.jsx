@@ -3,8 +3,8 @@ import { setTheme } from "../theme";
 import { useEffect } from "react";
 
 const Toggle = () => {
-  const [togClass, setTogClass] = useState("dark");
-  let theme = localStorage.getItem("theme");
+  const [togClass, setTogClass] = useState(localStorage.getItem("theme"));
+  //let theme = localStorage.getItem("theme");
 
   const handleOnClick = () => {
     if (localStorage.getItem("theme") === "theme-dark") {
@@ -15,14 +15,6 @@ const Toggle = () => {
       setTogClass("dark");
     }
   };
-
-  useEffect(() => {
-    if (localStorage.getItem("theme") === "theme-dark") {
-      setTogClass("dark");
-    } else if (localStorage.getItem("theme") === "theme-light") {
-      setTogClass("light");
-    }
-  }, [theme]);
   return (
     <li className='nav-item-mode' id='toggle'>
       <button onClick={handleOnClick}>
