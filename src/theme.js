@@ -4,16 +4,14 @@ const setTheme = (themeName) => {
 };
 
 const keepTheme = () => {
-  if (localStorage.getItem("theme")) {
+  if (!localStorage.getItem("theme")) {
+    setTheme("theme-dark");
+  } else {
     if (localStorage.getItem("theme") === "theme-dark") {
       setTheme("theme-dark");
-    } else if (localStorage.getItem("theme") === "theme-light") {
-      setTheme("theme-light");
     } else {
-      setTheme("theme-dark");
+      setTheme("theme.light");
     }
-  } else {
-    setTheme("theme-dark");
   }
 };
 
