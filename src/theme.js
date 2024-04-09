@@ -10,7 +10,7 @@ const keepTheme = () => {
     if (localStorage.getItem("theme") === "theme-dark") {
       setTheme("theme-dark");
     } else {
-      setTheme("theme.light");
+      setTheme("theme-light");
     }
   }
 };
