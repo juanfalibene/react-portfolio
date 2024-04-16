@@ -1,66 +1,116 @@
 export const projects = [
   {
-    title: "Discava",
-    subtitle: "Vinyl Search APP",
+    title: "Daily News",
+    subtitle: "React Web APP",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    category: "Front End Development",
-    tags: ["HTML5", "CSS3", "JS Vanilla"],
-    cover: "./img/projects/project01.jpg",
-    link: "https://development.juanfalibene.com/discava",
+    category: "FrontEnd Development",
+    tags: [
+      "React",
+      "Redux",
+      "Google API",
+      "G News API",
+      "Axios",
+      "Material UI",
+    ],
+    cover: "./img/projects/daily.webp",
+    link: "http://dev.juanfalibene.com/daily-news",
   },
   {
-    title: "ToDay List",
-    subtitle: "React APP",
+    title: "Discava!",
+    subtitle: "Vinyl Search Web APP",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    category: "Front End Development",
+    category: "FrontEnd Development",
+    tags: ["HTML5", "CSS3", "JS Vanilla", "Discogs API"],
+    cover: "./img/projects/discava.webp",
+    link: "http://dev.juanfalibene.com/discava/index.html",
+  },
+  {
+    title: "Song Of The Day",
+    subtitle: "Javascript Swipe",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    category: "FrontEnd Development",
+    tags: ["HTML5", "CSS3", "JS Vanilla", "Spotify"],
+    cover: "./img/projects/project03.webp",
+    link: "https://dev.juanfalibene.com/sotd",
+    github_link: "https://github.com/juanfalibene/01_swipe",
+  },
+  {
+    title: "Music Portfolio",
+    subtitle: "Navigation",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    category: "FrontEnd Development",
     tags: ["React", "React Router", "React Hooks"],
-    cover: "./img/projects/project01.jpg",
-    link: "https://development.juanfalibene.com/today-list-app",
+    cover: "./img/projects/project02.webp",
+    link: "https://music.juanfalibene.com/",
+    github_link: "https://github.com/juanfalibene/react-music-portfolio",
   },
   {
-    title: "React Native APP",
-    subtitle: "React Native",
+    title: "Simple Projects",
+    subtitle: "Collection",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    category: "Front End Development",
-    tags: ["React Native", "React Router", "React Hooks"],
-    cover: "./img/projects/project01.jpg",
-    link: "https://development.juanfalibene.com/react-native",
+    category: "FrontEnd Development",
+    tags: ["JS Vanilla", "React", "CSS3", "HTML5"],
+    cover: "./img/projects/project05.webp",
+    link: "https://dev.juanfalibene.com/",
+    github_link: "https://github.com/stars/juanfalibene/lists/simple-projects",
   },
 ];
 
 export const works = [
   {
-    title: "Tapias Rueda",
-    subtitle: "Construction & Services",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    category: "Wordpress Design",
-    tags: ["UI", "XD", "CSS3"],
-    cover: "./img/projects/work04.jpg",
-    link: "https://tapiasrueda.com",
-  },
-  {
-    title: "Rocio Ley",
-    subtitle: "Copywriter & Set Design",
+    title: "Víctor Segura Campins",
+    subtitle: "Writer",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     category: "Wordpress Development",
-    tags: ["ACF", "CSS3", "CPT"],
-    cover: "./img/projects/work01.jpg",
+    tags: ["ACF", "JS", "CSS3"],
+    cover: "./img/projects/work08.webp",
+    link: "https://victorseguracampins.com",
+  },
+  {
+    title: "Rocio Ley",
+    subtitle: "Copywriter & Set Designer",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    category: "Wordpress Development",
+    tags: ["ACF", "JS", "CSS3", "CPT"],
+    cover: "./img/projects/work01.webp",
     link: "https://rocioley.com",
+  },
+  {
+    title: "Tapias Rueda",
+    subtitle: "Construction Services",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    category: "Wordpress Design",
+    tags: ["UI", "XD", "CSS3", "Web Design"],
+    cover: "./img/projects/work04.webp",
+    link: "https://tapiasrueda.com",
+  },
+  {
+    title: "Help End HIV",
+    subtitle: "Volunteer Campaign",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    category: "Wordpress Design",
+    tags: ["UI", "UX", "Web Design"],
+    cover: "./img/projects/work07.webp",
+    link: "https://helpendhiv.org",
   },
   {
     title: "Atelier Ramia",
     subtitle: "Ceramics",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    category: "Wordpress Development",
-    tags: ["ACF", "CSS3", "CPT"],
-    cover: "./img/projects/work02.jpg",
-    link: "https://atelierramia.com",
+    category: "Wordpress Design & Development",
+    tags: ["ACF", "CSS3", "CPT", "Web Design"],
+    cover: "./img/projects/work02.webp",
+    link: "https://atelieramia.com/",
   },
   {
     title: "Gianfranco Quattrini",
@@ -69,8 +119,18 @@ export const works = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     category: "Wordpress Development",
     tags: ["ACF", "CPT", "Video API"],
-    cover: "./img/projects/work05.jpg",
+    cover: "./img/projects/work05.webp",
     link: "https://gianfrancoquattrini.net/",
+  },
+  /*{
+    title: "Irene Pietrella",
+    subtitle: "Photographer",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    category: "Wordpress Design & Development",
+    tags: ["ACF", "CSS3", "CPT", "Web Design"],
+    cover: "./img/projects/work09.webp",
+    link: "https://irene-pietrella.com",
   },
   {
     title: "Poblenou Community Radio",
@@ -81,7 +141,7 @@ export const works = [
     tags: ["Membership Site", "CPT", "Streaming API"],
     cover: "./img/projects/work06.jpg",
     link: "https://poblenoucommunityradio.com/",
-  },
+  },*/
 ];
 
 export const clients = [
@@ -91,7 +151,7 @@ export const clients = [
     since: 2019,
   },
   {
-    name: "Sociacisssima",
+    name: "Socialisssima",
     image: "./img/socialisssima.jpg",
     link: "https://socialisssima.com",
     since: 2020,
@@ -101,6 +161,12 @@ export const clients = [
     image: "./img/psworks.jpg",
     link: "https://psworks.es",
     since: 2022,
+  },
+  {
+    name: "weincontro",
+    image: "./img/psworks.jpg",
+    link: "https://weincontro.com/",
+    since: 2023,
   },
 ];
 
@@ -118,16 +184,16 @@ export const hard_skills = [
     image: "./img/skills/js.svg",
   },
   {
+    skill: "Wordpress",
+    image: "./img/skills/wordpress.svg",
+  },
+  {
     skill: "React",
     image: "./img/skills/react.svg",
   },
   {
-    skill: "Git",
+    skill: "Github",
     image: "./img/skills/github-mark-white.svg",
-  },
-  {
-    skill: "Wordpress",
-    image: "./img/skills/wordpress.svg",
   },
 ];
 
@@ -158,13 +224,15 @@ export const soft_skills = [
 export const about = [
   {
     name: "Juan Falibene",
-    text: "I am currently working on my initial projects as a Front End Developer using React & React Native.",
+    text: "Based in Barcelona",
     profession: "Web Designer",
-    grade: "Front End Developer",
-    image: "./img/juanfalibene_profile.svg",
+    grade: "FrontEnd Developer",
+    image: "./img/juanfalibene_profile_hover.webp",
     resume_page: "./resume/index.html",
     about_page: "./about.html",
-    bio: "I am an experienced web designer with more than eight years collaborating with studios, agencies and clients.My dedication is in creating and maintaining functional and visually appealing websites. I have a great ability to conceptualize designs and formulate strategies through meticulous analysis.",
+    bio_excerpt:
+      "Web Designer and Front-End Developer specialized in HTML, CSS, JavaScript and React.",
+    bio: "Detail-oriented web designer with 5 years of experience in creating visually appealing and user-friendly websites. Proficient in HTML, CSS, and JavaScript, with a strong understanding of responsive design and SEO principles. Looking to leverage my skills and creativity to contribute to a dynamic team and deliver high-quality digital solutions.",
   },
 ];
 
@@ -200,7 +268,7 @@ export const about_links = [
     category: "personal",
   },
   {
-    name: "©Juan 2023",
+    name: "©Juan Falibene_24",
     category: "credit",
   },
   {
