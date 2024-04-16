@@ -15,6 +15,7 @@ export const projects = [
     ],
     cover: "./img/projects/daily.webp",
     link: "http://dev.juanfalibene.com/daily-news",
+    github_link: "https://github.com/juanfalibene/daily-news",
   },
   {
     title: "Discava!",
