@@ -14,7 +14,7 @@ export const projects = [
       "Material UI",
     ],
     cover: "./img/projects/daily.webp",
-    link: "http://dev.juanfalibene.com/daily-news",
+    link: "https://dev.juanfalibene.com/daily-news",
     github_link: "https://github.com/juanfalibene/daily-news",
   },
   {
@@ -58,7 +58,7 @@ export const projects = [
     tags: ["JS Vanilla", "React", "CSS3", "HTML5"],
     cover: "./img/projects/project05.webp",
     link: "https://dev.juanfalibene.com/",
-    github_link: "https://github.com/stars/juanfalibene/lists/simple-projects",
+    github_link: "https://github.com/juanfalibene/",
   },
 ];
 

@@ -11,8 +11,11 @@ export default function Profile() {
   };
   const linkResume = (e) => {
     e.preventDefault();
-    console.log("linka a resume");
-    window.open("https://juanfalibene.com/resume", "_blank", "noreferrer");
+    window.open(
+      "https://juanfalibene.com/resume/index.html",
+      "_blank",
+      "noreferrer"
+    );
   };
   return (
     <>
@@ -80,6 +83,7 @@ export default function Profile() {
                     className='hard-skill-img'
                     src={hard_skill.image}
                     alt={hard_skill.skill}
+                    id={hard_skill.skill === "Github" ? "github_profile" : null}
                   />
                 </li>
               ))}
