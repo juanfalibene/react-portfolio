@@ -985,7 +985,7 @@ ul.footer-links#credits {
   }
 
   section {
-    padding: var(--1-48r);
+    padding: var(--1-48r) var(--0-987r);
   }
 
   section.intro {
@@ -1003,6 +1003,20 @@ ul.footer-links#credits {
 
   .hero-data#update {
     order: 2;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+
+  .code-text pre {
+    word-wrap: break-word;
+    white-space: normal;
+    word-break: break-all;
+  }
+
+  .hero-update-modal {
+    -webkit-font-variant-ligatures: normal;
+    -moz-font-variant-ligatures: normal;
+    font-variant-ligatures: normal;
   }
 
   .intro-mini-footer {
