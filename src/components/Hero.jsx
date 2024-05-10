@@ -26,7 +26,7 @@ export default function Hero() {
                 version: <mark className='next-value'>"1.0.1"</mark>
               </span>
               <span className='prop'>
-                currentlyDoing: <mark className='operator-mark'>{`{`}</mark>
+                currentActivities: <mark className='operator-mark'>{`{`}</mark>
                 <span className='prop'>
                   workingOn:{" "}
                   <a
@@ -67,14 +67,19 @@ export default function Hero() {
               </span>
               <span className='prop'>
                 worksDelivered:{" "}
-                <mark className='mark-number next-value'>38</mark>
+                <mark className='number-mark next-value'>38</mark>
               </span>
+              {/*<span className='prop'>
+                codingChallenges:{" "}
+                <mark className='number-mark next-value'>38</mark>
+  </span>*/}
               <span className='prop'>
-                availableForWork: <mark className='next-value'>"true"</mark>
+                availableForWork:{" "}
+                <mark className='boolean-mark next-value'>true</mark>
               </span>
               <span className='prop'>
                 lastUpdate:{" "}
-                <mark className='mark-date next-value'>"10-05-2024"</mark>
+                <mark className='date-mark next-value'>"10-05-2024"</mark>
               </span>
               <span className='operator'>{`}`}</span>
             </pre>
