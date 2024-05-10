@@ -27,6 +27,38 @@ export default function Works() {
                   {work.title}
                   <span className='project-subtitle'>{work.subtitle}</span>
                 </h3>
+                {work.behance_link && work.behance_link !== "" && (
+                  <div className='view-github'>
+                    <a
+                      href={work.behance_link}
+                      key={work.behance_link}
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      <img
+                        src='/img/skills/behance.svg'
+                        className='behance-project'
+                        alt='behance.com'
+                      />
+                    </a>
+                  </div>
+                )}
+                {work.figma_link && work.figma_link !== "" && (
+                  <div className='view-github'>
+                    <a
+                      href={work.figma_link}
+                      key={work.figma_link}
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      <img
+                        src='/img/skills/figma.svg'
+                        className='figma-project'
+                        alt='figma.com'
+                      />
+                    </a>
+                  </div>
+                )}
                 <div className='project-info-sub'>
                   <h4 className='project-category'>{work.category}</h4>
                   <ul className='project-tags'>
