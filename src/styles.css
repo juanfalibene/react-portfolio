@@ -298,17 +298,23 @@ ul.code-nav-buttons {
   margin-left: var(--0-5r);
 }
 .code-text span.prop mark {
-  background: none !important;
+  background: none;
   color: #9f74c4;
 }
 .code-text span.prop mark.operator-mark {
-  color: #e6cd69 !important;
+  color: #e6cd69;
+}
+.code-text span.prop mark.number-mark {
+  color: #90a959;
+}
+.code-text span.prop mark.boolean-mark {
+  color: #236c99;
 }
 .code-text span.prop mark.next-value::after,
 .next-value::after {
   content: ",";
   font-size: inherit;
-  color: var(--secondary-color) !important;
+  color: var(--secondary-color);
 }
 .code-text span.prop a {
   margin-left: 5px;
