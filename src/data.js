@@ -13,7 +13,7 @@ export const projects = [
       "Axios",
       "Material UI",
     ],
-    cover: "./img/projects/daily.webp",
+    cover: "./img/projects/daily_mobile.webp",
     link: "https://dev.juanfalibene.com/daily-news",
     github_link: "https://github.com/juanfalibene/daily-news",
   },
@@ -92,6 +92,8 @@ export const works = [
     tags: ["UI", "XD", "CSS3", "Web Design"],
     cover: "./img/projects/work04.webp",
     link: "https://tapiasrueda.com",
+    figma_link:
+      "https://www.figma.com/proto/VgNKSTHIh2b987Mlbi4z5W/Copy-REF-Quemaja?node-id=2-6&starting-point-node-id=2%3A6&scaling=scale-down-width&mode=design&t=O23C84dFKOofDc73-1",
   },
   {
     title: "Help End HIV",
@@ -102,6 +104,7 @@ export const works = [
     tags: ["UI", "UX", "Web Design"],
     cover: "./img/projects/work07.webp",
     link: "https://helpendhiv.org",
+    behance_link: "https://www.behance.net/gallery/154843337/HIV-All-of-Us",
   },
   {
     title: "Atelier Ramia",
@@ -112,6 +115,7 @@ export const works = [
     tags: ["ACF", "CSS3", "CPT", "Web Design"],
     cover: "./img/projects/work02.webp",
     link: "https://atelieramia.com/",
+    behance_link: "https://www.behance.net/gallery/161976485/Atelier-Ramia",
   },
   {
     title: "Gianfranco Quattrini",
@@ -122,6 +126,8 @@ export const works = [
     tags: ["ACF", "CPT", "Video API"],
     cover: "./img/projects/work05.webp",
     link: "https://gianfrancoquattrini.net/",
+    figma_link:
+      "https://www.figma.com/proto/IYdc4ZMMtBSvoKpABq9SeP/Gianfranco-Quatrrini?node-id=1-2&starting-point-node-id=1%3A2&scaling=scale-down-width&mode=design&t=4fyU5R3LGxrumbis-1",
   },
   /*{
     title: "Irene Pietrella",
@@ -185,16 +191,16 @@ export const hard_skills = [
     image: "./img/skills/js.svg",
   },
   {
-    skill: "Wordpress",
-    image: "./img/skills/wordpress.svg",
-  },
-  {
     skill: "React",
     image: "./img/skills/react.svg",
   },
   {
     skill: "Github",
     image: "./img/skills/github-mark-white.svg",
+  },
+  {
+    skill: "Wordpress",
+    image: "./img/skills/wordpress.svg",
   },
 ];
 
