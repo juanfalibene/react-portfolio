@@ -13,7 +13,7 @@ export const projects = [
       "Axios",
       "Material UI",
     ],
-    cover: "./img/projects/daily_mobile.webp",
+    cover: "./img/projects/daily_new_screen.webp",
     link: "https://dev.juanfalibene.com/daily-news",
     github_link: "https://github.com/juanfalibene/daily-news",
   },
@@ -80,7 +80,7 @@ export const works = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     category: "Wordpress Development",
     tags: ["ACF", "JS", "CSS3", "CPT"],
-    cover: "./img/projects/work01.webp",
+    cover: "./img/projects/03_smoda.webp",
     link: "https://rocioley.com",
   },
   {
@@ -102,7 +102,7 @@ export const works = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     category: "Wordpress Design",
     tags: ["UI", "UX", "Web Design"],
-    cover: "./img/projects/work07.webp",
+    cover: "./img/projects/hvtn_04.webp",
     link: "https://helpendhiv.org",
     behance_link: "https://www.behance.net/gallery/154843337/HIV-All-of-Us",
   },
@@ -113,7 +113,7 @@ export const works = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     category: "Wordpress Design & Development",
     tags: ["ACF", "CSS3", "CPT", "Web Design"],
-    cover: "./img/projects/work02.webp",
+    cover: "./img/projects/ramia_02.webp",
     link: "https://atelieramia.com/",
     behance_link: "https://www.behance.net/gallery/161976485/Atelier-Ramia",
   },
@@ -124,7 +124,7 @@ export const works = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     category: "Wordpress Development",
     tags: ["ACF", "CPT", "Video API"],
-    cover: "./img/projects/work05.webp",
+    cover: "./img/projects/gian_01.webp",
     link: "https://gianfrancoquattrini.net/",
     figma_link:
       "https://www.figma.com/proto/IYdc4ZMMtBSvoKpABq9SeP/Gianfranco-Quatrrini?node-id=1-2&starting-point-node-id=1%3A2&scaling=scale-down-width&mode=design&t=4fyU5R3LGxrumbis-1",
@@ -232,14 +232,27 @@ export const about = [
   {
     name: "Juan Falibene",
     text: "Based in Barcelona",
-    profession: "Web Designer",
-    grade: "FrontEnd Developer",
+    profession: "Web Designer & Frontend Developer",
     image: "./img/juanfalibene_profile_hover.webp",
+    imagePic: "./img/juanfalibene_profile_pic.webp",
     resume_page: "./resume/index.html",
     about_page: "./about.html",
     bio_excerpt:
-      "Web Designer and Front-End Developer specialized in HTML, CSS, JavaScript and React.",
-    bio: "Detail-oriented web designer with 5 years of experience in creating visually appealing and user-friendly websites. Proficient in HTML, CSS, and JavaScript, with a strong understanding of responsive design and SEO principles. Looking to leverage my skills and creativity to contribute to a dynamic team and deliver high-quality digital solutions.",
+      "Web Designer and Front-End Developer specialized in HTML, CSS, JavaScript and React.  Looking to leverage my skills and creativity to contribute to a dynamic team and deliver high-quality digital solutions",
+    bio: "Detail-oriented web designer with 5 years of experience in creating visually appealing and user-friendly websites. Proficient in HTML, CSS, and JavaScript, with a strong understanding of responsive design and SEO principles.",
+  },
+];
+
+export const section_description = [
+  {
+    section: "Works",
+    description:
+      "Over the past 5 years, I have specialized in designing and developing WordPress websites for agencies and individual clients. I provide complete solutions, including design, development, support, and knowledge transfer to ensure every project’s success.",
+  },
+  {
+    section: "Projects",
+    description:
+      "These projects are part of my ongoing journey to learn and master front-end technologies. Through them, I demonstrate my commitment to developing skills and knowledge in this field.",
   },
 ];
 
