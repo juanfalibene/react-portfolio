@@ -1,19 +1,29 @@
 import React from "react";
-import { works } from "../data";
+import { works, section_description } from "../data";
 
 export default function Works() {
   return (
     <>
       <section id='works' className='projects'>
-        <h2 className='section-title-invert'>Wordpress Works</h2>
+        <div className='works-info'>
+          <h2 className='section-title-invert'>Wordpress Works</h2>
+          {section_description.map((des, index) =>
+            des.section === "Works" ? (
+              <p className='work-description-text' key={index}>
+                {des.description}
+              </p>
+            ) : null
+          )}
+        </div>
         <div className='projects-list'>
-          {works.map((work) => (
+          {works.map((work, index) => (
             <a
               href={work.link}
               key={`${work.title}-${work.subtitle}`}
               className='project-link'
               target='_blank'
               rel='noreferrer'
+              id={index === 0 ? 'first-work' : undefined}
             >
               <div className='project-image' key={work.title}>
                 <img
