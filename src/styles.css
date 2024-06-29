@@ -354,8 +354,19 @@ ul.code-nav-buttons {
   border: none;
   object-fit: cover;
   height: auto;
-  aspect-ratio: 14.4/9;
+  aspect-ratio: 89.4/9;
   object-position: center;
+  animation: loadImg 250ms ease-in-out forwards;
+  animation-iteration-count: 1;
+}
+
+@keyframes loadImg {
+  0% {
+    aspect-ratio: 89.4/9;
+  }
+  100% {
+    aspect-ratio: 14.4/9;
+  }
 }
 
 .hero-data .pic-text-container {
@@ -371,7 +382,9 @@ ul.code-nav-buttons {
   background: linear-gradient(
     90deg,
     var(--code-modal-color) 0%,
-    rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0) 80%, var(--code-modal-color) 100% 
+    rgba(255, 255, 255, 0) 40%,
+    rgba(255, 255, 255, 0) 80%,
+    var(--code-modal-color) 100%
   );
 }
 
@@ -605,7 +618,7 @@ section h2.section-title-invert {
   padding: 0;
   position: relative;
   overflow-y: auto;
-  overflow-x: auto;
+  overflow-x: hidden;
   width: var(--100);
   height: var(--100);
 }
@@ -633,7 +646,7 @@ a.project-link {
   align-self: start;
   flex-basis: calc(33.56666% - var(--0-57r));
   height: 100%;
-  aspect-ratio: 0.8077777777777778 / 1;
+  aspect-ratio: 0.807666666 / 1;
   gap: 0;
   justify-content: flex-start;
   padding: 0;
@@ -643,6 +656,12 @@ a.project-link {
   color: var(--secondary-color);
   filter: grayscale(0.1) brightness(0.95);
   transition: all 150ms ease-in-out;
+}
+
+a.project-link#first-work {
+  flex-basis: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 9;
 }
 
 a.project-link:hover {
@@ -1239,7 +1258,18 @@ ul.footer-links#credits {
 
   .hero-data img {
     height: auto;
-    aspect-ratio: 1/1;
+    aspect-ratio: 89.4/9;
+    animation: loadImgMobile 350ms ease-in-out forwards !important;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes loadImgMobile {
+    0% {
+      aspect-ratio: 89.4/9;
+    }
+    100% {
+      aspect-ratio: 1/1;
+    }
   }
 
   .hero-data h2.hero-profile-title {
