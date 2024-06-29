@@ -64,12 +64,22 @@ export const projects = [
 
 export const works = [
   {
+    title: "PSworks",
+    subtitle: "Content Creators Agency",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    category: "Wordpress Development",
+    tags: ["XD", "JS", "CSS3", "ACF", "CPT UI", "SEO", "WPO"],
+    cover: "./img/projects/psworks_02.webp",
+    link: "https://www.psworks.es/",
+  },
+  {
     title: "Víctor Segura Campins",
     subtitle: "Writer",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     category: "Wordpress Development",
-    tags: ["ACF", "JS", "CSS3"],
+    tags: ["ACF", "JS", "CSS3", "SEO", "WPO"],
     cover: "./img/projects/work08.webp",
     link: "https://victorseguracampins.com",
   },
@@ -79,7 +89,7 @@ export const works = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     category: "Wordpress Development",
-    tags: ["ACF", "JS", "CSS3", "CPT"],
+    tags: ["ACF", "JS", "CSS3", "CPT UI", "SEO", "WPO"],
     cover: "./img/projects/03_smoda.webp",
     link: "https://rocioley.com",
   },
@@ -89,7 +99,7 @@ export const works = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     category: "Wordpress Design",
-    tags: ["UI", "XD", "CSS3", "Web Design"],
+    tags: ["UI", "FIGMA", "CSS3", "Web Design"],
     cover: "./img/projects/work04.webp",
     link: "https://tapiasrueda.com",
     figma_link:
@@ -101,7 +111,7 @@ export const works = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     category: "Wordpress Design",
-    tags: ["UI", "UX", "Web Design"],
+    tags: ["UI", "UX", "Web Design", "SEO", "WPO"],
     cover: "./img/projects/hvtn_04.webp",
     link: "https://helpendhiv.org",
     behance_link: "https://www.behance.net/gallery/154843337/HIV-All-of-Us",
@@ -112,7 +122,7 @@ export const works = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     category: "Wordpress Design & Development",
-    tags: ["ACF", "CSS3", "CPT", "Web Design"],
+    tags: ["ACF", "CSS3", "Web Design", "XD"],
     cover: "./img/projects/ramia_02.webp",
     link: "https://atelieramia.com/",
     behance_link: "https://www.behance.net/gallery/161976485/Atelier-Ramia",
@@ -123,7 +133,7 @@ export const works = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     category: "Wordpress Development",
-    tags: ["ACF", "CPT", "Video API"],
+    tags: ["ACF", "CPT UI", "Video API", "WPO"],
     cover: "./img/projects/gian_01.webp",
     link: "https://gianfrancoquattrini.net/",
     figma_link:
@@ -138,16 +148,6 @@ export const works = [
     tags: ["ACF", "CSS3", "CPT", "Web Design"],
     cover: "./img/projects/work09.webp",
     link: "https://irene-pietrella.com",
-  },
-  {
-    title: "Poblenou Community Radio",
-    subtitle: "Radio Station",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    category: "Wordpress Development",
-    tags: ["Membership Site", "CPT", "Streaming API"],
-    cover: "./img/projects/work06.jpg",
-    link: "https://poblenoucommunityradio.com/",
   },*/
 ];
 
@@ -195,12 +195,16 @@ export const hard_skills = [
     image: "./img/skills/react.svg",
   },
   {
-    skill: "Github",
-    image: "./img/skills/github-mark-white.svg",
-  },
-  {
     skill: "Wordpress",
     image: "./img/skills/wordpress.svg",
+  },
+  {
+    skill: "PHP",
+    image: "./img/skills/php_02.svg",
+  },
+  {
+    skill: "Github",
+    image: "./img/skills/github-mark-white.svg",
   },
 ];
 
@@ -296,3 +300,44 @@ export const about_links = [
     category: "credit",
   },
 ];
+
+export const certificates = [
+  {
+    name: "Desenvolupament web Front End CIFO L'Hospitalet ",
+    link: "https://juanfalibene.com/resume/downloads/Certificat-417219-Y8901768T.PDF",
+    year: 2023,
+  },
+  {
+    name: "English Reading(C2) & Listening(B1) EF SET",
+    link: "https://cert.efset.org/XNyitn",
+    year: 2024,
+  },
+  {
+    name: "CSS: Diseño web responsive Linkedin",
+    link: "https://media.licdn.com/dms/image/C4E1FAQFBz4tI1NiSQA/feedshare-document-cover-images_1280/0/1673896108444?e=1718193600&v=beta&t=SRrpkC3XsJBNj2rpEjq24fGT1tP-4Cuo-IkKrf2tGWM",
+    year: 2023,
+  },
+  {
+    name: "Diseño de interfaz (UI) Linkedin",
+    link: "https://media.licdn.com/dms/image/C4E1FAQGAPRq9zWJ_DQ/feedshare-document-cover-images_1280/0/1673478097062?e=1718193600&v=beta&t=gjmdDxGJe-VDCiA9xvql2SMVoevJTDRj-qHlSUcLLb0",
+    year: 2023,
+  },
+  {
+    name: "Experiencia de usuario (UX) Linkedin",
+    link: "https://media.licdn.com/dms/image/C4E1FAQFb-PHMLFsFLw/feedshare-document-cover-images_1280/0/1673444494312?e=1718193600&v=beta&t=7Emw_bmOe5n2tv6gSNib_vqWQ5gJ4o6bpg4v7rrZxxQ",
+    year: 2023,
+  },
+];
+
+export const resume_urls = [
+  {
+    name: "Resume Online",
+    link: "https://juanfalibene.com/resume/index.html",
+    action: "View",
+  },
+  {
+    name: "Resume PDF",
+    link: "https://juanfalibene.com/resume/downloads/Juan_Ignacio_Falibene_CV_2024_ES.pdf",
+    action: "Download",
+  },
+]
