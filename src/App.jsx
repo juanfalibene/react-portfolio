@@ -5,15 +5,22 @@ import Profile from "./components/Profile";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Works from "./components/Works";
+import Blog from "./components/Blog";
+import { keepTheme } from "./theme";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    keepTheme();
+  });
   return (
-    <main className="main-container" id="main">
+    <main className='main-container' id='main'>
       <Header />
       <Hero />
-      <Projects />
       <Profile />
       <Works />
+      <Blog />
+      <Projects />
       <Contact />
       <Footer />
     </main>

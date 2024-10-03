@@ -15,8 +15,7 @@ const Code = () => {
           <pre className='code-about'>
             <span className='operator'>{`{`}</span>
             <span className='prop'>
-              name:{" "}
-              <mark className='next-value'>"react-portfolio-juanfalibene"</mark>
+              name: <mark className='next-value'>"react-portfolio"</mark>
             </span>
             <span className='prop'>
               version: <mark className='next-value'>"1.0.1"</mark>
@@ -26,27 +25,28 @@ const Code = () => {
               <span className='prop'>
                 workingOn:{" "}
                 <a
-                  href='https://pastoret.com'
+                  href='https://psworks.es'
                   rel='noreferrer'
                   className='next-value'
                 >
-                  "https://pastoret.com"
+                  "https://psworks.es"
                 </a>
               </span>
               <span className='prop'>
                 learning:{" "}
                 <mark className='next-value'>
-                  ["Tailwind CSS", "Redux Toolkit"]
+                  ["WP Headless", "WP REST API"]
                 </mark>
               </span>
               <span className='prop'>
                 coding:{" "}
                 <a
-                  href='https://github.com/juanfalibene/discava-digital'
+                  href='https://juanfalibene.com/writing'
+                  target='_blank'
                   rel='noreferrer'
                   className='next-value'
                 >
-                  "https://github.com/juanfalibene/discava-digital"
+                  "https://juanfalibene.com/writing"
                 </a>
               </span>
               <span className='prop'>
@@ -62,7 +62,7 @@ const Code = () => {
               <span className='operator next-value'>{`}`}</span>
             </span>
             <span className='prop'>
-              worksDelivered: <mark className='number-mark next-value'>38</mark>
+              worksDelivered: <mark className='number-mark next-value'>40</mark>
             </span>
             {/*<span className='prop'>
                 codingChallenges:{" "}
@@ -74,7 +74,7 @@ const Code = () => {
             </span>
             <span className='prop'>
               lastUpdate:{" "}
-              <mark className='date-mark next-value'>"10-05-2024"</mark>
+              <mark className='date-mark next-value'>"03-09-2024"</mark>
             </span>
             <span className='operator'>{`}`}</span>
           </pre>

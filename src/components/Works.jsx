@@ -1,12 +1,15 @@
 import React from "react";
 import { works, section_description } from "../data";
+import ProjectLinks from "./ProjectLinks";
+import HeroStart from "./HeroStart";
+import ViewArchive from "./ViewArchive";
 
 export default function Works() {
   return (
     <>
       <section id='works' className='projects'>
         <div className='works-info'>
-          <h2 className='section-title-invert'>Wordpress Works</h2>
+          <h2 className='section-title'>Wordpress Works</h2>
           {section_description.map((des, index) =>
             des.section === "Works" ? (
               <p className='work-description-text' key={index}>
@@ -16,14 +19,13 @@ export default function Works() {
           )}
         </div>
         <div className='projects-list'>
-          {works.map((work, index) => (
+          {works.map((work) => (
             <a
               href={work.link}
               key={`${work.title}-${work.subtitle}`}
-              className='project-link'
+              className={`project-link ${work.class}`}
               target='_blank'
               rel='noreferrer'
-              id={index === 0 ? 'first-work' : undefined}
             >
               <div className='project-image' key={work.title}>
                 <img
@@ -37,38 +39,12 @@ export default function Works() {
                   {work.title}
                   <span className='project-subtitle'>{work.subtitle}</span>
                 </h3>
-                {work.behance_link && work.behance_link !== "" && (
-                  <div className='view-github'>
-                    <a
-                      href={work.behance_link}
-                      key={work.behance_link}
-                      target='_blank'
-                      rel='noreferrer'
-                    >
-                      <img
-                        src='/img/skills/behance.svg'
-                        className='behance-project'
-                        alt='behance.com'
-                      />
-                    </a>
-                  </div>
-                )}
-                {work.figma_link && work.figma_link !== "" && (
-                  <div className='view-github'>
-                    <a
-                      href={work.figma_link}
-                      key={work.figma_link}
-                      target='_blank'
-                      rel='noreferrer'
-                    >
-                      <img
-                        src='/img/skills/figma.svg'
-                        className='figma-project'
-                        alt='figma.com'
-                      />
-                    </a>
-                  </div>
-                )}
+                <ProjectLinks
+                  blog_link={work.blog_link}
+                  github_link={work.github_link}
+                  behance_link={work.behance_link}
+                  figma_link={work.figma_link}
+                />
                 <div className='project-info-sub'>
                   <h4 className='project-category'>{work.category}</h4>
                   <ul className='project-tags'>
@@ -81,6 +57,7 @@ export default function Works() {
             </a>
           ))}
         </div>
+        <ViewArchive />
       </section>
     </>
   );

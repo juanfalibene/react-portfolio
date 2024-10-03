@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { about_links } from "../data";
+import MiniFooter from "./MiniFooter";
 
 export default function Footer() {
   const clock = () => {
@@ -30,30 +31,30 @@ export default function Footer() {
   }, []);
   return (
     <>
-      <footer className="footer" id="footer">
-        <div className="footer-container">
-          <ul className="footer-links" id="links">
+      <footer className='footer' id='footer'>
+        <div className='footer-container'>
+          <ul className='footer-links' id='links'>
             {professional_links.map((link_pro) => (
               <li key={link_pro.name}>
                 <a
                   href={link_pro.link}
                   alt={link_pro.name}
-                  target="_blank"
-                  rel="noreferrer"
+                  target='_blank'
+                  rel='noreferrer'
                 >
                   {link_pro.name}
                 </a>
               </li>
             ))}
           </ul>
-          <ul className="footer-links" id="mail">
+          <ul className='footer-links' id='mail'>
             {personal_links.map((link_per) => (
               <li key={link_per.name}>
                 <a
                   href={link_per.link}
                   alt={link_per.name}
-                  target="_blank"
-                  rel="noreferrer"
+                  target='_blank'
+                  rel='noreferrer'
                 >
                   {link_per.name}
                 </a>
@@ -61,12 +62,13 @@ export default function Footer() {
             ))}
           </ul>
 
-          <ul className="footer-links" id="credits">
+          <ul className='footer-links' id='credits'>
             {credit_links.map((link_cre) => (
               <li key={link_cre.name}>{link_cre.name}</li>
             ))}
             <li>{time}</li>
           </ul>
+          <MiniFooter />
         </div>
       </footer>
     </>

@@ -13,18 +13,23 @@ export default function Navbar({ isOpen, toggleMenu, toggleMode }) {
           }`}
         >
           <li className='nav-item' onClick={toggleMenu}>
-            <a href='#works' alt='Works'>
-              Works
-            </a>
-          </li>
-          <li className='nav-item' onClick={toggleMenu}>
             <a href='#profile' alt='Profile'>
               Profile
             </a>
           </li>
           <li className='nav-item' onClick={toggleMenu}>
+            <a href='#works' alt='Works'>
+              Works
+            </a>
+          </li>
+          <li className='nav-item' onClick={toggleMenu}>
             <a href='#projects' alt='Projects'>
               Projects
+            </a>
+          </li>
+          <li className='nav-item' onClick={toggleMenu}>
+            <a href='#blogs' alt='Blog'>
+              Blog
             </a>
           </li>
           <li className='nav-item' onClick={toggleMenu}>
