@@ -1,9 +1,17 @@
 import React from "react";
+import { about } from "../data";
 
 const Code = () => {
   return (
     <div className='hero-data' id='update'>
       <div className='hero-update-modal'>
+        {about.map((info) => (
+          <img
+            src={info.imagePic}
+            alt={info.name}
+            className='hero-profile-img-pic'
+          />
+        ))}
         <div className='code-nav'>
           <ul className='code-nav-buttons'>
             <li className='code-nav-button'></li>
@@ -18,63 +26,73 @@ const Code = () => {
               name: <mark className='next-value'>"react-portfolio"</mark>
             </span>
             <span className='prop'>
-              version: <mark className='next-value'>"1.0.1"</mark>
+              version: <mark className='next-value'>"1.0.2"</mark>
+            </span>
+            <span className='prop'>
+              role: <mark className='next-value'>"Web Developer"</mark>
             </span>
             <span className='prop'>
               currentActivities: <mark className='operator-mark'>{`{`}</mark>
               <span className='prop'>
                 workingOn:{" "}
                 <a
-                  href='https://psworks.es'
-                  rel='noreferrer'
+                  href='https://juanstagnaro.com/'
+                  rel='noreferrer noopenner'
                   className='next-value'
+                  target='_blank'
                 >
-                  "https://psworks.es"
+                  "portfolio project"
                 </a>
               </span>
               <span className='prop'>
                 learning:{" "}
-                <mark className='next-value'>
-                  ["WP Headless", "WP REST API"]
-                </mark>
+                <mark className='next-value'>["React Components", "WP"]</mark>
               </span>
               <span className='prop'>
                 coding:{" "}
                 <a
-                  href='https://juanfalibene.com/writing'
+                  href='https://dev.juanfalibene.com/discava'
                   target='_blank'
-                  rel='noreferrer'
+                  rel='noreferrer noopenner'
                   className='next-value'
                 >
-                  "https://juanfalibene.com/writing"
+                  "discava 2.0"
                 </a>
               </span>
               <span className='prop'>
                 listening:
                 <a
-                  href='https://open.spotify.com/playlist/4CtnJsz8C41gCLjfD1HNUw?si=8a25e6bf39b4471b'
-                  rel='noreferrer'
+                  href='https://www.nts.live/shows/your-specialist-subject-ii/episodes/your-specialist-subject-ii-dust2dust-w-juan-falibene-12th-april-2026'
+                  rel='noreferrer noopenner'
+                  target='_blank'
                   className='next-value'
                 >
-                  "https://t.ly/Z1dLA"
+                  "NTS Supporter Radio"
                 </a>
               </span>
               <span className='operator next-value'>{`}`}</span>
             </span>
             <span className='prop'>
-              worksDelivered: <mark className='number-mark next-value'>40</mark>
-            </span>
-            {/*<span className='prop'>
-                codingChallenges:{" "}
-                <mark className='number-mark next-value'>38</mark>
-  </span>*/}
-            <span className='prop'>
               availableForWork:{" "}
               <mark className='boolean-mark next-value'>true</mark>
             </span>
             <span className='prop'>
+              worksDelivered:{" "}
+              <a
+                href='https://juanfalibene.com/writing/#/archive'
+                target='_blank'
+                rel='noreferrer noopenner'
+                className='next-value number-archive'
+              >
+                <mark className='number-mark'>63</mark>
+              </a>
+            </span>
+            <span className='prop'>
+              location: <mark className='next-value'>"Barcelona, ES"</mark>
+            </span>
+            <span className='prop'>
               lastUpdate:{" "}
-              <mark className='date-mark next-value'>"03-09-2024"</mark>
+              <mark className='date-mark next-value'>"14-04-2026"</mark>
             </span>
             <span className='operator'>{`}`}</span>
           </pre>

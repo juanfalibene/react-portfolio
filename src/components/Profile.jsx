@@ -17,13 +17,18 @@ export default function Profile() {
   };
 
   return (
-    <section id='profile' className='profile'>
+    <section id='profile' className='profile section-wrapper'>
       {about.map((text) => (
-        <div className='profile-about-info' key={text.name}>
+        <div className='profile-about-info content-box' key={text.name}>
           <h2 className='section-title' id='profile-title'>
             Profile
           </h2>
           <p className='profile-about-text'>{text.bio_excerpt}</p>
+          <p className='profile-about-text'>{text.bio_values}</p>
+          <div className='profile-skills'>
+            <h3 className='profile-skills-title'>Skills</h3>
+            <Skills />
+          </div>
         </div>
       ))}
       <div className='profile-about-info' id='accordion'>
@@ -44,23 +49,6 @@ export default function Profile() {
                 {activeContainer === "About" && (
                   <div className={`experience active`}>
                     <About key={"about-container-expands"} />
-                  </div>
-                )}
-              </li>
-              <li>
-                <button
-                  onClick={showContainer("Skills")}
-                  className={
-                    activeContainer === "Skills"
-                      ? "expands-container-active"
-                      : ""
-                  }
-                >
-                  Skills
-                </button>
-                {activeContainer === "Skills" && (
-                  <div className={`experience active`}>
-                    <Skills key={"skills-container-expands"} />
                   </div>
                 )}
               </li>

@@ -11,7 +11,9 @@ export default function Header() {
   return (
     <>
       <header className={isOpen ? "header-open" : "header-close"}>
-        <h1 className='logo'>Juan Falibene</h1>
+        <h1 className='logo'>
+          <a href='#intro'>Juan Falibene</a>
+        </h1>
         <Navbar isOpen={isOpen} toggleMenu={toggleMenu} />
       </header>
     </>

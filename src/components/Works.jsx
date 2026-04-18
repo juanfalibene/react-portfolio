@@ -1,18 +1,17 @@
 import React from "react";
 import { works, section_description } from "../data";
 import ProjectLinks from "./ProjectLinks";
-import HeroStart from "./HeroStart";
 import ViewArchive from "./ViewArchive";
 
 export default function Works() {
   return (
     <>
-      <section id='works' className='projects'>
-        <div className='works-info'>
+      <section id='works' className='section-wrapper'>
+        <div className='content-box'>
           <h2 className='section-title'>Wordpress Works</h2>
           {section_description.map((des, index) =>
             des.section === "Works" ? (
-              <p className='work-description-text' key={index}>
+              <p className='blog-description-text' key={index}>
                 {des.description}
               </p>
             ) : null

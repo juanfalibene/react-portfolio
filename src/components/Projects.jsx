@@ -4,12 +4,12 @@ import { projects, section_description } from "../data";
 export default function Projects() {
   return (
     <>
-      <section id='projects' className='projects'>
-        <div className='works-info'>
+      <section id='projects' className='section-wrapper'>
+        <div className='content-box'>
           <h2 className='section-title'>FrontEnd Projects</h2>
           {section_description.map((des, index) =>
             des.section === "Projects" ? (
-              <p className='work-description-text' key={index}>
+              <p className='blog-description-text' key={index}>
                 {des.description}
               </p>
             ) : null
@@ -34,6 +34,7 @@ export default function Projects() {
               <div className='project-info' key={project.subtitle}>
                 <h3 className='project-title'>
                   {project.title}
+                  <span className='project-subtitle'>{project.subtitle}</span>
                 </h3>
                 {((project.blog_link && project.blog_link !== "") ||
                   (project.github_link && project.github_link !== "")) && (

@@ -5,9 +5,8 @@ import HeroStart from "./HeroStart";
 
 export default function Hero() {
   return (
-    <section id='intro' className='intro'>
+    <section id='intro' className='section-wrapper'>
       <Code />
-      <HeroProfile />
       <HeroStart />
     </section>
   );

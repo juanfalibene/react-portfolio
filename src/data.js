@@ -1,114 +1,120 @@
 // Works
 export const works = [
   {
+    title: "Sublima Lashes",
+    subtitle: "E-commerce",
+    category: "Wordpress Development",
+    tags: ["Wireframes", "Templates", "CSS3", "UI/UX", "WPO", "Landing Page"],
+    cover: "./img/projects/sublima--3.webp",
+    link: "https://www.sublimalashes.com/",
+    class: "full wide",
+  },
+  {
+    title: "Delaviuda",
+    subtitle: "E-commerce",
+    category: "Wordpress Development",
+    tags: ["Templates", "CSS3", "ACF", "WooCommerce", "SEO", "WPO"],
+    cover: "./img/projects/delaviuda.webp",
+    link: "https://www.delaviuda.com/",
+    class: "square half",
+  },
+  {
+    title: "El Almendro",
+    subtitle: "E-commerce",
+    category: "Wordpress Development",
+    tags: ["Templates", "CSS3", "ACF", "WooCommerce", "SEO", "WPO"],
+    cover: "./img/projects/elalmendro.webp",
+    link: "https://www.elalmendro.com/",
+    class: "square half",
+  },
+  {
     title: "PSworks",
     subtitle: "Agency",
     category: "Wordpress Development",
-    tags: ["XD", "JS", "CSS3", "ACF", "CPT UI", "SEO", "WPO"],
+    tags: ["JS", "CSS3", "ACF", "CPT UI", "SEO", "WPO"],
     cover: "./img/projects/psworks_02.webp",
     link: "https://www.psworks.es/",
-    class: "full",
+    class: "full wide",
   },
   {
-    title: "Mapping Culture",
-    subtitle: "Art",
-    category: "Wordpress Development",
-    tags: ["ACF", "JS", "CSS3", "SEO", "WPO", "Translation"],
-    cover: "./img/projects/mapping_culture.webp",
-    link: "https://mappingculture.art/",
-    class: "vertical",
+    title: "Socialisssima",
+    subtitle: "Agency",
+    category: "Wordpress Design & Development",
+    tags: ["JS", "CSS3", "ACF", "CPT UI", "SEO", "WPO"],
+    cover: "./img/projects/socialisssima_2024.webp",
+    link: "https://socialisssima.com/",
+    class: "full wide",
   },
   {
-    title: "Víctor Segura Campins",
-    subtitle: "Writer",
+    title: "Pollinators & Prairies",
+    subtitle: "Institution",
     category: "Wordpress Development",
-    tags: ["ACF", "JS", "CSS3", "SEO", "WPO"],
-    cover: "./img/projects/work08.webp",
-    link: "https://victorseguracampins.com",
-    class: "vertical",
-    blog_link: "https://juanfalibene.com/writing/#/case-study/8",
+    tags: ["UX", "UI", "PHP", "CSS3", "SEO", "WPO"],
+    cover: "./img/projects/pp_texas.webp",
+    link: "https://pollinatorsandprairies.org/",
+    class: "square half",
+    blog_link:
+      "https://juanfalibene.com/writing/#/post/id=1369&category=trabajo-cotidiano",
+  },
+  {
+    title: "Amazon FE",
+    subtitle: "Consulting",
+    category: "Wordpress UX / UI",
+    tags: ["UI", "UX", "Heuristic Analysis"],
+    cover: "./img/projects/amazon_fe.webp",
+    link: "https://www.amazonfutureengineer.com/",
+    blog_link: "https://juanfalibene.com/writing/#/case-study/109",
+    class: "square half",
+  },
+  {
+    title: "Irene Pietrella",
+    subtitle: "Portfolio",
+    category: "Wordpress Development",
+    tags: ["PHP", "JS", "CSS3", "ACF", "Templates", "SEO", "WPO"],
+    cover: "./img/projects/irene-pietrella.webp",
+    link: "https://irene-pietrella.com/",
+    blog_link: "https://juanfalibene.com/writing/#/case-study/84",
+    class: "vertical quarter",
+  },
+  {
+    title: "Martina Orska",
+    subtitle: "Portfolio",
+    category: "Wordpress Development",
+    tags: ["PHP", "ACF", "CPT UI", "JS", "CSS3", "SEO", "WPO"],
+    cover: "./img/projects/martina_orska.webp",
+    link: "https://martinaorska.com/",
+    blog_link: "https://juanfalibene.com/writing/#/case-study/831",
+    class: "vertical quarter",
   },
   {
     title: "Rocio Ley",
-    subtitle: "Set Designer",
+    subtitle: "Portfolio",
     category: "Wordpress Development",
     tags: ["ACF", "JS", "CSS3", "CPT UI", "SEO", "WPO"],
     cover: "./img/projects/03_smoda.webp",
     link: "https://rocioley.com",
-    class: "vertical",
+    class: "vertical quarter",
     blog_link: "https://juanfalibene.com/writing/#/case-study/11",
   },
-  {
-    title: "Help End HIV",
-    subtitle: "Campaign",
-    category: "Wordpress Design & Development",
-    tags: ["UI", "UX", "Web Design", "CSS3", "SEO", "WPO", "Translation"],
-    cover: "./img/projects/hvtn_05.webp",
-    link: "https://helpendhiv.org",
-    behance_link: "https://www.behance.net/gallery/154843337/HIV-All-of-Us",
-    class: "half",
-    blog_link: "https://juanfalibene.com/writing/#/case-study/94",
-  },
-  {
-    title: "Tapias Rueda",
-    subtitle: "Services",
-    category: "Wordpress Design",
-    tags: ["UI", "FIGMA", "CSS3", "Web Design"],
-    cover: "./img/projects/work04.webp",
-    link: "https://tapiasrueda.com",
-    figma_link:
-      "https://www.figma.com/proto/VgNKSTHIh2b987Mlbi4z5W/Copy-REF-Quemaja?node-id=2-6&starting-point-node-id=2%3A6&scaling=scale-down-width&mode=design&t=O23C84dFKOofDc73-1",
-    class: "vertical-wide",
-  },
-  {
-    title: "Irene Pietrella",
-    subtitle: "Photo",
-    category: "Wordpress Design & Development",
-    tags: [
-      "ACF",
-      "CSS3",
-      "CPT",
-      "Web Design",
-      "JS",
-      "SwiperJS",
-      "WPO",
-      "Translation",
-    ],
-    cover: "./img/projects/pietrella_irene_pomodorissimo_01.webp",
-    link: "https://irene-pietrella.com",
-    class: "half",
-    blog_link: "https://juanfalibene.com/writing/#/case-study/84",
-  },
-  {
-    title: "Atelier Ramia",
-    subtitle: "Ceramics",
-    category: "Wordpress Design & Development",
-    tags: ["ACF", "CSS3", "Web Design", "XD"],
-    cover: "./img/projects/ramia_02.webp",
-    link: "https://atelieramia.com/",
-    behance_link: "https://www.behance.net/gallery/161976485/Atelier-Ramia",
-    class: "vertical-wide",
-  },
-  /*{
-    title: "Gianfranco Quattrini",
-    subtitle: "Film Director",
-    category: "Wordpress Development",
-    tags: ["ACF", "CPT UI", "Video API", "WPO", "Translation"],
-    cover: "./img/projects/gian_01.webp",
-    link: "https://gianfrancoquattrini.net/",
-    figma_link:
-      "https://www.figma.com/proto/IYdc4ZMMtBSvoKpABq9SeP/Gianfranco-Quatrrini?node-id=1-2&starting-point-node-id=1%3A2&scaling=scale-down-width&mode=design&t=4fyU5R3LGxrumbis-1",
-    class: "square",
-  },*/
 ];
 // Projects
 export const projects = [
   {
+    title: "CaliTrack",
+    subtitle: "AI App",
+    category: "AI vibe coding",
+    tags: ["React.js", "CSS3", "JS Vanilla", "HTML5"],
+    cover: "./img/projects/calitrack_mobile.webp",
+    link: "https://jf-calitrack.lovable.app/",
+    blog_link:
+      "https://juanfalibene.com/writing/#/post/id=1909&category=idea-de-proyecto",
+    class: "half square",
+  },
+  {
     title: "Juan Falibene Writing",
-    subtitle: "WP Headless Web APP",
-    category: "Wordpress & FrontEnd Development",
+    subtitle: "WP Headless",
+    category: "Wordpress & Front End Development",
     tags: [
-      "Wordpress",
       "WP REST API",
       "JWT Auth",
       "ACF",
@@ -118,15 +124,16 @@ export const projects = [
       "HTML5",
       "SEO",
     ],
-    cover: "./img/projects/portada_project_blog.webp",
+    cover: "./img/projects/project_blog_writing.webp",
     link: "https://juanfalibene.com/writing",
-    class: "square",
-    blog_link: "https://juanfalibene.com/writing/#/post/28",
+    class: "half square",
+    blog_link:
+      "https://juanfalibene.com/writing/#/post/id=28&category=idea-de-proyecto",
   },
   {
     title: "Daily News",
     subtitle: "React Web APP",
-    category: "FrontEnd Development",
+    category: "Front End Development",
     tags: [
       "React",
       "Redux",
@@ -135,49 +142,64 @@ export const projects = [
       "Axios",
       "Material UI",
     ],
-    cover: "./img/projects/daily_new_screen.webp",
+    cover: "./img/projects/daily-news-app-g.webp",
     link: "https://dev.juanfalibene.com/daily-news",
     github_link: "https://github.com/juanfalibene/daily-news",
-    class: "square",
+    class: "half wide",
   },
   {
-    title: "Discava!",
-    subtitle: "Vinyl Search Web APP",
-    category: "FrontEnd Development",
-    tags: ["HTML5", "CSS3", "JS Vanilla", "Discogs API"],
-    cover: "./img/projects/discava.webp",
-    link: "http://dev.juanfalibene.com/discava/index.html",
-    class: "square",
-  },
-  {
-    title: "Song Of The Day",
-    subtitle: "Javascript Swipe",
-    category: "FrontEnd Development",
-    tags: ["HTML5", "CSS3", "JS Vanilla", "SwiperJS", "Spotify"],
-    cover: "./img/projects/project03.webp",
-    link: "https://dev.juanfalibene.com/sotd",
-    github_link: "https://github.com/juanfalibene/01_swipe",
-    class: "square",
-  },
-  {
-    title: "Music Portfolio",
-    subtitle: "Navigation",
-    category: "FrontEnd Development",
-    tags: ["React", "React Router", "React Hooks"],
-    cover: "./img/projects/project02.webp",
-    link: "https://music.juanfalibene.com/",
-    github_link: "https://github.com/juanfalibene/react-music-portfolio",
-    class: "square",
+    title: "Dev Tree",
+    subtitle: "WP Theme",
+    category: "Wordpress Development",
+    tags: [
+      "PHP",
+      "CMS",
+      "ACF",
+      "CPT UI",
+      "Templates",
+      "CSS3",
+      "HTML5",
+      "JS Vanilla",
+      "Antigravity",
+      "AI",
+      "GitHub Actions",
+      "Python",
+    ],
+    cover: "./img/projects/project-wp-theme-dev.webp",
+    link: "https://links.juanfalibene.com/dev-tree/",
+    class: "half square",
+    github_link: "https://github.com/juanfalibene/web-dev-tree",
+    blog_link:
+      "https://juanfalibene.com/writing/#/post/id=235&category=idea-de-proyecto",
   },
   {
     title: "Simple Projects",
     subtitle: "Collection",
-    category: "FrontEnd Development",
+    category: "Front End Development",
     tags: ["JS Vanilla", "React", "CSS3", "HTML5"],
-    cover: "./img/projects/project05.webp",
+    cover: "./img/projects/song_of_the_day_app.webp",
     link: "https://juanfalibene.com/writing/#/challenges",
     github_link: "https://github.com/juanfalibene/",
-    class: "square",
+    class: "vertical quarter",
+  },
+  {
+    title: "Discava!",
+    subtitle: "Vinyl Search APP",
+    category: "Front End Development",
+    tags: ["HTML5", "CSS3", "JS Vanilla", "Discogs API"],
+    cover: "./img/projects/discava-js-cifo-2023.webp",
+    link: "http://dev.juanfalibene.com/discava/index.html",
+    class: "vertical quarter",
+  },
+  {
+    title: "Music Portfolio",
+    subtitle: "Navigation",
+    category: "Front End Development",
+    tags: ["React", "React Router", "React Hooks"],
+    cover: "./img/projects/project02.webp",
+    link: "https://music.juanfalibene.com/",
+    github_link: "https://github.com/juanfalibene/react-music-portfolio",
+    class: "vertical quarter",
   },
 ];
 // Clients
@@ -230,6 +252,10 @@ export const hard_skills = [
     image: "./img/skills/php_02.svg",
   },
   {
+    skill: "Python",
+    image: "./img/skills/python.svg",
+  },
+  {
     skill: "Github",
     image: "./img/skills/github-mark-white.svg",
   },
@@ -254,23 +280,21 @@ export const soft_skills = [
   {
     skill: "Time Management",
   },
-  {
-    skill: "Adherence to Deadlines",
-  },
 ];
 // About
 export const about = [
   {
     name: "Juan Falibene",
     text: "Based in Barcelona",
-    profession: "Web Designer & Frontend Developer",
-    image: "./img/juanfalibene_profile_hover.webp",
-    imagePic: "./img/juanfalibene_profile_pic.webp",
+    profession: "Wordpress & Front End Developer",
+    image: "./img/juanfalibene_profile_hover.jpg",
+    imagePic: "./img/juanfalibene_profilepic_06_2025.webp",
     resume_page: "./resume/index.html",
-    about_page: "./about.html",
     bio_excerpt:
-      "Web Designer, WordPress Developer & Front-End Developer specialized in HTML, CSS, and JavaScript. Currently working every day with WordPress. Eager to leverage my skills and creativity to contribute to a dynamic team and deliver high-quality digital solutions.",
-    bio: "Detail-oriented web designer & developer with 5 years of experience in creating visually appealing and user-friendly websites. Proficient in HTML, CSS, and JavaScript, with a strong understanding of UI & UX principles, responsive design, and technical SEO optimization. Over the past 2 years, I have been learning React to enhance my front-end development skills.",
+      "I am a WordPress & Front-End Developer passionate about crafting tailored digital experiences. I specialize in transforming initial concepts into fully functional, user-focused solutions, blending intuitive design with technical precision to deliver high-quality projects.",
+    bio_values:
+      "I believe in innovation, efficiency, and attention to detail, creating web solutions that are reliable, scalable, and aligned with each client's needs. My goal is to deliver functional and well-crafted digital experiences that add value and drive meaningful results.",
+    bio: "My <a href='https://juanfalibene.com/writing/#/post/id=522&category=historia' target='_blank' rel='noopener noreferrer'>journey</a> has been shaped by a combination of formal education and self-taught expertise, growing alongside agencies and individual clients. I thrive on collaboration throughout the entire process, ensuring that every project balances creativity, performance, and client-specific goals.",
   },
 ];
 // Sections
@@ -278,7 +302,12 @@ export const section_description = [
   {
     section: "Works",
     description:
-      "Over the past 5 years, I have specialized in designing and developing WordPress websites for agencies and individual clients. I provide complete solutions, including design, development, support, and knowledge transfer to ensure every project’s success.",
+      "Over the past 6 years, I have specialized in designing and developing WordPress websites for agencies and individual clients. I provide complete solutions, including design, development, support, and knowledge transfer to ensure every project’s success.",
+  },
+  {
+    section: "Services",
+    description:
+      "END-TO-END TECHNOLOGICAL PARTNER. We don't just build, we integrate. D*IDEA was created for teams looking for more than a provider because they need a true growth engine. Let's define your vision and bring it to life together. Explore our services and discover how we can help your project evolve.",
   },
   {
     section: "Blog",
@@ -294,25 +323,57 @@ export const section_description = [
 // Blog Links
 export const blog_links = [
   {
-    title: "My Online Journey",
-    link: "https://juanfalibene.com/writing/#/post/id=522&category=historia",
+    title: "Developing a Wordpress Bot for Content Creation",
+    link: "https://juanfalibene.com/writing/#/post/id=1923&category=idea-de-proyecto",
   },
   {
-    title: "Case Studies: Solving Everyday Challenges",
-    link: "https://juanfalibene.com/writing/#/case-studies",
+    title: "Update a personal project with Antigravity",
+    link: "https://juanfalibene.com/writing/#/post/id=1890&category=nota",
   },
   {
-    title: "Archive of My Work's",
-    link: "https://juanfalibene.com/writing/#/archive",
+    title: "Vibe Coding Test with Lovable App: Calitrack",
+    link: "https://juanfalibene.com/writing/#/post/id=1909&category=idea-de-proyecto",
   },
   {
-    title: "Connect WP Headless & React.js",
-    link: "https://juanfalibene.com/writing/#/post/id=235&category=idea-de-proyecto",
+    title: "2025 Web Resume",
+    link: "https://juanfalibene.com/writing/#/post/id=1824&category=historia",
+  },
+  {
+    title: "Wireframes: from idea to fully implemented design",
+    link: "https://juanfalibene.com/writing/#/post/id=1369&category=trabajo-cotidiano",
+  },
+  {
+    title: "Windsurf AI autocomplete",
+    link: "https://juanfalibene.com/writing/#/post/id=837&category=nota",
+  },
+  {
+    title: "Exploring Python & Automation",
+    link: "https://juanfalibene.com/writing/#/post/id=776&category=reflexion",
+  },
+  {
+    title: "Testing GPT o3-mini-high",
+    link: "https://juanfalibene.com/writing/#/post/id=756&category=nota",
+  },
+  {
+    title: "Everyday Matters: ChatGPT Project",
+    link: "https://juanfalibene.com/writing/#/post/id=752&category=idea-de-proyecto",
   },
   {
     title: "WP Headless Introduction",
     link: "https://juanfalibene.com/writing/#/post/id=28&category=idea-de-proyecto",
   },
+  /*{
+    title: "WP Theme Development from Scratch",
+    link: "https://juanfalibene.com/writing/#/post/id=655&category=idea-de-proyecto",
+  },
+  {
+    title: "Web Resume 2024",
+    link: "https://juanfalibene.com/writing/#/post/id=737&category=reflexion",
+  },
+  {
+    title: "My Online Journey",
+    link: "https://juanfalibene.com/writing/#/post/id=522&category=historia",
+  },*/
 ];
 // About Links
 export const about_links = [
@@ -326,33 +387,23 @@ export const about_links = [
     link: "https://github.com/juanfalibene",
     category: "professional",
   },
-  {
+  /*{
     name: "Behance",
     link: "https://www.behance.net/juanfalibene",
     category: "professional",
-  },
+  },*/
   {
     name: "Blog",
     link: "https://juanfalibene.com/writing/",
     category: "personal",
   },
-  /*{
-    name: "Phone",
-    link: "tel:651552278",
-    category: "personal",
-  },*/
   {
     name: "Music",
     link: "https://music.juanfalibene.com",
     category: "personal",
   },
   {
-    name: "Mail",
-    link: "mailto:juanignaciofalibene@gmail.com",
-    category: "personal",
-  },
-  {
-    name: "©Juan Falibene_24",
+    name: "©Juan Falibene 2026",
     category: "credit",
   },
   {
@@ -363,9 +414,19 @@ export const about_links = [
 // Certificates
 export const certificates = [
   {
-    name: "Desenvolupament web Front End CIFO L'Hospitalet ",
+    name: "Desenvolupament web Front End CIFO L'Hospitalet",
     link: "https://juanfalibene.com/resume/downloads/Certificat-417219-Y8901768T.PDF",
     year: 2023,
+  },
+  {
+    name: "SEO, SEM i analítica Web",
+    link: "https://juanfalibene.com/resume/downloads/16_ca355c68-8cdf-4f34-b3a4-8c8c0aadb87b_f2150287-6a9e-44e7-afd7-3ecc90493f73.pdf",
+    year: 2025,
+  },
+  {
+    name: "Backend & Automation: Python, Flask, Django",
+    link: "https://juanfalibene.com/resume/downloads/diploma.pdf",
+    year: 2025,
   },
   {
     name: "English Reading(C2) & Listening(B2) EF SET",
@@ -373,31 +434,36 @@ export const certificates = [
     year: 2024,
   },
   {
-    name: "CSS: Diseño web responsive Linkedin",
-    link: "https://media.licdn.com/dms/image/C4E1FAQFBz4tI1NiSQA/feedshare-document-cover-images_1280/0/1673896108444?e=1718193600&v=beta&t=SRrpkC3XsJBNj2rpEjq24fGT1tP-4Cuo-IkKrf2tGWM",
+    name: "CSS: Diseño web responsive",
+    link: "https://juanfalibene.com/resume/downloads/1673896108444.png",
     year: 2023,
   },
   {
-    name: "Diseño de interfaz (UI) Linkedin",
-    link: "https://media.licdn.com/dms/image/C4E1FAQGAPRq9zWJ_DQ/feedshare-document-cover-images_1280/0/1673478097062?e=1718193600&v=beta&t=gjmdDxGJe-VDCiA9xvql2SMVoevJTDRj-qHlSUcLLb0",
+    name: "Diseño de interfaz (UI)",
+    link: "https://juanfalibene.com/resume/downloads/1673478097062.png",
     year: 2023,
   },
   {
-    name: "Experiencia de usuario (UX) Linkedin",
-    link: "https://media.licdn.com/dms/image/C4E1FAQFb-PHMLFsFLw/feedshare-document-cover-images_1280/0/1673444494312?e=1718193600&v=beta&t=7Emw_bmOe5n2tv6gSNib_vqWQ5gJ4o6bpg4v7rrZxxQ",
+    name: "Experiencia de usuario (UX)",
+    link: "https://juanfalibene.com/resume/downloads/1673444494312.png",
     year: 2023,
   },
 ];
 // Resume
 export const resume_urls = [
   {
+    name: "Resume ESP PDF",
+    link: "https://juanfalibene.com/resume/downloads/Juan_Ignacio_Falibene_CV_2026.pdf",
+    action: "Download",
+  },
+  {
+    name: "Resume ENG PDF",
+    link: "https://juanfalibene.com/resume/downloads/Juan_Ignacio_Falibene_CV_EN_2025.pdf",
+    action: "Download",
+  },
+  {
     name: "Resume Online",
     link: "https://juanfalibene.com/resume/index.html",
     action: "View",
-  },
-  {
-    name: "Resume PDF",
-    link: "https://juanfalibene.com/resume/downloads/Juan_Ignacio_Falibene_CV_2024_ES.pdf",
-    action: "Download",
   },
 ];
