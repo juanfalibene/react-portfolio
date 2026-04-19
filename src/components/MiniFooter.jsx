@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { about_links } from "../data";
+import { about_links_es } from "../data_es";
+import { useLanguage } from "../LanguageContext";
 
 const MiniFooter = () => {
+  const { language } = useLanguage();
+  const currentAboutLinks = language === "en" ? about_links : about_links_es;
+
   const clock = () => {
     const date = new Date();
     const h = date.getHours();
@@ -13,7 +18,7 @@ const MiniFooter = () => {
 
   const [time, setTime] = useState(clock());
 
-  const credit_links = about_links.filter(
+  const credit_links = currentAboutLinks.filter(
     (link_credit) => link_credit.category === "credit"
   );
 
@@ -41,7 +46,7 @@ const MiniFooter = () => {
 
       {/* 2. Portfolio build with React */}
       <p>
-        Portfolio build with
+        {language === "en" ? "Portfolio build with" : "Portfolio construido con"}
         <img
           src='/img/skills/react.svg'
           className='hero-hard-skill-img'
@@ -56,7 +61,7 @@ const MiniFooter = () => {
           target='_blank'
           rel='noreferrer'
         >
-          Repositories on
+          {language === "en" ? "Repositories on" : "Repositorios en"}
           <img
             src='/img/skills/github-mark-white.svg'
             className='hero-hard-skill-img'

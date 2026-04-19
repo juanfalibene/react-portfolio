@@ -1,11 +1,15 @@
 import Toggle from "./Toggle";
+import LanguageToggle from "./LanguageToggle";
+import { useLanguage } from "../LanguageContext";
 
 export default function Navbar({ isOpen, toggleMenu, toggleMode }) {
+  const { t } = useLanguage();
+
   return (
     <>
       <nav className='navbar' id='navbar'>
         <li className='nav-item menu-trigger' onClick={toggleMenu}>
-          {isOpen ? "Close" : "Menu"}
+          {isOpen ? t("close") : t("menu")}
         </li>
         <ul
           className={`navbar-items-container ${
@@ -14,30 +18,31 @@ export default function Navbar({ isOpen, toggleMenu, toggleMode }) {
         >
           <li className='nav-item' onClick={toggleMenu}>
             <a href='#profile' alt='Profile'>
-              Profile
+              {t("profile")}
             </a>
           </li>
           <li className='nav-item' onClick={toggleMenu}>
             <a href='#works' alt='Works'>
-              Works
+              {t("works")}
             </a>
           </li>
           <li className='nav-item' onClick={toggleMenu}>
             <a href='#blogs' alt='Blog'>
-              Blog
+              {t("blog")}
             </a>
           </li>
           <li className='nav-item' onClick={toggleMenu}>
             <a href='#projects' alt='Projects'>
-              Projects
+              {t("projects")}
             </a>
           </li>
           <li className='nav-item' onClick={toggleMenu}>
             <a href='#contact' alt='Contact'>
-              Contact
+              {t("contact")}
             </a>
           </li>
           <Toggle />
+          <LanguageToggle />
         </ul>
       </nav>
     </>

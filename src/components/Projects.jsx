@@ -1,22 +1,26 @@
 import React from "react";
 import { projects, section_description } from "../data";
+import { projects_es, section_description_es } from "../data_es";
+import { useLanguage } from "../LanguageContext";
 
 export default function Projects() {
+  const { language, t } = useLanguage();
+  const currentProjects = language === "en" ? projects : projects_es;
+  const currentSectionDescription = language === "en" ? section_description : section_description_es;
+
   return (
     <>
       <section id='projects' className='section-wrapper'>
         <div className='content-box'>
-          <h2 className='section-title'>FrontEnd Projects</h2>
-          {section_description.map((des, index) =>
-            des.section === "Projects" ? (
-              <p className='blog-description-text' key={index}>
-                {des.description}
-              </p>
+          <h2 className='section-title'>FrontEnd {t("projects")}</h2>
+          {currentSectionDescription.map((des, index) =>
+            des.section === "Projects" || des.section === "Proyectos" ? (
+              <p className='blog-description-text' dangerouslySetInnerHTML={{ __html: des.description }} key={index}></p>
             ) : null
           )}
         </div>
         <div className='projects-list'>
-          {projects.map((project) => (
+          {currentProjects.map((project) => (
             <a
               href={project.link}
               key={`${project.title}-${project.subtitle}`}

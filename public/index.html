@@ -50,6 +50,43 @@
     <!-- Favicon -->
     <link rel="icon" href="img/favicon.ico" />
 
+    <!-- Preload Fonts -->
+    <link
+      rel="preload"
+      href="/fonts/DMSans-Light.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/DMSans-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/DMSans-Medium.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/DMSans-SemiBold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/DMSans-Bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
     <style>
       @font-face {
         font-family: "DM Sans";
@@ -93,6 +130,51 @@
     </style>
 
     <title>Juan Falibene - Wordpress and Front End Developer</title>
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://juanfalibene.com/#person",
+            "name": "Juan Falibene",
+            "url": "https://juanfalibene.com/",
+            "image": "https://juanfalibene.com/img/juanfalibene_profilepic_06_2025.webp",
+            "jobTitle": "WordPress & Front-End Developer",
+            "description": "WordPress & Front-End Developer based in Barcelona, specializing in tailored digital experiences and high-performing websites.",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Barcelona",
+              "addressCountry": "Spain"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/juanfalibene/",
+              "https://github.com/juanfalibene"
+            ],
+            "knowsAbout": [
+              "WordPress Development",
+              "Front-End Development",
+              "React.js",
+              "UI/UX Design",
+              "Web Performance Optimization"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://juanfalibene.com/#website",
+            "url": "https://juanfalibene.com/",
+            "name": "Juan Falibene - WordPress & Front-End Developer",
+            "publisher": { "@id": "https://juanfalibene.com/#person" },
+            "inLanguage": ["en-US", "es-ES"],
+            "description": "Portfolio of Juan Falibene, a WordPress and Front End Developer creating stunning and user-friendly websites."
+          }
+        ]
+      }
+    </script>
+
+    <link rel="help" href="/llms.txt" />
   </head>
 
   <body>

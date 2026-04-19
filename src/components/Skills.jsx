@@ -1,11 +1,16 @@
 import React from "react";
 import { hard_skills } from "../data";
+import { hard_skills_es } from "../data_es";
+import { useLanguage } from "../LanguageContext";
 
 const Skills = () => {
+  const { language } = useLanguage();
+  const currentHardSkills = language === "en" ? hard_skills : hard_skills_es;
+
   return (
     <div className='skills-content'>
       <ul className='about-hard-skills'>
-        {hard_skills.map((hard_skill) => (
+        {currentHardSkills.map((hard_skill) => (
           <li className='hard-skill-item' key={hard_skill.skill}>
             <img
               className='hard-skill-img'

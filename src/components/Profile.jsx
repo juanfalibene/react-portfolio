@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 import { about } from "../data";
+import { about_es } from "../data_es";
 import { About } from "./About";
 import Clients from "./Clients";
 import Skills from "./Skills";
 import Certificates from "./Certificates";
 import Resumes from "./Resumes";
+import { useLanguage } from "../LanguageContext";
 
 export default function Profile() {
   const [activeContainer, setActiveContainer] = useState(null);
+  const { language, t } = useLanguage();
 
   const showContainer = (componentName) => (e) => {
     e.preventDefault();
@@ -16,17 +19,19 @@ export default function Profile() {
     );
   };
 
+  const aboutData = language === "en" ? about : about_es;
+
   return (
     <section id='profile' className='profile section-wrapper'>
-      {about.map((text) => (
+      {aboutData.map((text) => (
         <div className='profile-about-info content-box' key={text.name}>
           <h2 className='section-title' id='profile-title'>
-            Profile
+            {t("profile")}
           </h2>
-          <p className='profile-about-text'>{text.bio_excerpt}</p>
-          <p className='profile-about-text'>{text.bio_values}</p>
+          <p className='profile-about-text' dangerouslySetInnerHTML={{ __html: text.bio_excerpt }}></p>
+          <p className='profile-about-text' dangerouslySetInnerHTML={{ __html: text.bio_values }}></p>
           <div className='profile-skills'>
-            <h3 className='profile-skills-title'>Skills</h3>
+            <h3 className='profile-skills-title'>{t("skills")}</h3>
             <Skills />
           </div>
         </div>
@@ -44,7 +49,7 @@ export default function Profile() {
                       : ""
                   }
                 >
-                  Experience
+                  {t("experience")}
                 </button>
                 {activeContainer === "About" && (
                   <div className={`experience active`}>
@@ -61,7 +66,7 @@ export default function Profile() {
                       : ""
                   }
                 >
-                  Collaborations
+                  {t("collaborations")}
                 </button>
                 {activeContainer === "Clients" && (
                   <div className={`experience active`}>
@@ -78,7 +83,7 @@ export default function Profile() {
                       : ""
                   }
                 >
-                  Certificates
+                  {t("certificates")}
                 </button>
                 {activeContainer === "Certificates" && (
                   <div className={`experience active`}>
@@ -95,7 +100,7 @@ export default function Profile() {
                       : ""
                   }
                 >
-                  Resume
+                  {t("resume")}
                 </button>
                 {activeContainer === "Resumes" && (
                   <div className={`experience active`}>

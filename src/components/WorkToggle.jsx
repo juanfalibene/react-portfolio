@@ -1,11 +1,16 @@
 import React from "react";
 import { about } from "../data";
+import { about_es } from "../data_es";
+import { useLanguage } from "../LanguageContext";
 
 const WorkToggle = () => {
+  const { language } = useLanguage();
+  const currentAbout = language === "en" ? about : about_es;
+
   return (
       <div className='work-toggle-wrapper'>
         <div className='work-toggle-pic-area'>
-          {about.slice(0, 1).map((info, index) => (
+          {currentAbout.slice(0, 1).map((info, index) => (
             <img
               key={index}
               src={info.imagePic}
@@ -16,7 +21,7 @@ const WorkToggle = () => {
         </div>
 
         <a href='mailto:didea@juanfalibene.com' className='work-toggle-btn'>
-          Let's Chat!
+          {language === "en" ? "Let's Chat!" : "¡Hablemos!"}
         </a>
       </div>
   );

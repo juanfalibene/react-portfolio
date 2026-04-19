@@ -1,11 +1,16 @@
 import React from "react";
 import { about } from "../data";
+import { about_es } from "../data_es";
+import { useLanguage } from "../LanguageContext";
 
 const Code = () => {
+  const { language } = useLanguage();
+  const currentAbout = language === "en" ? about : about_es;
+
   return (
     <div className='hero-data' id='update'>
       <div className='hero-update-modal'>
-        {about.map((info) => (
+        {currentAbout.map((info) => (
           <img
             src={info.imagePic}
             alt={info.name}
@@ -92,7 +97,7 @@ const Code = () => {
             </span>
             <span className='prop'>
               lastUpdate:{" "}
-              <mark className='date-mark next-value'>"14-04-2026"</mark>
+              <mark className='date-mark next-value'>"19-04-2026"</mark>
             </span>
             <span className='operator'>{`}`}</span>
           </pre>

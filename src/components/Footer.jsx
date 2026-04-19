@@ -1,12 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { about_links } from "../data";
+import { about_links_es } from "../data_es";
 import MiniFooter from "./MiniFooter";
+import { useLanguage } from "../LanguageContext";
 
 export default function Footer() {
-  const professional_links = about_links.filter(
+  const { language } = useLanguage();
+  const currentAboutLinks = language === "en" ? about_links : about_links_es;
+
+  const professional_links = currentAboutLinks.filter(
     (link_pro) => link_pro.category === "professional"
   );
-  const personal_links = about_links.filter(
+  const personal_links = currentAboutLinks.filter(
     (link_per) => link_per.category === "personal"
   );
 

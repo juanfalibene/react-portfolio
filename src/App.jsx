@@ -8,22 +8,25 @@ import Works from "./components/Works";
 import Blog from "./components/Blog";
 import { keepTheme } from "./theme";
 import { useEffect } from "react";
+import { LanguageProvider } from "./LanguageContext";
 
 function App() {
   useEffect(() => {
     keepTheme();
   });
   return (
-    <main className='main-container' id='main'>
-      <Header />
-      <Hero />
-      <Profile />
-      <Works />
-      <Blog />
-      <Projects />
-      <Contact />
-      <Footer />
-    </main>
+    <LanguageProvider>
+      <main className='main-container' id='main'>
+        <Header />
+        <Hero />
+        <Profile />
+        <Works />
+        <Blog />
+        <Projects />
+        <Contact />
+        <Footer />
+      </main>
+    </LanguageProvider>
   );
 }
 

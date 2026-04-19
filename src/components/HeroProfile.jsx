@@ -1,10 +1,15 @@
 import React from "react";
 import { about } from "../data";
+import { about_es } from "../data_es";
+import { useLanguage } from "../LanguageContext";
 
 const HeroProfile = () => {
+  const { language } = useLanguage();
+  const currentAbout = language === "en" ? about : about_es;
+
   return (
     <>
-      {about.map((info) => (
+      {currentAbout.map((info) => (
         <div className='hero-data' key={info.name} id='pic'>
           <img
             src={info.imagePic}

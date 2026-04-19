@@ -1,11 +1,16 @@
 import React from "react";
 import { clients } from "../data";
+import { clients_es } from "../data_es";
+import { useLanguage } from "../LanguageContext";
 
 const Clients = () => {
+  const { language } = useLanguage();
+  const currentClients = language === "en" ? clients : clients_es;
+
   return (
     <>
       <ul className='about-clients'>
-        {clients.map((client) => (
+        {currentClients.map((client) => (
           <li key={client.name}>
             <a
               href={client.link}

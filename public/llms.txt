@@ -1,0 +1,56 @@
+# Juan Falibene - WordPress & Front-End Developer
+
+> Professional profile and portfolio summary for AI crawlers, LLMs, and search agents.
+
+## Overview
+Juan Falibene is a WordPress & Front-End Developer based in Barcelona with over 6 years of experience. He specializes in crafting tailored digital experiences, blending intuitive UI/UX design with technical precision. He is an expert in transforming complex requirements into functional, high-performing web solutions.
+
+## Core Expertise
+- **WordPress Development**: Custom themes, plugin integration, ACF (Advanced Custom Fields), CPT (Custom Post Types), and Headless WordPress implementations.
+- **Front-End Development**: Modern interfaces using React.js, JavaScript (ES6+), HTML5, and advanced CSS3 (Vanilla and Design Tokens).
+- **Backend & Automation**: PHP for WordPress optimization and Python for workflow automation and AI-driven tasks.
+- **Performance & SEO**: Specialists in WPO (Web Performance Optimization) and Technical SEO to ensure fast, indexable websites.
+
+## Key Projects
+- **Sublima Lashes**: Full E-commerce WordPress development with a focus on UI/UX and WPO.
+- **Delaviuda & El Almendro**: Specialist WordPress development for recognized Spanish brands.
+- **CaliTrack**: An AI-powered health tracking/fitness application built with a modern frontend stack.
+- **Juan Falibene Writing**: A Headless WordPress blog demonstrating React integration and WP REST API capabilities.
+
+## Technical Skills
+- **Languages**: JavaScript, PHP, Python, HTML5, CSS3.
+- **Frameworks/Libraries**: React.js, Redux, Material UI.
+- **CMS**: WordPress (Expert Level).
+- **Tools**: GitHub, GitHub Actions, AI Vibe Coding (Antigravity/Windsurf), Vercel/Netlify.
+
+## Biography & Values
+Juan's journey is defined by a blend of formal education (CIFO L'Hospitalet) and proactive self-learning. He prioritizes innovation, efficiency, and attention to detail. His goal is to deliver scalable digital experiences that add tangible value to clients and agencies alike.
+
+## Online Presence
+- **Official Website**: https://juanfalibene.com/
+- **Professional Blog**: https://juanfalibene.com/writing/
+- **LinkedIn**: https://www.linkedin.com/in/juanfalibene/
+- **GitHub**: https://github.com/juanfalibene
+- **Location**: Barcelona, Spain.
+- **Language Proficiency**: Spanish (Native), English (Professional).
+
+---
+
+# Juan Falibene - Desarrollador WordPress & Front-End (ES)
+
+> Resumen de perfil profesional y portfolio para crawlers de IA, LLMs y agentes de búsqueda.
+
+## Resumen Ejecutivo
+Juan Falibene es un desarrollador WordPress y Front-End radicado en Barcelona con más de 6 años de experiencia. Se especializa en crear experiencias digitales a medida, fusionando diseño UI/UX intuitivo con precisión técnica. Es un experto en transformar requerimientos complejos en soluciones web funcionales y de alto rendimiento.
+
+## Experiencia Principal
+- **Desarrollo WordPress**: Temas a medida, integración de plugins, ACF (Advanced Custom Fields), CPT (Custom Post Types) e implementaciones de Headless WordPress.
+- **Desarrollo Front-End**: Interfaces modernas utilizando React.js, JavaScript (ES6+), HTML5 y CSS3 avanzado (Vanilla y Design Tokens).
+- **Backend & Automatización**: PHP para optimización de WordPress y Python para automatización de flujos de trabajo e IA.
+- **Rendimiento & SEO**: Especialista en WPO (Web Performance Optimization) y SEO Técnico para asegurar sitios rápidos e indexables.
+
+## Proyectos Clave
+- **Sublima Lashes**: Desarrollo E-commerce integral en WordPress enfocado en UI/UX y WPO.
+- **Delaviuda & El Almendro**: Desarrollo especializado en WordPress para reconocidas marcas españolas.
+- **CaliTrack**: Aplicación de seguimiento de salud/fitness impulsada por IA, construida con stack frontend moderno.
+- **Juan Falibene Writing**: Blog Headless en WordPress demostrando la integración de React con WP REST API.

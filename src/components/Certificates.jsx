@@ -1,9 +1,14 @@
 import React from "react";
 import { certificates } from "../data";
+import { certificates_es } from "../data_es";
+import { useLanguage } from "../LanguageContext";
 
 const Certificates = () => {
-  const mainCertificates = certificates.slice(0, 4);
-  const specializedCertificates = certificates.slice(4);
+  const { language } = useLanguage();
+  const currentCertificates = language === "en" ? certificates : certificates_es;
+  
+  const mainCertificates = currentCertificates.slice(0, 4);
+  const specializedCertificates = currentCertificates.slice(4);
 
   return (
     <>

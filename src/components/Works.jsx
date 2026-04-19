@@ -1,24 +1,28 @@
 import React from "react";
 import { works, section_description } from "../data";
+import { works_es, section_description_es } from "../data_es";
 import ProjectLinks from "./ProjectLinks";
 import ViewArchive from "./ViewArchive";
+import { useLanguage } from "../LanguageContext";
 
 export default function Works() {
+  const { language, t } = useLanguage();
+  const currentWorks = language === "en" ? works : works_es;
+  const currentSectionDescription = language === "en" ? section_description : section_description_es;
+
   return (
     <>
       <section id='works' className='section-wrapper'>
         <div className='content-box'>
           <h2 className='section-title'>Wordpress Works</h2>
-          {section_description.map((des, index) =>
-            des.section === "Works" ? (
-              <p className='blog-description-text' key={index}>
-                {des.description}
-              </p>
+          {currentSectionDescription.map((des, index) =>
+            des.section === "Works" || des.section === "Trabajos" ? (
+              <p className='blog-description-text' dangerouslySetInnerHTML={{ __html: des.description }} key={index}></p>
             ) : null
           )}
         </div>
         <div className='projects-list'>
-          {works.map((work) => (
+          {currentWorks.map((work) => (
             <a
               href={work.link}
               key={`${work.title}-${work.subtitle}`}
