@@ -20,6 +20,9 @@ const ProjectLinks = ({ blog_link, github_link, behance_link, figma_link }) => {
                   src='/img/skills/github-mark-white.svg'
                   className='github-project'
                   alt='github.com'
+                  width='24'
+                  height='24'
+                  loading='lazy'
                 />
               </a>
             </li>
@@ -36,6 +39,9 @@ const ProjectLinks = ({ blog_link, github_link, behance_link, figma_link }) => {
                   src='/img/skills/behance.svg'
                   className='behance-project'
                   alt='behance.com'
+                  width='24'
+                  height='24'
+                  loading='lazy'
                 />
               </a>
             </li>
@@ -52,6 +58,9 @@ const ProjectLinks = ({ blog_link, github_link, behance_link, figma_link }) => {
                   src='/img/skills/figma.svg'
                   className='figma-project'
                   alt='figma.com'
+                  width='24'
+                  height='24'
+                  loading='lazy'
                 />
               </a>
             </li>
@@ -68,6 +77,9 @@ const ProjectLinks = ({ blog_link, github_link, behance_link, figma_link }) => {
                   src='/img/skills/blog-writing.svg'
                   className='blog-writing'
                   alt='read on my blog'
+                  width='24'
+                  height='24'
+                  loading='lazy'
                 />
               </a>
             </li>

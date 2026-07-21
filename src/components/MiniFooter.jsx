@@ -46,11 +46,14 @@ const MiniFooter = () => {
 
       {/* 2. Portfolio build with React */}
       <p>
-        {language === "en" ? "Portfolio build with" : "Portfolio construido con"}
+        {language === "en" ? "Portfolio build with" : "Creado con"}
         <img
           src='/img/skills/react.svg'
           className='hero-hard-skill-img'
           alt='react-framework'
+          width='24'
+          height='24'
+          loading='lazy'
         />
       </p>
 
@@ -61,12 +64,15 @@ const MiniFooter = () => {
           target='_blank'
           rel='noreferrer'
         >
-          {language === "en" ? "Repositories on" : "Repositorios en"}
+          {language === "en" ? "Repositories on" : "Código en"}
           <img
             src='/img/skills/github-mark-white.svg'
             className='hero-hard-skill-img'
             id='github'
             alt='github.com'
+            width='24'
+            height='24'
+            loading='lazy'
           />
         </a>
       </p>

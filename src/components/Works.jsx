@@ -14,7 +14,7 @@ export default function Works() {
     <>
       <section id='works' className='section-wrapper'>
         <div className='content-box'>
-          <h2 className='section-title'>Wordpress Works</h2>
+          <h2 className='section-title'>{language === "en" ? "Wordpress Works" : "Trabajos Wordpress"}</h2>
           {currentSectionDescription.map((des, index) =>
             des.section === "Works" || des.section === "Trabajos" ? (
               <p className='blog-description-text' dangerouslySetInnerHTML={{ __html: des.description }} key={index}></p>
@@ -35,6 +35,9 @@ export default function Works() {
                   className='project-img'
                   src={work.cover}
                   alt={work.title}
+                  width='800'
+                  height='800'
+                  loading='lazy'
                 />
               </div>
               <div className='project-info' key={work.subtitle}>

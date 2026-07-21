@@ -17,6 +17,9 @@ const Skills = () => {
               src={hard_skill.image}
               alt={hard_skill.skill}
               id={hard_skill.skill === "Github" ? "github_profile" : null}
+              width='64'
+              height='64'
+              loading='lazy'
             />
           </li>
         ))}

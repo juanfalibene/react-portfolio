@@ -15,6 +15,9 @@ const HeroProfile = () => {
             src={info.imagePic}
             alt={info.name}
             className='hero-profile-img-pic'
+            width='500'
+            height='500'
+            loading='eager'
           />
           <div className='pic-text-container'>
             <h2

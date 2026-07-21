@@ -12,9 +12,8 @@ export default function Navbar({ isOpen, toggleMenu, toggleMode }) {
           {isOpen ? t("close") : t("menu")}
         </li>
         <ul
-          className={`navbar-items-container ${
-            isOpen ? "is-open" : "is-close"
-          }`}
+          className={`navbar-items-container ${isOpen ? "is-open" : "is-close"
+            }`}
         >
           <li className='nav-item' onClick={toggleMenu}>
             <a href='#profile' alt='Profile'>
@@ -41,8 +40,8 @@ export default function Navbar({ isOpen, toggleMenu, toggleMode }) {
               {t("contact")}
             </a>
           </li>
-          <Toggle />
           <LanguageToggle />
+          <Toggle />
         </ul>
       </nav>
     </>

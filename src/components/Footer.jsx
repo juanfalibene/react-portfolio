@@ -14,6 +14,9 @@ export default function Footer() {
   const personal_links = currentAboutLinks.filter(
     (link_per) => link_per.category === "personal"
   );
+  const development_links = currentAboutLinks.filter(
+    (link_dev) => link_dev.category === "development"
+  );
 
   return (
     <>
@@ -43,6 +46,20 @@ export default function Footer() {
                   rel='noreferrer'
                 >
                   {link_per.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <ul className='footer-links' id='development'>
+            {development_links.map((link_dev) => (
+              <li key={link_dev.name}>
+                <a
+                  href={link_dev.link}
+                  alt={link_dev.name}
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  {link_dev.name}
                 </a>
               </li>
             ))}

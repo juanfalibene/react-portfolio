@@ -15,6 +15,9 @@ const Code = () => {
             src={info.imagePic}
             alt={info.name}
             className='hero-profile-img-pic'
+            width='500'
+            height='500'
+            loading='eager'
           />
         ))}
         <div className='code-nav'>
@@ -51,7 +54,9 @@ const Code = () => {
               </span>
               <span className='prop'>
                 learning:{" "}
-                <mark className='next-value'>["React Components", "WP"]</mark>
+                <mark className='next-value'>
+                  ["Wordpress FSE", "React Components"]
+                </mark>
               </span>
               <span className='prop'>
                 coding:{" "}
@@ -89,7 +94,7 @@ const Code = () => {
                 rel='noreferrer noopenner'
                 className='next-value number-archive'
               >
-                <mark className='number-mark'>63</mark>
+                <mark className='number-mark'>65</mark>
               </a>
             </span>
             <span className='prop'>
@@ -97,7 +102,7 @@ const Code = () => {
             </span>
             <span className='prop'>
               lastUpdate:{" "}
-              <mark className='date-mark next-value'>"19-04-2026"</mark>
+              <mark className='date-mark next-value'>"22-07-2026"</mark>
             </span>
             <span className='operator'>{`}`}</span>
           </pre>

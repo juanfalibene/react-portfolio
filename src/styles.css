@@ -231,11 +231,11 @@ ul.navbar-items-container li.nav-item-mode button {
 }
 
 ul.navbar-items-container li.nav-item-mode img {
-  width: var(--font-base);
-  height: var(--font-base);
+  width: var(--font-sm);
+  height: var(--font-sm);
   opacity: 0.8;
   filter: invert(100%);
-  vertical-align: middle;
+  vertical-align: sub;
   transition: all 150ms ease;
   cursor: pointer;
 }
@@ -647,6 +647,7 @@ ul.code-nav-buttons {
 .intro-mini-footer {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   flex-shrink: 1;
   align-self: flex-end;
   height: min-content;
@@ -661,7 +662,7 @@ ul.code-nav-buttons {
   font-size: var(--font-xs);
   line-height: var(--font-sm);
   letter-spacing: -0.575px;
-  color: var(--light-grey-color);
+  color: var(--secondary-color);
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
@@ -1541,6 +1542,7 @@ ul.blog-links {
 .experience ul.about-clients li a span.client-since {
   color: var(--yellow-color);
   font-weight: 300;
+  text-transform: uppercase;
   padding-right: var(--spacing-3xs);
   font-size: 0.775rem;
   vertical-align: middle;
@@ -1768,7 +1770,7 @@ footer {
   line-height: var(--font-base);
   padding: var(--spacing-2xs) 0;
   font-weight: 300;
-  color: var(--light-grey-color);
+  color: var(--secondary-color);
   text-decoration: none;
   transition: all 150ms ease;
 }
@@ -1791,8 +1793,9 @@ ul.footer-links#credits {
   line-height: var(--font-sm);
   letter-spacing: -0.575px;
   font-weight: 300;
-  text-align: end;
+  text-align: start;
   padding-right: var(--spacing-3xs);
+  color: var(--secondary-color);
 }
 
 .footer-links#credits li:first-child::after {
@@ -1854,7 +1857,7 @@ ul.footer-links#credits {
     flex-direction: column;
     justify-content: space-between !important;
     align-items: center;
-    gap: var(--spacing-2xl);
+    gap: var(--spacing-xl);
     width: var(--width-full);
     z-index: 900;
     height: 100dvh;
@@ -1894,12 +1897,12 @@ ul.footer-links#credits {
     color: var(--yellow-color);
   }
 
-  ul.navbar-items-container li.nav-item-mode:last-child {
+  ul.navbar-items-container li.nav-item-mode {
     align-self: center;
     text-align: center;
   }
 
-  ul.navbar-items-container li.nav-item-mode:last-child img {
+  ul.navbar-items-container li.nav-item-mode img {
     filter: var(--invert-color-anti);
     width: var(--spacing-xl);
     height: var(--spacing-xl);
@@ -2172,7 +2175,7 @@ ul.footer-links#credits {
   }
 
   section.contact-section-wrapper {
-    padding: 0 var(--spacing-xs);
+    padding: 0 var(--spacing-sm);
   }
 
   .contact.content-box {
