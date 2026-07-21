@@ -101,6 +101,25 @@ export const works_es = [
 // Projects
 export const projects_es = [
   {
+    title: "Discava!",
+    subtitle: "APP Búsqueda Vinilos",
+    category: "Desarrollo Front-End",
+    tags: [
+      "HTML5",
+      "CSS3",
+      "JS Vanilla",
+      "Discogs API",
+      "Youtube Playlist",
+      "Local Storage",
+    ],
+    cover: "./img/projects/discava-v2.webp",
+    link: "http://dev.juanfalibene.com/discava/index.html",
+    github_link: "https://github.com/juanfalibene/discava-digital",
+    blog_link:
+      "https://juanfalibene.com/writing/#/post/id=1943&category=idea-de-proyecto",
+    class: "full wide",
+  },
+  {
     title: "CaliTrack",
     subtitle: "App de IA",
     category: "AI vibe coding",
@@ -174,25 +193,6 @@ export const projects_es = [
       "https://juanfalibene.com/writing/#/post/id=235&category=idea-de-proyecto",
   },
   {
-    title: "Proyectos Simples",
-    subtitle: "Colección",
-    category: "Desarrollo Front-End",
-    tags: ["JS Vanilla", "React", "CSS3", "HTML5"],
-    cover: "./img/projects/song_of_the_day_app.webp",
-    link: "https://juanfalibene.com/writing/#/challenges",
-    github_link: "https://github.com/juanfalibene/",
-    class: "vertical quarter",
-  },
-  {
-    title: "Discava!",
-    subtitle: "APP Búsqueda Vinilos",
-    category: "Desarrollo Front-End",
-    tags: ["HTML5", "CSS3", "JS Vanilla", "Discogs API"],
-    cover: "./img/projects/discava-js-cifo-2023.webp",
-    link: "http://dev.juanfalibene.com/discava/index.html",
-    class: "vertical quarter",
-  },
-  {
     title: "Music Portfolio",
     subtitle: "Navegación",
     category: "Desarrollo Front-End",
@@ -200,7 +200,17 @@ export const projects_es = [
     cover: "./img/projects/project02.webp",
     link: "https://music.juanfalibene.com/",
     github_link: "https://github.com/juanfalibene/react-music-portfolio",
-    class: "vertical quarter",
+    class: "half square",
+  },
+  {
+    title: "Proyectos Simples",
+    subtitle: "Colección",
+    category: "Desarrollo Front-End",
+    tags: ["JS Vanilla", "React", "CSS3", "HTML5"],
+    cover: "./img/projects/song_of_the_day_app.webp",
+    link: "https://juanfalibene.com/writing/#/challenges",
+    github_link: "https://github.com/juanfalibene/",
+    class: "half square",
   },
 ];
 
@@ -328,6 +338,15 @@ export const section_description_es = [
 // Blog Links
 export const blog_links_es = [
   {
+    title: "Mantenimiento WordPress: el trabajo invisible detrás de una web",
+    link: "https://juanfalibene.com/writing/#/post/id=1950&category=trabajo-cotidiano",
+  },
+  {
+    title:
+      "Discava! 2.0 - Una APP de Búsqueda de Vinilos con Integración de API",
+    link: "https://juanfalibene.com/writing/#/post/id=1943&category=idea-de-proyecto",
+  },
+  {
     title: "Desarrollando un Bot de Wordpress para Creación de Contenido",
     link: "https://juanfalibene.com/writing/#/post/id=1923&category=idea-de-proyecto",
   },
@@ -347,14 +366,14 @@ export const blog_links_es = [
     title: "Wireframes: de la idea al diseño implementado",
     link: "https://juanfalibene.com/writing/#/post/id=1369&category=trabajo-cotidiano",
   },
-  {
+  /*{
     title: "Autocompletado con IA de Windsurf",
     link: "https://juanfalibene.com/writing/#/post/id=837&category=nota",
   },
   {
     title: "Explorando Python y Automatización",
     link: "https://juanfalibene.com/writing/#/post/id=776&category=reflexion",
-  },
+  },*/
   {
     title: "Probando GPT o3-mini-high",
     link: "https://juanfalibene.com/writing/#/post/id=756&category=nota",
@@ -390,6 +409,16 @@ export const about_links_es = [
     name: "Música",
     link: "https://music.juanfalibene.com",
     category: "personal",
+  },
+  {
+    name: "Dev & UX/UI Resources",
+    link: "https://links.juanfalibene.com/dev-tree",
+    category: "development",
+  },
+  {
+    name: "Discava! (Discogs API)",
+    link: "http://dev.juanfalibene.com/discava/index.html",
+    category: "development",
   },
   {
     name: "©Juan Falibene 2026",

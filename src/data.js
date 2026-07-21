@@ -73,7 +73,7 @@ export const works = [
     tags: ["PHP", "JS", "CSS3", "ACF", "Templates", "SEO", "WPO"],
     cover: "./img/projects/irene-pietrella.webp",
     link: "https://irene-pietrella.com/",
-    blog_link: "https://juanfalibene.com/writing/#/case-study/84",
+    /*blog_link: "https://juanfalibene.com/writing/#/case-study/84",*/
     class: "vertical quarter",
   },
   {
@@ -83,7 +83,7 @@ export const works = [
     tags: ["PHP", "ACF", "CPT UI", "JS", "CSS3", "SEO", "WPO"],
     cover: "./img/projects/martina_orska.webp",
     link: "https://martinaorska.com/",
-    blog_link: "https://juanfalibene.com/writing/#/case-study/831",
+    /*blog_link: "https://juanfalibene.com/writing/#/case-study/831",*/
     class: "vertical quarter",
   },
   {
@@ -94,11 +94,30 @@ export const works = [
     cover: "./img/projects/03_smoda.webp",
     link: "https://rocioley.com",
     class: "vertical quarter",
-    blog_link: "https://juanfalibene.com/writing/#/case-study/11",
+    /*blog_link: "https://juanfalibene.com/writing/#/case-study/11",*/
   },
 ];
 // Projects
 export const projects = [
+  {
+    title: "Discava!",
+    subtitle: "Vinyl Search APP",
+    category: "Front End Development",
+    tags: [
+      "HTML5",
+      "CSS3",
+      "JS Vanilla",
+      "Discogs API",
+      "Youtube Playlist",
+      "Local Storage",
+    ],
+    cover: "./img/projects/discava-v2.webp",
+    link: "http://dev.juanfalibene.com/discava/index.html",
+    github_link: "https://github.com/juanfalibene/discava-digital",
+    blog_link:
+      "https://juanfalibene.com/writing/#/post/id=1943&category=idea-de-proyecto",
+    class: "full wide",
+  },
   {
     title: "CaliTrack",
     subtitle: "AI App",
@@ -173,25 +192,6 @@ export const projects = [
       "https://juanfalibene.com/writing/#/post/id=235&category=idea-de-proyecto",
   },
   {
-    title: "Simple Projects",
-    subtitle: "Collection",
-    category: "Front End Development",
-    tags: ["JS Vanilla", "React", "CSS3", "HTML5"],
-    cover: "./img/projects/song_of_the_day_app.webp",
-    link: "https://juanfalibene.com/writing/#/challenges",
-    github_link: "https://github.com/juanfalibene/",
-    class: "vertical quarter",
-  },
-  {
-    title: "Discava!",
-    subtitle: "Vinyl Search APP",
-    category: "Front End Development",
-    tags: ["HTML5", "CSS3", "JS Vanilla", "Discogs API"],
-    cover: "./img/projects/discava-js-cifo-2023.webp",
-    link: "http://dev.juanfalibene.com/discava/index.html",
-    class: "vertical quarter",
-  },
-  {
     title: "Music Portfolio",
     subtitle: "Navigation",
     category: "Front End Development",
@@ -199,7 +199,17 @@ export const projects = [
     cover: "./img/projects/project02.webp",
     link: "https://music.juanfalibene.com/",
     github_link: "https://github.com/juanfalibene/react-music-portfolio",
-    class: "vertical quarter",
+    class: "half square",
+  },
+  {
+    title: "Simple Projects",
+    subtitle: "Collection",
+    category: "Front End Development",
+    tags: ["JS Vanilla", "React", "CSS3", "HTML5"],
+    cover: "./img/projects/song_of_the_day_app.webp",
+    link: "https://juanfalibene.com/writing/#/challenges",
+    github_link: "https://github.com/juanfalibene/",
+    class: "half square",
   },
 ];
 // Clients
@@ -323,6 +333,14 @@ export const section_description = [
 // Blog Links
 export const blog_links = [
   {
+    title: "WordPress Maintenance: The Invisible Work Behind a Live Site",
+    link: "https://juanfalibene.com/writing/#/post/id=1975&category=idea-de-proyecto",
+  },
+  {
+    title: "Discava! 2.0 - A Vinyl Search App with API integration",
+    link: "https://juanfalibene.com/writing/#/post/id=1943&category=idea-de-proyecto",
+  },
+  {
     title: "Developing a Wordpress Bot for Content Creation",
     link: "https://juanfalibene.com/writing/#/post/id=1923&category=idea-de-proyecto",
   },
@@ -342,14 +360,14 @@ export const blog_links = [
     title: "Wireframes: from idea to fully implemented design",
     link: "https://juanfalibene.com/writing/#/post/id=1369&category=trabajo-cotidiano",
   },
-  {
+  /*{
     title: "Windsurf AI autocomplete",
     link: "https://juanfalibene.com/writing/#/post/id=837&category=nota",
-  },
-  {
+  },*/
+  /*{
     title: "Exploring Python & Automation",
     link: "https://juanfalibene.com/writing/#/post/id=776&category=reflexion",
-  },
+  },*/
   {
     title: "Testing GPT o3-mini-high",
     link: "https://juanfalibene.com/writing/#/post/id=756&category=nota",
@@ -401,6 +419,16 @@ export const about_links = [
     name: "Music",
     link: "https://music.juanfalibene.com",
     category: "personal",
+  },
+  {
+    name: "Dev & UX/UI Resources",
+    link: "https://links.juanfalibene.com/dev-tree",
+    category: "development",
+  },
+  {
+    name: "Discava! (Discogs API)",
+    link: "http://dev.juanfalibene.com/discava/index.html",
+    category: "development",
   },
   {
     name: "©Juan Falibene 2026",
