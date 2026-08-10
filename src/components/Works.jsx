@@ -1,23 +1,29 @@
 import React from "react";
 import { works, section_description } from "../data";
 import { works_es, section_description_es } from "../data_es";
-import ProjectLinks from "./ProjectLinks";
 import ViewArchive from "./ViewArchive";
 import { useLanguage } from "../LanguageContext";
 
 export default function Works() {
-  const { language, t } = useLanguage();
+  const { language } = useLanguage();
   const currentWorks = language === "en" ? works : works_es;
-  const currentSectionDescription = language === "en" ? section_description : section_description_es;
+  const currentSectionDescription =
+    language === "en" ? section_description : section_description_es;
 
   return (
     <>
       <section id='works' className='section-wrapper'>
         <div className='content-box'>
-          <h2 className='section-title'>{language === "en" ? "Wordpress Works" : "Trabajos Wordpress"}</h2>
+          <h2 className='section-title'>
+            {language === "en" ? "Wordpress Works" : "Trabajos Wordpress"}
+          </h2>
           {currentSectionDescription.map((des, index) =>
             des.section === "Works" || des.section === "Trabajos" ? (
-              <p className='blog-description-text' dangerouslySetInnerHTML={{ __html: des.description }} key={index}></p>
+              <p
+                className='blog-description-text'
+                dangerouslySetInnerHTML={{ __html: des.description }}
+                key={index}
+              />
             ) : null
           )}
         </div>
@@ -45,12 +51,50 @@ export default function Works() {
                   {work.title}
                   <span className='project-subtitle'>{work.subtitle}</span>
                 </h3>
-                <ProjectLinks
-                  blog_link={work.blog_link}
-                  github_link={work.github_link}
-                  behance_link={work.behance_link}
-                  figma_link={work.figma_link}
-                />
+                {/* Meta tags with Read Article */}
+                {((work.blog_link && work.blog_link !== "") ||
+                  (work.github_link && work.github_link !== "") ||
+                  (work.behance_link && work.behance_link !== "") ||
+                  (work.figma_link && work.figma_link !== "")) && (
+                  <div className='project-meta-links'>
+                    {work.blog_link && work.blog_link !== "" && (
+                      <span
+                        className='project-meta-tag project-meta-tag--blog'
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          e.preventDefault();
+                          window.open(work.blog_link, "_blank", "noreferrer");
+                        }}
+                      >
+                        Read Article
+                      </span>
+                    )}
+                    {work.github_link && work.github_link !== "" && (
+                      <span
+                        className='project-meta-tag project-meta-tag--github'
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          e.preventDefault();
+                          window.open(work.github_link, "_blank", "noreferrer");
+                        }}
+                      >
+                        GitHub
+                      </span>
+                    )}
+                    {work.behance_link && work.behance_link !== "" && (
+                      <span
+                        className='project-meta-tag project-meta-tag--behance'
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          e.preventDefault();
+                          window.open(work.behance_link, "_blank", "noreferrer");
+                        }}
+                      >
+                        Behance
+                      </span>
+                    )}
+                  </div>
+                )}
                 <div className='project-info-sub'>
                   <h4 className='project-category'>{work.category}</h4>
                   <ul className='project-tags'>

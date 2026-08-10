@@ -23,93 +23,101 @@ export default function Profile() {
 
   return (
     <section id='profile' className='profile section-wrapper'>
-      {aboutData.map((text) => (
-        <div className='profile-about-info content-box' key={text.name}>
-          <h2 className='section-title' id='profile-title'>
-            {t("profile")}
-          </h2>
-          <p className='profile-about-text' dangerouslySetInnerHTML={{ __html: text.bio_excerpt }}></p>
-          <p className='profile-about-text' dangerouslySetInnerHTML={{ __html: text.bio_values }}></p>
-          <div className='profile-skills'>
-            <h3 className='profile-skills-title'>{t("skills")}</h3>
-            <Skills />
+      <div className='content-box'>
+        <h2 className='section-title' id='profile-title'>
+          {t("profile")}
+        </h2>
+
+        {/* Bio paragraphs */}
+        {aboutData.map((text) => (
+          <div key={text.name} className='profile-bio-container'>
+            <p
+              className='profile-about-text'
+              dangerouslySetInnerHTML={{ __html: text.bio_excerpt }}
+            />
+            <p
+              className='profile-about-text'
+              dangerouslySetInnerHTML={{ __html: text.bio_values }}
+            />
           </div>
+        ))}
+
+        {/* Skills */}
+        <div className='profile-skills'>
+          <h3 className='profile-skills-title'>{t("skills")}</h3>
+          <Skills />
         </div>
-      ))}
-      <div className='profile-about-info' id='accordion'>
+
+        {/* Expandable accordion tabs */}
         <div className='about-experience'>
-          <div className='about-expand-container'>
-            <ul className='profile-about-links-list'>
-              <li>
-                <button
-                  onClick={showContainer("About")}
-                  className={
-                    activeContainer === "About"
-                      ? "expands-container-active"
-                      : ""
-                  }
-                >
-                  {t("experience")}
-                </button>
-                {activeContainer === "About" && (
-                  <div className={`experience active`}>
-                    <About key={"about-container-expands"} />
-                  </div>
-                )}
-              </li>
-              <li>
-                <button
-                  onClick={showContainer("Clients")}
-                  className={
-                    activeContainer === "Clients"
-                      ? "expands-container-active"
-                      : ""
-                  }
-                >
-                  {t("collaborations")}
-                </button>
-                {activeContainer === "Clients" && (
-                  <div className={`experience active`}>
-                    <Clients key={"clients-container-expands"} />
-                  </div>
-                )}
-              </li>
-              <li>
-                <button
-                  onClick={showContainer("Certificates")}
-                  className={
-                    activeContainer === "Certificates"
-                      ? "expands-container-active"
-                      : ""
-                  }
-                >
-                  {t("certificates")}
-                </button>
-                {activeContainer === "Certificates" && (
-                  <div className={`experience active`}>
-                    <Certificates key={"certificates-container-expands"} />
-                  </div>
-                )}
-              </li>
-              <li>
-                <button
-                  onClick={showContainer("Resumes")}
-                  className={
-                    activeContainer === "Resumes"
-                      ? "expands-container-active"
-                      : ""
-                  }
-                >
-                  {t("resume")}
-                </button>
-                {activeContainer === "Resumes" && (
-                  <div className={`experience active`}>
-                    <Resumes key={"resumes-container-expands"} />
-                  </div>
-                )}
-              </li>
-            </ul>
-          </div>
+          <ul className='profile-about-links-list'>
+            <li>
+              <button
+                onClick={showContainer("About")}
+                className={
+                  activeContainer === "About" ? "expands-container-active" : ""
+                }
+              >
+                {t("experience")}
+              </button>
+              {activeContainer === "About" && (
+                <div className='experience active'>
+                  <About key='about-panel' />
+                </div>
+              )}
+            </li>
+            <li>
+              <button
+                onClick={showContainer("Clients")}
+                className={
+                  activeContainer === "Clients"
+                    ? "expands-container-active"
+                    : ""
+                }
+              >
+                {t("collaborations")}
+              </button>
+              {activeContainer === "Clients" && (
+                <div className='experience active'>
+                  <Clients key='clients-panel' />
+                </div>
+              )}
+            </li>
+            <li>
+              <button
+                onClick={showContainer("Certificates")}
+                className={
+                  activeContainer === "Certificates"
+                    ? "expands-container-active"
+                    : ""
+                }
+              >
+                {t("certificates")}
+              </button>
+              {activeContainer === "Certificates" && (
+                <div className='experience active'>
+                  <Certificates key='certs-panel' />
+                </div>
+              )}
+            </li>
+            <li>
+              <button
+                onClick={showContainer("Resumes")}
+                className={
+                  activeContainer === "Resumes"
+                    ? "expands-container-active"
+                    : ""
+                }
+              >
+                {t("resume")}
+              </button>
+              {activeContainer === "Resumes" && (
+                <div className='experience active'>
+                  <Resumes key='resumes-panel' />
+                </div>
+              )}
+            </li>
+          </ul>
         </div>
       </div>
     </section>

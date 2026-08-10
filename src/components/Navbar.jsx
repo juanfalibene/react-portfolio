@@ -1,9 +1,22 @@
 import Toggle from "./Toggle";
 import LanguageToggle from "./LanguageToggle";
 import { useLanguage } from "../LanguageContext";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 
-export default function Navbar({ isOpen, toggleMenu, toggleMode }) {
+export default function Navbar({ isOpen, toggleMenu }) {
   const { t } = useLanguage();
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const scrollToSection = (id) => {
+    if (location.pathname === "/") {
+      const el = document.getElementById(id);
+      if (el) el.scrollIntoView({ behavior: "smooth" });
+    } else {
+      navigate("/", { state: { scrollTo: id } });
+    }
+    toggleMenu();
+  };
 
   return (
     <>
@@ -12,33 +25,51 @@ export default function Navbar({ isOpen, toggleMenu, toggleMode }) {
           {isOpen ? t("close") : t("menu")}
         </li>
         <ul
-          className={`navbar-items-container ${isOpen ? "is-open" : "is-close"
-            }`}
+          className={`navbar-items-container ${
+            isOpen ? "is-open" : "is-close"
+          }`}
         >
           <li className='nav-item' onClick={toggleMenu}>
-            <a href='#profile' alt='Profile'>
+            <Link to='/services' className='nav-services-link'>
+              {t("services")}
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <button
+              className='nav-scroll-btn'
+              onClick={() => scrollToSection("profile")}
+            >
               {t("profile")}
-            </a>
+            </button>
           </li>
-          <li className='nav-item' onClick={toggleMenu}>
-            <a href='#works' alt='Works'>
+          <li className='nav-item'>
+            <button
+              className='nav-scroll-btn'
+              onClick={() => scrollToSection("works")}
+            >
               {t("works")}
-            </a>
+            </button>
           </li>
-          <li className='nav-item' onClick={toggleMenu}>
-            <a href='#blogs' alt='Blog'>
+          <li className='nav-item'>
+            <button
+              className='nav-scroll-btn'
+              onClick={() => scrollToSection("blogs")}
+            >
               {t("blog")}
-            </a>
+            </button>
           </li>
-          <li className='nav-item' onClick={toggleMenu}>
-            <a href='#projects' alt='Projects'>
+          <li className='nav-item'>
+            <button
+              className='nav-scroll-btn'
+              onClick={() => scrollToSection("projects")}
+            >
               {t("projects")}
-            </a>
+            </button>
           </li>
           <li className='nav-item' onClick={toggleMenu}>
-            <a href='#contact' alt='Contact'>
+            <Link to='/contact' className='nav-services-link'>
               {t("contact")}
-            </a>
+            </Link>
           </li>
           <LanguageToggle />
           <Toggle />
