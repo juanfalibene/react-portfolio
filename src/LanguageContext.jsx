@@ -16,6 +16,13 @@ export const translations = {
     certificates: "Certificates",
     resume: "Resume",
     skills: "Skills",
+    services: "Services",
+    servicesCtaBtn: "Explore my services",
+    faqTitle: "Frequently Asked Questions",
+    bestFitTitle: "Best Fit",
+    notFitTitle: "Not a Fit",
+    marketContextTitle: "Today's Digital Landscape: Why Technical Judgment Matters More Than Ever.",
+    backToHome: "← Back to portfolio",
   },
   es: {
     menu: "Menú",
@@ -30,8 +37,16 @@ export const translations = {
     certificates: "Certificados",
     resume: "Currículum",
     skills: "Habilidades",
+    services: "Servicios",
+    servicesCtaBtn: "Conoce mis servicios",
+    faqTitle: "Preguntas Frecuentes",
+    bestFitTitle: "Proyectos que encajan",
+    notFitTitle: "Proyectos que NO encajan",
+    marketContextTitle: "El panorama digital actual: Por qué el criterio técnico importa más que nunca.",
+    backToHome: "← Volver al portfolio",
   },
 };
+
 
 export const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState(
