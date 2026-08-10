@@ -22,42 +22,80 @@ const Code = () => {
   const dragStartRef = useRef({ startX: 0, startY: 0 });
 
   const handlePointerDown = (e) => {
+    // Prevent drag if clicking close/reset buttons or links
+    if (e.target.closest(".code-nav-button, a, button")) {
+      return;
+    }
     if (e.target.closest(".code-nav")) {
       setIsDragging(true);
       dragStartRef.current = {
         startX: e.clientX - position.x,
         startY: e.clientY - position.y,
       };
-      e.currentTarget.setPointerCapture(e.pointerId);
+      if (e.currentTarget.setPointerCapture) {
+        try {
+          e.currentTarget.setPointerCapture(e.pointerId);
+        } catch (err) {}
+      }
     }
   };
 
   const handlePointerMove = (e) => {
     if (!isDragging) return;
-    const newX = Math.max(-140, Math.min(140, e.clientX - dragStartRef.current.startX));
-    const newY = Math.max(-80, Math.min(120, e.clientY - dragStartRef.current.startY));
+    // Responsive dynamic bounds allowing free movement across viewports
+    const maxDragX =
+      typeof window !== "undefined"
+        ? Math.max(320, window.innerWidth * 0.45)
+        : 350;
+    const maxDragY =
+      typeof window !== "undefined"
+        ? Math.max(220, window.innerHeight * 0.35)
+        : 250;
+    const newX = Math.max(
+      -maxDragX,
+      Math.min(maxDragX, e.clientX - dragStartRef.current.startX)
+    );
+    const newY = Math.max(
+      -maxDragY,
+      Math.min(maxDragY, e.clientY - dragStartRef.current.startY)
+    );
     setPosition({ x: newX, y: newY });
   };
 
-  const handlePointerUp = () => {
-    setIsDragging(false);
+  const handlePointerUp = (e) => {
+    if (isDragging) {
+      setIsDragging(false);
+      if (
+        e &&
+        e.currentTarget &&
+        e.currentTarget.releasePointerCapture &&
+        e.pointerId !== undefined
+      ) {
+        try {
+          e.currentTarget.releasePointerCapture(e.pointerId);
+        } catch (err) {}
+      }
+    }
   };
 
-  const handleResetPosition = () => {
+  const handleResetPosition = (e) => {
+    if (e) e.stopPropagation();
     setPosition({ x: 0, y: 0 });
   };
 
   return (
     <div className='hero-data' id='update'>
       <div
-        className={`hero-update-modal hero-update-modal--draggable ${isDragging ? "is-dragging" : ""
-          }`}
+        className={`hero-update-modal hero-update-modal--draggable ${
+          isDragging ? "is-dragging" : ""
+        }`}
         style={{
           transform: `translate3d(${position.x}px, ${position.y}px, 0)`,
         }}
         onPointerDown={handlePointerDown}
         onPointerMove={handlePointerMove}
         onPointerUp={handlePointerUp}
+        onPointerCancel={handlePointerUp}
       >
         {/* Titlebar with window buttons (left), centered avatar, and interaction badge (right) */}
         <div

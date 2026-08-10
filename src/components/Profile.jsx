@@ -28,17 +28,47 @@ export default function Profile() {
           {t("profile")}
         </h2>
 
-        {/* Bio paragraphs */}
-        {aboutData.map((text) => (
-          <div key={text.name} className='profile-bio-container'>
-            <p
-              className='profile-about-text'
-              dangerouslySetInnerHTML={{ __html: text.bio_excerpt }}
-            />
-            <p
-              className='profile-about-text'
-              dangerouslySetInnerHTML={{ __html: text.bio_values }}
-            />
+        {/* 2-Column Profile layout: Bio Lead & Story (Left) + Photo Card (Right) */}
+        {aboutData.map((info) => (
+          <div key={info.name} className='profile-two-col'>
+            {/* Left Column: Lead paragraph & Secondary story */}
+            <div className='profile-col-left'>
+              <p
+                className='profile-lead-text'
+                dangerouslySetInnerHTML={{
+                  __html: info.bio_lead || info.bio_excerpt,
+                }}
+              />
+              <p
+                className='profile-about-text'
+                dangerouslySetInnerHTML={{
+                  __html: info.bio_story || info.bio,
+                }}
+              />
+            </div>
+
+            {/* Right Column: Photo Card with Role & Location */}
+            <div className='profile-col-right'>
+              <div className='profile-photo-card'>
+                <div className='profile-photo-wrapper'>
+                  <img
+                    src={info.imagePic}
+                    alt={info.name}
+                    className='profile-photo-img'
+                    width='400'
+                    height='400'
+                    loading='lazy'
+                  />
+                </div>
+                <div className='profile-photo-meta'>
+                  <h3 className='profile-photo-role'>{info.profession}</h3>
+                  <span className='profile-photo-location'>
+                    <span className='profile-photo-dot' aria-hidden='true'></span>
+                    {info.text}
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
         ))}
 

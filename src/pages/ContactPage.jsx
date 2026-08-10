@@ -27,8 +27,8 @@ export default function ContactPage() {
   useEffect(() => {
     const title =
       language === "en"
-        ? "Contact & Discovery Call — Juan Falibene | Tech Partner"
-        : "Contacto y Llamada Inicial — Juan Falibene | Socio Tecnológico";
+        ? "Contact & Discovery Call — Juan Falibene | WordPress & Front-End Tech Partner"
+        : "Contacto y Llamada Inicial — Juan Falibene | Socio Tecnológico WordPress & Front-End";
     document.title = title;
 
     const metaDesc = document.querySelector('meta[name="description"]');
@@ -361,8 +361,12 @@ export default function ContactPage() {
                     <li className='calendly-spec-item'>
                       <span className='spec-bullet'>•</span>
                       <div>
-                        <strong>{language === "en" ? "Live Diagnosis" : "Diagnóstico en Directo"}</strong>
-                        <p>{language === "en" ? "Immediate technical feedback on your stack" : "Feedback técnico inmediato sobre tu stack"}</p>
+                        <strong>{language === "en" ? "In-Depth Diagnosis" : "Diagnóstico a Fondo"}</strong>
+                        <p>
+                          {language === "en"
+                            ? "We use the call to understand every aspect of your project and prepare an accurate, thorough diagnosis."
+                            : "Aprovechamos la llamada para conocer todos los detalles del proyecto, entenderlo y diagnosticar a fondo."}
+                        </p>
                       </div>
                     </li>
                   </ul>
@@ -375,7 +379,7 @@ export default function ContactPage() {
                   rel='noreferrer noopener'
                   className='calendly-cta-button'
                 >
-                  <span>{language === "en" ? "SCHEDULE 30-MIN CALL VIA CALENDLY" : "AGENDAR LLAMADA EN CALENDLY"}</span>
+                  <span>{language === "en" ? "SCHEDULE 30-MIN CALL" : "AGENDAR LLAMADA EN CALENDLY"}</span>
                   <span className='calendly-arrow'>↗</span>
                 </a>
 

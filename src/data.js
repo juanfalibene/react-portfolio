@@ -295,11 +295,15 @@ export const soft_skills = [
 export const about = [
   {
     name: "Juan Falibene",
-    text: "Based in Barcelona",
+    text: "Barcelona, Spain",
     profession: "WordPress & Front-End Tech Partner",
     image: "./img/juanfalibene_profile_hover.jpg",
     imagePic: "./img/juanfalibene_profilepic_06_2025.webp",
     resume_page: "./resume/index.html",
+    bio_lead:
+      "WordPress & Front-End Tech Partner for agencies and brands seeking technical criteria, reliability, and scalability.",
+    bio_story:
+      "My journey as a developer has been shaped by a hybrid path of continuous self-directed learning and working side by side with agencies and individual clients. You can read more about my background in my <a href='https://juanfalibene.com/writing/#/post/id=522&category=historia' target='_blank' rel='noopener noreferrer'>story on the blog</a>.",
     bio_excerpt:
       "I help design agencies, product leads, and businesses build, optimize, and unblock web platforms. Grounded in solid web engineering fundamentals (HTML, CSS, JS, PHP) to work seamlessly across any stack — from page builders and custom builds to FSE and Gutenberg.",
     bio_values:
@@ -333,15 +337,18 @@ export const hero_content = {
   manifesto: "Technical criteria over quick fixes. Every project comes with its own tech stack and constraints. My focus isn't on pushing a single tool, but on understanding the existing architecture — whether it's a page builder, a custom theme, or a block-based setup — to optimize performance, fix complex issues, and ensure a scalable digital asset.",
 };
 
-// Services — Market Context
-export const services_intro = "Technology moves fast, making it easier than ever to get a website live. Access to various page builders, tools, and AI-generated code allows teams to ship pages quickly. However, spinning up a site is not the same as building a secure, performant, and scalable platform. Across many projects, accumulated quick fixes, unverified tools, or blind automation eventually lead to slow load times, sudden breakages after updates, and technical debt that slows teams down. AI and modern tooling are fantastic assets in our workflow, but they don't replace deep analysis, troubleshooting capabilities, or the technical responsibility required for production code. My goal is to provide the engineering layer, clarity, and standards needed to ensure your website operates as a reliable asset rather than a source of friction.";
+// Services — Intro Headline & Subtitle
+export const services_intro = {
+  headline: "Specialized technical services for agencies and brands that demand solid engineering, true performance, and web platforms that don't fail.",
+  subtitle: "From custom full-stack development and in-depth audits to WPO optimization and proactive maintenance, delivering the engineering layer to keep your web assets scalable and reliable.",
+};
 
 // Services List
 export const services_list = [
   {
     id: 1,
     title: "Custom Web & WordPress Development",
-    description: "Full-stack development, modern frontend components, custom themes & plugins, and tailored integrations built with clean engineering standards.",
+    description: "Custom frontend and WordPress development built on modern architectures: clean markup (HTML5/CSS3/JS/React), custom theme and plugin engineering, API integrations, and native block development (FSE/Gutenberg). Modular, maintainable code engineered for technical SEO and peak load speed.",
   },
   {
     id: 2,
@@ -385,11 +392,20 @@ export const client_fit = {
   ],
   notFit: [
     "Clients looking for superficial, quick-fix patches without addressing the root cause of the issue.",
+    "Collaborations where technical input is not valued or where there is no openness to improve the project together across all fronts. Scale is never a barrier: I get fully involved in both small and large projects that make strategic sense or spark genuine motivation, as long as we prioritize clear, honest, and transparent communication above all else.",
   ],
 };
 
 // FAQs
 export const faqs = [
+  {
+    question: "How do you integrate AI into your workflow, and why is technical criteria still essential?",
+    answer: "AI is an active part of our present and a key accelerator in my daily workflow — this very portfolio and many of my projects leverage AI-assisted tools and coding workflows. However, generating code or building pages quickly does not automatically produce a secure, performant, and scalable platform. AI amplifies speed and creativity, but web engineering fundamentals, deep diagnostics, solid architecture, and production accountability remain indispensable to avoid technical debt and guarantee long-term reliability.",
+  },
+  {
+    question: "How do you prevent plugin accumulation and quick fixes from causing technical debt or update breakages?",
+    answer: "Accumulated quick fixes and unvetted plugins are the primary cause of site instability and slow speeds. I diagnose the root causes, replace bloated third-party dependencies with clean, native code, and test all updates in isolated Staging environments with automated rollbacks.",
+  },
   {
     question: "How do you collaborate with design agencies and team workflows?",
     answer: "I operate as a technical partner or white-label developer. I can integrate seamlessly into your tools (Slack, Figma, GitHub, Notion) respecting timelines, code quality, and design specifications.",

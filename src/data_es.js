@@ -298,11 +298,15 @@ export const soft_skills_es = [
 export const about_es = [
   {
     name: "Juan Falibene",
-    text: "Basado en Barcelona",
+    text: "Barcelona",
     profession: "Socio Tecnológico WordPress & Front-End",
     image: "./img/juanfalibene_profile_hover.jpg",
     imagePic: "./img/juanfalibene_profilepic_06_2025.webp",
     resume_page: "./resume/index.html",
+    bio_lead:
+      "Partner tecnológico en WordPress y Front-End para agencias y marcas que buscan criterio técnico, fiabilidad y escalabilidad.",
+    bio_story:
+      "Mi trayectoria como desarrollador se ha forjado de manera híbrida entre el aprendizaje autodidacta continuo y el trabajo codo a codo con clientes particulares y agencias. Puedes conocer más sobre mi camino en mi <a href='https://juanfalibene.com/writing/#/post/id=522&category=historia' target='_blank' rel='noopener noreferrer'>historia en el blog</a>.",
     bio_excerpt:
       "Ayudo a agencias de diseño, responsables de producto y empresas a construir, optimizar y desbloquear plataformas web. Con la base sólida de ingeniería web (HTML, CSS, JS, PHP) para trabajar sobre cualquier ecosistema: desde maquetadores o desarrollos a medida hasta FSE y Gutenberg.",
     bio_values:
@@ -337,15 +341,18 @@ export const hero_content_es = {
   manifesto: "Desarrollo y mantenimiento con criterio técnico, no parches. Cada proyecto tiene sus propias limitaciones y stack técnico. Mi enfoque no se limita a imponer una tecnología concreta, sino a entender la arquitectura existente, sea un maquetador, un tema a medida o un entorno con bloques, para optimizar su rendimiento, resolver problemas complejos y garantizar que la plataforma crezca de forma estable.",
 };
 
-// Services — Market Context (ES)
-export const services_intro_es = "La tecnología avanza rápido y hoy es más fácil que nunca poner un sitio web en marcha. El acceso a múltiples herramientas, maquetadores e incluso código generado por Inteligencia Artificial permite crear páginas en tiempo récord. Sin embargo, generar un sitio no es lo mismo que estructurar una plataforma segura, rápida y preparada para evolucionar. En muchos proyectos, la acumulación de parches, el uso de herramientas sin diagnóstico previo o la automatización ciega terminan generando lentitud, fallos inesperados tras una actualización y una deuda técnica que paraliza al equipo. La IA y las herramientas modernas son un excelente aliado en nuestro flujo de trabajo, pero no sustituyen el análisis profundo, la capacidad de diagnóstico ni la responsabilidad de entregar algo robusto a producción. Mi propuesta es aportar esa capa de ingeniería, orden y criterio para que tu web funcione como una herramienta fiable y no como una fuente constante de problemas.";
+// Services — Intro Headline & Subtitle (ES)
+export const services_intro_es = {
+  headline: "Servicios técnicos especializados para agencias y marcas que necesitan desarrollo sólido, rendimiento real y plataformas web que no fallen.",
+  subtitle: "Desde el desarrollo full-stack a medida y auditorías exhaustivas hasta optimización WPO y soporte proactivo, aportando criterio de ingeniería para que tu web sea un activo escalable.",
+};
 
 // Services List (ES)
 export const services_list_es = [
   {
     id: 1,
     title: "Desarrollo Web & WordPress a Medida",
-    description: "Desarrollo frontend moderno, arquitectura WordPress full-stack, creación de temas y plugins personalizados e integraciones a medida con estándares sólidos.",
+    description: "Desarrollo frontend y WordPress a medida con arquitecturas modernas, maquetación limpia (HTML5/CSS3/JS/React), creación de temas y plugins personalizados, integración de APIs y bloques nativos (FSE/Gutenberg). Código modular, mantenible y optimizado para SEO técnico y velocidad de carga.",
   },
   {
     id: 2,
@@ -389,11 +396,20 @@ export const client_fit_es = {
   ],
   notFit: [
     "Quienes buscan soluciones inmediatas basadas en parches superficiales sin querer revisar la causa raíz del problema.",
+    "Colaboraciones donde no se valore el aporte técnico ni haya apertura para mejorar el proyecto en conjunto. La escala nunca es un filtro: me involucro con la misma dedicación en proyectos pequeños o grandes que tengan sentido y me motiven, siempre que prioricemos ante todo una comunicación clara, honesta y fluida para trabajar con criterio.",
   ],
 };
 
 // FAQs (ES)
 export const faqs_es = [
+  {
+    question: "¿Cómo integras la Inteligencia Artificial y qué valor aporta el criterio técnico frente a la IA?",
+    answer: "La IA es parte activa de nuestro presente y un acelerador fundamental en mi flujo de trabajo —esta misma web y muchos de mis proyectos integran herramientas y código potenciados por IA—. Sin embargo, generar código o maquetar rápido no equivale automáticamente a tener una plataforma segura, optimizada y escalable. La IA amplifica la velocidad y la creatividad, pero el criterio de ingeniería web, el diagnóstico profundo, la arquitectura y la responsabilidad de lo que se entrega a producción siguen requiriendo una mirada técnica especializada para evitar deuda técnica y garantizar resultados fiables a largo plazo.",
+  },
+  {
+    question: "¿Cómo evitas que la acumulación de parches y plugins genere deuda técnica o caídas tras actualizaciones?",
+    answer: "La acumulación de parches y plugins innecesarios es la causa principal de lentitud y fallos repentinos. Mi enfoque consiste en diagnosticar la raíz del problema, sustituir plugins superfluos por código nativo y limpio, y probar cualquier actualización en entornos de prueba (Staging) con copias de seguridad activas.",
+  },
   {
     question: "¿Cómo te integras con agencias de diseño y equipos de trabajo?",
     answer: "Actúo como partner técnico o marca blanca. Puedo integrarme en tu flujo habitual (Slack, Figma, GitHub, Notion) respetando entregas, estándares de código y la visión de diseño del equipo.",

@@ -74,15 +74,15 @@ const Services = ({ compact = false }) => {
       <div className='content-box'>
         <h2 className='section-title'>{t("services")}</h2>
 
-        {/* Market Context */}
+        {/* Lead Headline & Subtitle Treatment */}
         <div
           className='services-market-context'
-          aria-labelledby='market-context-title'
+          aria-labelledby='services-lead-title'
         >
-          <h3 id='market-context-title' className='services-market-title'>
-            {t("marketContextTitle")}
+          <h3 id='services-lead-title' className='services-lead-headline'>
+            {currentIntro.headline}
           </h3>
-          <p className='services-market-text'>{currentIntro}</p>
+          <p className='services-lead-subtitle'>{currentIntro.subtitle}</p>
         </div>
 
         {/* Service Cards Grid */}
