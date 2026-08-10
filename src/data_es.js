@@ -299,14 +299,14 @@ export const about_es = [
   {
     name: "Juan Falibene",
     text: "Basado en Barcelona",
-    profession: "Desarrollador Wordpress & Front-End",
+    profession: "Socio Tecnológico WordPress & Front-End",
     image: "./img/juanfalibene_profile_hover.jpg",
     imagePic: "./img/juanfalibene_profilepic_06_2025.webp",
     resume_page: "./resume/index.html",
     bio_excerpt:
-      "Soy un Desarrollador WordPress y Front-End apasionado por crear experiencias digitales a medida. Me especializo en transformar conceptos iniciales en soluciones completamente funcionales enfocadas en el usuario, combinando un diseño intuitivo con precisión técnica para entregar proyectos de alta calidad.",
+      "Ayudo a agencias de diseño, responsables de producto y empresas a construir, optimizar y desbloquear plataformas web. Con la base sólida de ingeniería web (HTML, CSS, JS, PHP) para trabajar sobre cualquier ecosistema: desde maquetadores o desarrollos a medida hasta FSE y Gutenberg.",
     bio_values:
-      "Creo en la innovación, eficiencia y atención al detalle, creando soluciones web que son confiables, escalables y alineadas con las necesidades de cada cliente. Mi objetivo es entregar experiencias digitales funcionales y bien construidas que aporten valor e impulsen resultados significativos.",
+      "Desarrollo con criterio técnico, no parches. Cada proyecto tiene sus propias limitaciones y stack técnico. Mi enfoque no se limita a imponer una tecnología concreta, sino a entender la arquitectura existente para optimizar su rendimiento, resolver problemas complejos y garantizar que la plataforma crezca de forma estable.",
     bio: "Mi <a href='https://juanfalibene.com/writing/#/post/id=522&category=historia' target='_blank' rel='noopener noreferrer'>trayectoria</a> ha sido moldeada por una combinación de educación formal y experiencia autodidacta, creciendo junto a agencias y clientes individuales. Disfruto colaborando a lo largo de todo el proceso, asegurando que cada proyecto equilibre creatividad, rendimiento y objetivos específicos del cliente.",
   },
 ];
@@ -319,11 +319,6 @@ export const section_description_es = [
       "Durante los últimos 6 años, me he especializado en diseñar y desarrollar sitios web en WordPress para agencias y clientes particulares. Ofrezco soluciones completas, que incluyen diseño, desarrollo, soporte y transferencia de conocimientos para garantizar el éxito de cada proyecto.",
   },
   {
-    section: "Servicios",
-    description:
-      "SOCIO TECNOLÓGICO INTEGRAL. No solo construimos, integramos. D*IDEA fue creada para equipos que buscan más que un proveedor porque necesitan un verdadero motor de crecimiento. Definamos tu visión y hagámosla realidad juntos. Explora nuestros servicios y descubre cómo podemos ayudar a que tu proyecto evolucione.",
-  },
-  {
     section: "Blog",
     description:
       "Te invito a explorar mi <a href='https://juanfalibene.com/writing/' target='_blank' rel='noopener noreferrer'>blog</a>, donde comparto más sobre mi trayectoria y amplío los detalles de mi trabajo. Encontrarás información sobre mis últimos proyectos, reflexiones sobre desarrollo web y un archivo con todos mis trabajos.",
@@ -331,7 +326,97 @@ export const section_description_es = [
   {
     section: "Proyectos",
     description:
-      "Estos proyectos forman parte de mi aprendizaje continuo para dominar las tecnologías front-end. A través de ellos, demuestro mi compromiso por seguir desarrollando nuevas habilidades y conocimientos en este campo.",
+      "Una selección de aplicaciones web a medida, herramientas especializadas y productos digitales interactivos desarrollados con arquitecturas modernas, optimización de rendimiento y código limpio.",
+  },
+];
+
+// Hero Content (ES)
+export const hero_content_es = {
+  headline: "Partner tecnológico en WordPress y Front-End para agencias y marcas que buscan criterio técnico, fiabilidad y escalabilidad.",
+  subtitle: "Ayudo a agencias de diseño, responsables de producto y empresas a construir, optimizar y desbloquear plataformas web. Con la base sólida de ingeniería web (HTML, CSS, JS, PHP) para trabajar sobre cualquier ecosistema: desde maquetadores o desarrollos a medida hasta FSE y Gutenberg.",
+  manifesto: "Desarrollo y mantenimiento con criterio técnico, no parches. Cada proyecto tiene sus propias limitaciones y stack técnico. Mi enfoque no se limita a imponer una tecnología concreta, sino a entender la arquitectura existente, sea un maquetador, un tema a medida o un entorno con bloques, para optimizar su rendimiento, resolver problemas complejos y garantizar que la plataforma crezca de forma estable.",
+};
+
+// Services — Market Context (ES)
+export const services_intro_es = "La tecnología avanza rápido y hoy es más fácil que nunca poner un sitio web en marcha. El acceso a múltiples herramientas, maquetadores e incluso código generado por Inteligencia Artificial permite crear páginas en tiempo récord. Sin embargo, generar un sitio no es lo mismo que estructurar una plataforma segura, rápida y preparada para evolucionar. En muchos proyectos, la acumulación de parches, el uso de herramientas sin diagnóstico previo o la automatización ciega terminan generando lentitud, fallos inesperados tras una actualización y una deuda técnica que paraliza al equipo. La IA y las herramientas modernas son un excelente aliado en nuestro flujo de trabajo, pero no sustituyen el análisis profundo, la capacidad de diagnóstico ni la responsabilidad de entregar algo robusto a producción. Mi propuesta es aportar esa capa de ingeniería, orden y criterio para que tu web funcione como una herramienta fiable y no como una fuente constante de problemas.";
+
+// Services List (ES)
+export const services_list_es = [
+  {
+    id: 1,
+    title: "Desarrollo Web & WordPress a Medida",
+    description: "Desarrollo frontend moderno, arquitectura WordPress full-stack, creación de temas y plugins personalizados e integraciones a medida con estándares sólidos.",
+  },
+  {
+    id: 2,
+    title: "Auditoría Técnica de WordPress",
+    description: "Diagnóstico integral de rendimiento, salud de la base de datos, arquitectura de plugins/tema y vulnerabilidades de seguridad. Entrega de un informe con plan de acción priorizado.",
+  },
+  {
+    id: 3,
+    title: "Consultoría Técnica y Arquitectura",
+    description: "Asesoramiento estratégico previo a un desarrollo o migración. Definición del stack ideal (maquetador vs. bloques vs. a medida), arquitectura de datos e integraciones con APIs o CRMs.",
+  },
+  {
+    id: 4,
+    title: "Mantenimiento Proactivo y Soporte",
+    description: "Gestión técnica continuada probando actualizaciones en entornos de prueba (Staging), con backups, monitorización y protocolos de recuperación para evitar caídas en producción.",
+  },
+  {
+    id: 5,
+    title: "WPO y Optimización de Rendimiento",
+    description: "Optimización real de la velocidad de carga y Core Web Vitals (LCP, CLS, INP) mediante limpieza de código no utilizado, optimización de consultas a base de datos y configuración de caché.",
+  },
+  {
+    id: 6,
+    title: "Resolución de Problemas y Diagnóstico",
+    description: "Intervención técnica especializada para aislar y resolver errores críticos, conflictos de plugins, fallos tras actualizaciones o problemas de seguridad/malware.",
+  },
+  {
+    id: 7,
+    title: "Acompañamiento en Lanzamientos",
+    description: "Despliegue técnico controlado para el paso a producción: listas de verificación pre-lanzamiento, mapeo de redirecciones SEO (301), pruebas de carga y monitorización post-despliegue.",
+  },
+];
+
+// Client Fit (ES)
+export const client_fit_es = {
+  bestFit: [
+    "Agencias de diseño y comunicación que necesitan un partner técnico senior en quien delegar el desarrollo, soporte o resolución de problemas de sus clientes sin sorpresas.",
+    "Empresas o marcas con webs activas (ya sean montadas con maquetadores, temas a medida o bloques) que experimentan problemas de rendimiento, caídas, errores tras actualizaciones o limitaciones técnicas.",
+    "Equipos que necesitan integrar su web con APIs externas, CRMs o funcionalidades a medida en PHP/JS.",
+    "Proyectos que requieren una mirada estratégica antes de rediseñar o migrar, eligiendo la mejor solución según las necesidades del negocio.",
+  ],
+  notFit: [
+    "Quienes buscan soluciones inmediatas basadas en parches superficiales sin querer revisar la causa raíz del problema.",
+  ],
+};
+
+// FAQs (ES)
+export const faqs_es = [
+  {
+    question: "¿Cómo te integras con agencias de diseño y equipos de trabajo?",
+    answer: "Actúo como partner técnico o marca blanca. Puedo integrarme en tu flujo habitual (Slack, Figma, GitHub, Notion) respetando entregas, estándares de código y la visión de diseño del equipo.",
+  },
+  {
+    question: "¿Trabajas únicamente con desarrollo a medida o también con maquetadores como Elementor o WPBakery?",
+    answer: "Trabajo sobre el entorno que requiera el proyecto. Si tienes un sitio en producción construido sobre un maquetador, puedo auditarlo, optimizarlo y corregir sus fallos sin necesidad de rehacerlo desde cero. Si el proyecto nace desde cero, valoramos juntos la mejor opción.",
+  },
+  {
+    question: "¿Cómo iniciamos la colaboración?",
+    answer: "Puedes solicitar una reunión o escribir un mensaje a través del formulario. En una breve llamada analizamos las necesidades de tu sitio o proyecto y determinamos la mejor vía de trabajo.",
+  },
+  {
+    question: "¿Qué diferencia tu mantenimiento técnico del que ofrecen otros proveedores?",
+    answer: "No me limito a hacer clic en 'actualizar' en la web pública. Reviso y testeo las actualizaciones en un entorno clonado (Staging) antes de aplicarlas en producción, con copias de seguridad activas y monitorización constante.",
+  },
+  {
+    question: "¿Qué incluye una Auditoría Técnica?",
+    answer: "Recibirás un documento claro con el diagnóstico del estado de tu web: análisis de velocidad real, carga en base de datos, riesgo de plugins/tema y seguridad, acompañado de un listado de acciones ordenadas por prioridad e impacto.",
+  },
+  {
+    question: "¿El código y la web siguen siendo de mi propiedad?",
+    answer: "Absolutamente. Todo el código, repositorio, accesos e información transferida pertenecen al cliente o agencia. Se entrega con la documentación necesaria para que el equipo mantenga total independencia.",
   },
 ];
 

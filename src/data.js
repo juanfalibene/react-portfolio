@@ -296,14 +296,14 @@ export const about = [
   {
     name: "Juan Falibene",
     text: "Based in Barcelona",
-    profession: "Wordpress & Front End Developer",
+    profession: "WordPress & Front-End Tech Partner",
     image: "./img/juanfalibene_profile_hover.jpg",
     imagePic: "./img/juanfalibene_profilepic_06_2025.webp",
     resume_page: "./resume/index.html",
     bio_excerpt:
-      "I am a WordPress & Front-End Developer passionate about crafting tailored digital experiences. I specialize in transforming initial concepts into fully functional, user-focused solutions, blending intuitive design with technical precision to deliver high-quality projects.",
+      "I help design agencies, product leads, and businesses build, optimize, and unblock web platforms. Grounded in solid web engineering fundamentals (HTML, CSS, JS, PHP) to work seamlessly across any stack — from page builders and custom builds to FSE and Gutenberg.",
     bio_values:
-      "I believe in innovation, efficiency, and attention to detail, creating web solutions that are reliable, scalable, and aligned with each client's needs. My goal is to deliver functional and well-crafted digital experiences that add value and drive meaningful results.",
+      "Technical criteria over quick fixes. Every project comes with its own tech stack and constraints. My focus isn't on pushing a single tool, but on understanding the existing architecture to optimize performance, fix complex issues, and ensure a scalable digital asset.",
     bio: "My <a href='https://juanfalibene.com/writing/#/post/id=522&category=historia' target='_blank' rel='noopener noreferrer'>journey</a> has been shaped by a combination of formal education and self-taught expertise, growing alongside agencies and individual clients. I thrive on collaboration throughout the entire process, ensuring that every project balances creativity, performance, and client-specific goals.",
   },
 ];
@@ -312,12 +312,7 @@ export const section_description = [
   {
     section: "Works",
     description:
-      "Over the past 6 years, I have specialized in designing and developing WordPress websites for agencies and individual clients. I provide complete solutions, including design, development, support, and knowledge transfer to ensure every project’s success.",
-  },
-  {
-    section: "Services",
-    description:
-      "END-TO-END TECHNOLOGICAL PARTNER. We don't just build, we integrate. D*IDEA was created for teams looking for more than a provider because they need a true growth engine. Let's define your vision and bring it to life together. Explore our services and discover how we can help your project evolve.",
+      "Over the past 6 years, I have specialized in designing and developing WordPress websites for agencies and individual clients. I provide complete solutions, including design, development, support, and knowledge transfer to ensure every project's success.",
   },
   {
     section: "Blog",
@@ -327,7 +322,97 @@ export const section_description = [
   {
     section: "Projects",
     description:
-      "These projects are part of my ongoing journey to learn and master front-end technologies. Through them, I demonstrate my commitment to developing skills and knowledge in this field.",
+      "A curated selection of custom web applications, specialized tools, and interactive digital products engineered with modern web architectures, performance optimization, and clean code.",
+  },
+];
+
+// Hero Content
+export const hero_content = {
+  headline: "WordPress & Front-End Tech Partner for agencies and brands seeking technical criteria, reliability, and scalability.",
+  subtitle: "Helping design agencies, product leads, and businesses build, optimize, and unblock web platforms. Grounded in solid web engineering fundamentals (HTML, CSS, JS, PHP) to work seamlessly across any stack: from page builders and custom builds to FSE and Gutenberg.",
+  manifesto: "Technical criteria over quick fixes. Every project comes with its own tech stack and constraints. My focus isn't on pushing a single tool, but on understanding the existing architecture — whether it's a page builder, a custom theme, or a block-based setup — to optimize performance, fix complex issues, and ensure a scalable digital asset.",
+};
+
+// Services — Market Context
+export const services_intro = "Technology moves fast, making it easier than ever to get a website live. Access to various page builders, tools, and AI-generated code allows teams to ship pages quickly. However, spinning up a site is not the same as building a secure, performant, and scalable platform. Across many projects, accumulated quick fixes, unverified tools, or blind automation eventually lead to slow load times, sudden breakages after updates, and technical debt that slows teams down. AI and modern tooling are fantastic assets in our workflow, but they don't replace deep analysis, troubleshooting capabilities, or the technical responsibility required for production code. My goal is to provide the engineering layer, clarity, and standards needed to ensure your website operates as a reliable asset rather than a source of friction.";
+
+// Services List
+export const services_list = [
+  {
+    id: 1,
+    title: "Custom Web & WordPress Development",
+    description: "Full-stack development, modern frontend components, custom themes & plugins, and tailored integrations built with clean engineering standards.",
+  },
+  {
+    id: 2,
+    title: "Technical WordPress Audit",
+    description: "Deep-dive diagnosis of performance, database health, plugin/theme architecture, and security risks, delivered with a prioritized action plan.",
+  },
+  {
+    id: 3,
+    title: "Technical Consulting & Architecture",
+    description: "Strategic guidance before major builds or migrations. Selection of the right stack (builders vs. native blocks vs. custom code), data architecture, and API/CRM integrations.",
+  },
+  {
+    id: 4,
+    title: "Proactive Maintenance & Support",
+    description: "Ongoing managed technical support testing updates in Staging environments, with automated backups, monitoring, and rollback protocols.",
+  },
+  {
+    id: 5,
+    title: "Performance & Speed Optimization (WPO)",
+    description: "Root-cause optimization targeting Core Web Vitals (LCP, CLS, INP) through code cleanup, database query tuning, and proper caching strategies.",
+  },
+  {
+    id: 6,
+    title: "Troubleshooting & Issue Resolution",
+    description: "Focused technical intervention to isolate and fix critical breakages, plugin conflicts, post-update errors, or security/malware issues.",
+  },
+  {
+    id: 7,
+    title: "Launch Support & Deployment",
+    description: "Controlled production rollouts including pre-launch checklists, SEO 301 redirect mapping, stress testing, and post-launch monitoring.",
+  },
+];
+
+// Client Fit
+export const client_fit = {
+  bestFit: [
+    "Design & marketing agencies seeking a senior technical partner to handle development, support, or troubleshooting for their clients reliably.",
+    "Businesses with live sites (whether built with page builders, custom themes, or native blocks) facing performance bottlenecks, update breakages, or technical limits.",
+    "Teams needing custom PHP/JS features or seamless API/CRM integrations.",
+    "Projects requiring strategic technical guidance prior to a redesign or platform migration.",
+  ],
+  notFit: [
+    "Clients looking for superficial, quick-fix patches without addressing the root cause of the issue.",
+  ],
+};
+
+// FAQs
+export const faqs = [
+  {
+    question: "How do you collaborate with design agencies and team workflows?",
+    answer: "I operate as a technical partner or white-label developer. I can integrate seamlessly into your tools (Slack, Figma, GitHub, Notion) respecting timelines, code quality, and design specifications.",
+  },
+  {
+    question: "Do you only work with custom code, or do you also support page builders like Elementor or WPBakery?",
+    answer: "I work with the stack that best fits the project. If you have an existing site on a page builder, I can audit, optimize, and fix issues without forcing a ground-up rebuild. For new projects, we evaluate the best direction (native FSE/blocks, custom ACF build, or a builder if required).",
+  },
+  {
+    question: "How do we get started?",
+    answer: "You can request a quick call or send a message via the contact section. In a short conversation, we review your current setup and determine the best action plan.",
+  },
+  {
+    question: "How is your technical maintenance different from standard options?",
+    answer: "I don't just hit \"update\" on a live site. Updates are tested in a Staging environment first, backed by automated backups and active monitoring to ensure continuous uptime.",
+  },
+  {
+    question: "What is included in a Technical Audit?",
+    answer: "You get a clear report diagnosing your site's current state: real-world speed analysis, database queries, plugin/theme risk assessment, and a prioritized action roadmap.",
+  },
+  {
+    question: "Will I fully own the code and project assets?",
+    answer: "Yes, 100%. All developed code, repositories, configurations, and access credentials belong to you or your agency, complete with documentation for full autonomy.",
   },
 ];
 // Blog Links
