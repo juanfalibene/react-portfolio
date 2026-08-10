@@ -11,7 +11,7 @@ const formatTime = () => {
 };
 
 export default function Footer() {
-  const { language } = useLanguage();
+  const { language, openPrivacyModal } = useLanguage();
   const [time, setTime] = useState(formatTime());
 
   useEffect(() => {
@@ -175,6 +175,14 @@ export default function Footer() {
             <span>© Juan Falibene 2026</span>
             <span className='footer-bottom-dot'>•</span>
             <span>Barcelona</span>
+            <span className='footer-bottom-dot'>•</span>
+            <button
+              type='button'
+              className='footer-privacy-btn'
+              onClick={openPrivacyModal}
+            >
+              {language === "en" ? "Privacy & Cookies" : "Privacidad y Cookies"}
+            </button>
           </div>
           <div className='footer-bottom-clock'>
             <span className='footer-time-val'>{time}</span>

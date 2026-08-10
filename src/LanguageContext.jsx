@@ -52,6 +52,7 @@ export const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState(
     localStorage.getItem("language") || "en"
   );
+  const [isPrivacyOpen, setIsPrivacyOpen] = useState(false);
 
   useEffect(() => {
     localStorage.setItem("language", language);
@@ -62,12 +63,24 @@ export const LanguageProvider = ({ children }) => {
     setLanguage((prev) => (prev === "en" ? "es" : "en"));
   };
 
+  const openPrivacyModal = () => setIsPrivacyOpen(true);
+  const closePrivacyModal = () => setIsPrivacyOpen(false);
+
   const t = (key) => {
     return translations[language][key] || key;
   };
 
   return (
-    <LanguageContext.Provider value={{ language, toggleLanguage, t }}>
+    <LanguageContext.Provider
+      value={{
+        language,
+        toggleLanguage,
+        t,
+        isPrivacyOpen,
+        openPrivacyModal,
+        closePrivacyModal,
+      }}
+    >
       {children}
     </LanguageContext.Provider>
   );

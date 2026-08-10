@@ -66,7 +66,7 @@ export default function Works() {
                           window.open(work.blog_link, "_blank", "noreferrer");
                         }}
                       >
-                        Read Article
+                        {language === "en" ? "Read Article" : "Leer Artículo"}
                       </span>
                     )}
                     {work.github_link && work.github_link !== "" && (

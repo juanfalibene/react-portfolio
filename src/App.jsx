@@ -8,11 +8,13 @@ import Works from "./components/Works";
 import Blog from "./components/Blog";
 import Services from "./components/Services";
 import FloatingCTA from "./components/FloatingCTA";
+import CookieBanner from "./components/CookieBanner";
+import PrivacyModal from "./components/PrivacyModal";
 import ServicesPage from "./pages/ServicesPage";
 import ContactPage from "./pages/ContactPage";
 import { keepTheme } from "./theme";
 import { useEffect } from "react";
-import { LanguageProvider } from "./LanguageContext";
+import { LanguageProvider, useLanguage } from "./LanguageContext";
 import { Routes, Route, useLocation } from "react-router-dom";
 
 function HomeLayout() {
@@ -46,6 +48,22 @@ function HomeLayout() {
   );
 }
 
+function AppContent() {
+  const { isPrivacyOpen, openPrivacyModal, closePrivacyModal } = useLanguage();
+
+  return (
+    <>
+      <Routes>
+        <Route path='/' element={<HomeLayout />} />
+        <Route path='/services' element={<ServicesPage />} />
+        <Route path='/contact' element={<ContactPage />} />
+      </Routes>
+      <CookieBanner onOpenPrivacy={openPrivacyModal} />
+      <PrivacyModal isOpen={isPrivacyOpen} onClose={closePrivacyModal} />
+    </>
+  );
+}
+
 function App() {
   useEffect(() => {
     keepTheme();
@@ -53,11 +71,7 @@ function App() {
 
   return (
     <LanguageProvider>
-      <Routes>
-        <Route path='/' element={<HomeLayout />} />
-        <Route path='/services' element={<ServicesPage />} />
-        <Route path='/contact' element={<ContactPage />} />
-      </Routes>
+      <AppContent />
     </LanguageProvider>
   );
 }
