@@ -5,7 +5,7 @@ import { useLanguage } from "../LanguageContext";
 import { useSearchParams } from "react-router-dom";
 
 export default function ContactPage() {
-  const { language } = useLanguage();
+  const { language, t } = useLanguage();
   const [searchParams] = useSearchParams();
 
   // Pre-select service if passed in query string (?service=audit)
@@ -27,8 +27,8 @@ export default function ContactPage() {
   useEffect(() => {
     const title =
       language === "en"
-        ? "Contact & Discovery Call — Juan Falibene | WordPress & Front-End Tech Partner"
-        : "Contacto y Llamada Inicial — Juan Falibene | Socio Tecnológico WordPress & Front-End";
+        ? "Contact & Discovery Call — Juan Falibene | Web Developer • WordPress & Front-End"
+        : "Contacto y Llamada Inicial — Juan Falibene | Desarrollador Web • WordPress & Front-End";
     document.title = title;
 
     const metaDesc = document.querySelector('meta[name="description"]');
@@ -110,6 +110,7 @@ export default function ContactPage() {
       <main className='main-container' id='main-contact'>
         <section className='contact-page-section section-wrapper'>
           <div className='content-box'>
+            <h2 className='section-title'>{t("contact")}</h2>
 
             {/* Page Header */}
             <div className='contact-page-header'>

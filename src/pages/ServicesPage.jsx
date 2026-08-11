@@ -12,8 +12,8 @@ export default function ServicesPage() {
   useEffect(() => {
     const title =
       language === "en"
-        ? "Services — Juan Falibene | WordPress & Front-End Tech Partner"
-        : "Servicios — Juan Falibene | Socio Tecnológico WordPress & Front-End";
+        ? "Services — Juan Falibene | Web Developer • WordPress & Front-End"
+        : "Servicios — Juan Falibene | Desarrollador Web • WordPress & Front-End";
     document.title = title;
 
     const metaDesc = document.querySelector('meta[name="description"]');

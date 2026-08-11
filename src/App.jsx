@@ -26,8 +26,8 @@ function HomeLayout() {
   useEffect(() => {
     const title =
       language === "en"
-        ? "Juan Falibene | WordPress & Front-End Tech Partner"
-        : "Juan Falibene | Socio Tecnológico WordPress & Front-End";
+        ? "Juan Falibene | Web Developer • WordPress & Front-End"
+        : "Juan Falibene | Desarrollador Web • WordPress & Front-End";
     document.title = title;
 
     const metaDesc = document.querySelector('meta[name="description"]');
@@ -35,8 +35,8 @@ function HomeLayout() {
       metaDesc.setAttribute(
         "content",
         language === "en"
-          ? "Juan Falibene — WordPress & Front-End Tech Partner based in Barcelona. High-performance web development, technical audits, WPO, and maintenance for agencies and brands."
-          : "Juan Falibene — Socio Tecnológico en WordPress y Front-End en Barcelona. Desarrollo web a medida, auditorías técnicas, optimización WPO y mantenimiento para agencias y marcas."
+          ? "Juan Falibene — Web Developer specializing in WordPress & Front-End. Custom development, agency tech partner, technical audits, and WPO based in Barcelona."
+          : "Juan Falibene — Desarrollador Web especializado en WordPress y Front-End. Desarrollo a medida, partner tecnológico para agencias, auditorías y WPO en Barcelona."
       );
     }
   }, [language]);

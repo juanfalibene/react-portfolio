@@ -21,7 +21,23 @@ const Code = () => {
   const [isDragging, setIsDragging] = useState(false);
   const dragStartRef = useRef({ startX: 0, startY: 0 });
 
+  // Reset position when resizing into mobile view
+  React.useEffect(() => {
+    const handleResize = () => {
+      if (typeof window !== "undefined" && window.innerWidth <= 809) {
+        setPosition({ x: 0, y: 0 });
+        setIsDragging(false);
+      }
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const handlePointerDown = (e) => {
+    // Disable drag on mobile devices / small viewports (fixed modal)
+    if (typeof window !== "undefined" && window.innerWidth <= 809) {
+      return;
+    }
     // Prevent drag if clicking close/reset buttons or links
     if (e.target.closest(".code-nav-button, a, button")) {
       return;
@@ -42,6 +58,10 @@ const Code = () => {
 
   const handlePointerMove = (e) => {
     if (!isDragging) return;
+    if (typeof window !== "undefined" && window.innerWidth <= 809) {
+      setIsDragging(false);
+      return;
+    }
     // Responsive dynamic bounds allowing free movement across viewports
     const maxDragX =
       typeof window !== "undefined"
@@ -144,14 +164,14 @@ const Code = () => {
             <span className='prop'>
               role:{" "}
               <mark className='next-value'>
-                "WordPress &amp; Front-End Tech Partner"
+                "Web Developer • WordPress &amp; Front-End"
               </mark>
             </span>
-            {/* Services array including Development */}
+            {/* Services array */}
             <span className='prop'>
               services:{" "}
               <mark className='next-value'>
-                {`["Development", "Audit", "Consulting", "Maintenance", "WPO", "Troubleshooting", "Launch"]`}
+                {`["Custom Web & WordPress Dev", "Tech Partner for Agencies", "Technical Consulting & Audit", "Proactive Maintenance", "Performance & WPO"]`}
               </mark>
             </span>
             <span className='prop'>

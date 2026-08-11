@@ -296,18 +296,18 @@ export const about = [
   {
     name: "Juan Falibene",
     text: "Barcelona, Spain",
-    profession: "WordPress & Front-End Tech Partner",
+    profession: "Web Developer • WordPress & Front-End",
     image: "./img/juanfalibene_profile_hover.jpg",
     imagePic: "./img/juanfalibene_profilepic_06_2025.webp",
     resume_page: "./resume/index.html",
     bio_lead:
-      "WordPress & Front-End Tech Partner for agencies and brands seeking technical criteria, reliability, and scalability.",
+      "Full-cycle web development with technical criteria, clean architecture, and reliable execution.",
     bio_story:
       "My journey as a developer has been shaped by a hybrid path of continuous self-directed learning and working side by side with agencies and individual clients. You can read more about my background in my <a href='https://juanfalibene.com/writing/#/post/id=522&category=historia' target='_blank' rel='noopener noreferrer'>story on the blog</a>.",
     bio_excerpt:
-      "I help design agencies, product leads, and businesses build, optimize, and unblock web platforms. Grounded in solid web engineering fundamentals (HTML, CSS, JS, PHP) to work seamlessly across any stack — from page builders and custom builds to FSE and Gutenberg.",
+      "With over 6 years of experience across design studios, agency workflows, and direct clients, I operate flexibly as a custom developer, white-label tech partner, or technical consultant. My approach bridges design fidelity and clean code, ensuring every platform is fast, secure, and built to scale.",
     bio_values:
-      "Technical criteria over quick fixes. Every project comes with its own tech stack and constraints. My focus isn't on pushing a single tool, but on understanding the existing architecture to optimize performance, fix complex issues, and ensure a scalable digital asset.",
+      "Technical criteria over quick fixes. Every project comes with its own tech stack and constraints. My focus isn't on pushing a single tool, but on understanding the existing architecture to develop reliable solutions, optimize performance, fix complex issues, and ensure a scalable digital asset.",
     bio: "My <a href='https://juanfalibene.com/writing/#/post/id=522&category=historia' target='_blank' rel='noopener noreferrer'>journey</a> has been shaped by a combination of formal education and self-taught expertise, growing alongside agencies and individual clients. I thrive on collaboration throughout the entire process, ensuring that every project balances creativity, performance, and client-specific goals.",
   },
 ];
@@ -332,15 +332,15 @@ export const section_description = [
 
 // Hero Content
 export const hero_content = {
-  headline: "WordPress & Front-End Tech Partner for agencies and brands seeking technical criteria, reliability, and scalability.",
-  subtitle: "Helping design agencies, product leads, and businesses build, optimize, and unblock web platforms. Grounded in solid web engineering fundamentals (HTML, CSS, JS, PHP) to work seamlessly across any stack: from page builders and custom builds to FSE and Gutenberg.",
-  manifesto: "Technical criteria over quick fixes. Every project comes with its own tech stack and constraints. My focus isn't on pushing a single tool, but on understanding the existing architecture — whether it's a page builder, a custom theme, or a block-based setup — to optimize performance, fix complex issues, and ensure a scalable digital asset.",
+  headline: "Web Developer specializing in WordPress & Front-End — custom development, technical consulting, and tech partner for agencies and brands.",
+  subtitle: "Helping design agencies, product leads, and businesses build new web platforms, unblock complex technical challenges, and scale digital products with solid engineering fundamentals (HTML, CSS, JS/React, PHP).",
+  manifesto: "Technical criteria over quick fixes. Every project comes with its own tech stack and constraints. My focus isn't on pushing a single tool, but on understanding the existing architecture — whether it's a page builder, a custom theme, or a block-based setup — to develop reliable solutions, optimize performance, and ensure a scalable digital asset.",
 };
 
 // Services — Intro Headline & Subtitle
 export const services_intro = {
-  headline: "Specialized technical services for agencies and brands that demand solid engineering, true performance, and web platforms that don't fail.",
-  subtitle: "From custom full-stack development and in-depth audits to WPO optimization and proactive maintenance, delivering the engineering layer to keep your web assets scalable and reliable.",
+  headline: "Specialized web engineering for agencies and brands that demand custom development, technical criteria, and reliable platforms.",
+  subtitle: "From custom full-stack development and agency tech partnering to in-depth technical audits, consulting, and proactive maintenance.",
 };
 
 // Services List
@@ -587,7 +587,7 @@ export const resume_urls = [
   },
   {
     name: "Resume ENG PDF",
-    link: "https://juanfalibene.com/resume/downloads/Juan_Ignacio_Falibene_CV_EN_2025.pdf",
+    link: "https://juanfalibene.com/resume/downloads/Juan_Ignacio_Falibene_CV_EN_2026.pdf",
     action: "Download",
   },
   {

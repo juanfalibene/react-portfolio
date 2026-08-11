@@ -299,18 +299,18 @@ export const about_es = [
   {
     name: "Juan Falibene",
     text: "Barcelona",
-    profession: "Socio Tecnológico WordPress & Front-End",
+    profession: "Desarrollador Web • WordPress & Front-End",
     image: "./img/juanfalibene_profile_hover.jpg",
     imagePic: "./img/juanfalibene_profilepic_06_2025.webp",
     resume_page: "./resume/index.html",
     bio_lead:
-      "Partner tecnológico en WordPress y Front-End para agencias y marcas que buscan criterio técnico, fiabilidad y escalabilidad.",
+      "Desarrollo web integral con criterio técnico, arquitectura limpia y ejecución fiable.",
     bio_story:
       "Mi trayectoria como desarrollador se ha forjado de manera híbrida entre el aprendizaje autodidacta continuo y el trabajo codo a codo con clientes particulares y agencias. Puedes conocer más sobre mi camino en mi <a href='https://juanfalibene.com/writing/#/post/id=522&category=historia' target='_blank' rel='noopener noreferrer'>historia en el blog</a>.",
     bio_excerpt:
-      "Ayudo a agencias de diseño, responsables de producto y empresas a construir, optimizar y desbloquear plataformas web. Con la base sólida de ingeniería web (HTML, CSS, JS, PHP) para trabajar sobre cualquier ecosistema: desde maquetadores o desarrollos a medida hasta FSE y Gutenberg.",
+      "Con más de 6 años de experiencia colaborando con estudios de diseño, agencias y clientes directos, opero con flexibilidad como desarrollador a medida, socio técnico de marca blanca o consultor. Mi enfoque conecta el rigor visual con código limpio, garantizando que cada plataforma sea rápida, segura y fácil de evolucionar.",
     bio_values:
-      "Desarrollo con criterio técnico, no parches. Cada proyecto tiene sus propias limitaciones y stack técnico. Mi enfoque no se limita a imponer una tecnología concreta, sino a entender la arquitectura existente para optimizar su rendimiento, resolver problemas complejos y garantizar que la plataforma crezca de forma estable.",
+      "Desarrollo con criterio técnico, no parches. Cada proyecto tiene sus propias limitaciones y stack técnico. Mi enfoque no se limita a imponer una tecnología concreta, sino a entender la arquitectura existente para desarrollar soluciones sólidas, optimizar su rendimiento y garantizar que la plataforma crezca de forma estable.",
     bio: "Mi <a href='https://juanfalibene.com/writing/#/post/id=522&category=historia' target='_blank' rel='noopener noreferrer'>trayectoria</a> ha sido moldeada por una combinación de educación formal y experiencia autodidacta, creciendo junto a agencias y clientes individuales. Disfruto colaborando a lo largo de todo el proceso, asegurando que cada proyecto equilibre creatividad, rendimiento y objetivos específicos del cliente.",
   },
 ];
@@ -336,15 +336,15 @@ export const section_description_es = [
 
 // Hero Content (ES)
 export const hero_content_es = {
-  headline: "Partner tecnológico en WordPress y Front-End para agencias y marcas que buscan criterio técnico, fiabilidad y escalabilidad.",
-  subtitle: "Ayudo a agencias de diseño, responsables de producto y empresas a construir, optimizar y desbloquear plataformas web. Con la base sólida de ingeniería web (HTML, CSS, JS, PHP) para trabajar sobre cualquier ecosistema: desde maquetadores o desarrollos a medida hasta FSE y Gutenberg.",
-  manifesto: "Desarrollo y mantenimiento con criterio técnico, no parches. Cada proyecto tiene sus propias limitaciones y stack técnico. Mi enfoque no se limita a imponer una tecnología concreta, sino a entender la arquitectura existente, sea un maquetador, un tema a medida o un entorno con bloques, para optimizar su rendimiento, resolver problemas complejos y garantizar que la plataforma crezca de forma estable.",
+  headline: "Desarrollador Web especializado en WordPress y Front-End: desarrollo a medida, consultoría y partner tecnológico para agencias y marcas.",
+  subtitle: "Ayudo a agencias de diseño, equipos de producto y empresas a desarrollar nuevas plataformas web, resolver retos técnicos complejos y optimizar sus proyectos con bases sólidas de ingeniería (HTML, CSS, JS/React, PHP).",
+  manifesto: "Desarrollo y mantenimiento con criterio técnico, no parches. Cada proyecto tiene sus propias limitaciones y stack técnico. Mi enfoque no se limita a imponer una tecnología concreta, sino a entender la arquitectura existente, sea un maquetador, un tema a medida o un entorno con bloques, para desarrollar soluciones sólidas, optimizar su rendimiento y garantizar que la plataforma crezca de forma estable.",
 };
 
 // Services — Intro Headline & Subtitle (ES)
 export const services_intro_es = {
-  headline: "Servicios técnicos especializados para agencias y marcas que necesitan desarrollo sólido, rendimiento real y plataformas web que no fallen.",
-  subtitle: "Desde el desarrollo full-stack a medida y auditorías exhaustivas hasta optimización WPO y soporte proactivo, aportando criterio de ingeniería para que tu web sea un activo escalable.",
+  headline: "Servicios técnicos especializados para agencias y marcas que necesitan desarrollo a medida, criterio técnico y plataformas web fiables.",
+  subtitle: "Desde desarrollo full-stack y colaboración técnica para agencias hasta consultoría, auditorías exhaustivas y mantenimiento proactivo.",
 };
 
 // Services List (ES)
@@ -579,7 +579,7 @@ export const resume_urls_es = [
   },
   {
     name: "Currículum ENG PDF",
-    link: "https://juanfalibene.com/resume/downloads/Juan_Ignacio_Falibene_CV_EN_2025.pdf",
+    link: "https://juanfalibene.com/resume/downloads/Juan_Ignacio_Falibene_CV_EN_2026.pdf",
     action: "Descargar",
   },
   {
