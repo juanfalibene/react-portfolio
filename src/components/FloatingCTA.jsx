@@ -47,13 +47,13 @@ const FloatingCTA = () => {
         <p className='floating-cta-eyebrow'>WordPress &amp; Front-End</p>
         <p className='floating-cta-headline'>
           {language === "en"
-            ? "Need technical support?"
-            : "¿Soporte técnico?"}
+            ? "Need a Tech Partner?"
+            : "¿Buscas un Tech Partner?"}
         </p>
         <p className='floating-cta-sub'>
           {language === "en"
-            ? "Technical criteria, reliability, scalability."
-            : "Criterio técnico, fiabilidad, escalabilidad."}
+            ? "Technical criteria, reliability, and custom web development."
+            : "Criterio técnico, fiabilidad y desarrollo web a medida."}
         </p>
         <div className='floating-cta-actions'>
           <Link
