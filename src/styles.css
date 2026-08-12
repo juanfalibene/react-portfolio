@@ -3022,6 +3022,7 @@ footer {
   header,
   .projects-list,
   .hero-manifesto,
+  .blogs-info,
   section.contact,
   .services-page-back-bar {
     width: var(--width-full);
@@ -3270,6 +3271,17 @@ footer {
   .didea-logo-box {
     width: 45px;
     height: 45px;
+  }
+
+  /* Blog & Contact: match section lateral padding */
+  section.blogs {
+    padding-left: var(--spacing-sm);
+    padding-right: var(--spacing-sm);
+  }
+
+  section.contact-section-wrapper {
+    padding-left: var(--spacing-sm);
+    padding-right: var(--spacing-sm);
   }
 }
 
