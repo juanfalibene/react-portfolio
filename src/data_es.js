@@ -63,7 +63,7 @@ export const works_es = [
     tags: ["UI", "UX", "Análisis Heurístico"],
     cover: "./img/projects/amazon_fe.webp",
     link: "https://www.amazonfutureengineer.com/",
-    blog_link: "https://juanfalibene.com/writing/#/case-study/109",
+    blog_link: "https://juanfalibene.com/writing/#/project/109",
     class: "square half",
   },
   {
@@ -304,14 +304,14 @@ export const about_es = [
     imagePic: "./img/juanfalibene_profilepic_06_2025.webp",
     resume_page: "./resume/index.html",
     bio_lead:
-      "Desarrollo web integral con criterio técnico, arquitectura limpia y ejecución fiable.",
+      "Desarrollo web integral. Criterio técnico, arquitectura limpia y resultados en los que puedes confiar.",
     bio_story:
-      "Mi trayectoria como desarrollador se ha forjado de manera híbrida entre el aprendizaje autodidacta continuo y el trabajo codo a codo con clientes particulares y agencias. Puedes conocer más sobre mi camino en mi <a href='https://juanfalibene.com/writing/#/post/id=522&category=historia' target='_blank' rel='noopener noreferrer'>historia en el blog</a>.",
+      "Llegué al desarrollo de forma híbrida, combinando aprendizaje autodidacta con el trabajo codo a codo con clientes particulares y agencias. Si te interesa saber más, cuento mi recorrido en mi <a href='https://juanfalibene.com/writing/#/post/id=522&category=historia' target='_blank' rel='noopener noreferrer'>historia en el blog</a>.",
     bio_excerpt:
-      "Con más de 6 años de experiencia colaborando con estudios de diseño, agencias y clientes directos, opero con flexibilidad como desarrollador a medida, socio técnico de marca blanca o consultor. Mi enfoque conecta el rigor visual con código limpio, garantizando que cada plataforma sea rápida, segura y fácil de evolucionar.",
+      "Después de más de 6 años colaborando con estudios de diseño, agencias y clientes directos, me adapto a lo que cada proyecto necesita: desarrollo a medida, soporte técnico de marca blanca o consultoría. Me importa que el diseño quede bien y que el código esté limpio, para que cada plataforma sea rápida, segura y fácil de hacer crecer.",
     bio_values:
-      "Desarrollo con criterio técnico, no parches. Cada proyecto tiene sus propias limitaciones y stack técnico. Mi enfoque no se limita a imponer una tecnología concreta, sino a entender la arquitectura existente para desarrollar soluciones sólidas, optimizar su rendimiento y garantizar que la plataforma crezca de forma estable.",
-    bio: "Mi <a href='https://juanfalibene.com/writing/#/post/id=522&category=historia' target='_blank' rel='noopener noreferrer'>trayectoria</a> ha sido moldeada por una combinación de educación formal y experiencia autodidacta, creciendo junto a agencias y clientes individuales. Disfruto colaborando a lo largo de todo el proceso, asegurando que cada proyecto equilibre creatividad, rendimiento y objetivos específicos del cliente.",
+      "Criterio técnico, no parches. Cada proyecto tiene sus propias limitaciones y su propio stack. No impongo una tecnología concreta; me centro en entender lo que ya hay, construir soluciones sólidas, mejorar el rendimiento y asegurar que la plataforma pueda crecer de forma estable.",
+    bio: "Mi <a href='https://juanfalibene.com/writing/#/post/id=522&category=historia' target='_blank' rel='noopener noreferrer'>trayectoria</a> combina educación formal y experiencia autodidacta, creciendo junto a agencias y clientes individuales. Disfruto colaborando en cada fase de un proyecto, buscando siempre el equilibrio entre creatividad, rendimiento y lo que el cliente realmente necesita.",
   },
 ];
 
@@ -320,31 +320,31 @@ export const section_description_es = [
   {
     section: "Trabajos",
     description:
-      "Durante los últimos 6 años, me he especializado en diseñar y desarrollar sitios web en WordPress para agencias y clientes particulares. Ofrezco soluciones completas, que incluyen diseño, desarrollo, soporte y transferencia de conocimientos para garantizar el éxito de cada proyecto.",
+      "En los últimos 6 años me he dedicado a diseñar y desarrollar sitios WordPress para agencias y clientes particulares. Me encargo de todo el proceso: diseño, desarrollo, soporte y transferencia de conocimientos para que cada equipo pueda seguir avanzando por su cuenta.",
   },
   {
     section: "Blog",
     description:
-      "Te invito a explorar mi <a href='https://juanfalibene.com/writing/' target='_blank' rel='noopener noreferrer'>blog</a>, donde comparto más sobre mi trayectoria y amplío los detalles de mi trabajo. Encontrarás información sobre mis últimos proyectos, reflexiones sobre desarrollo web y un archivo con todos mis trabajos.",
+      "En mi <a href='https://juanfalibene.com/writing/' target='_blank' rel='noopener noreferrer'>blog</a> escribo sobre lo que estoy trabajando, desgloso proyectos y reflexiono sobre temas de desarrollo web. También es donde guardo un archivo de todo lo que he construido.",
   },
   {
     section: "Proyectos",
     description:
-      "Una selección de aplicaciones web a medida, herramientas especializadas y productos digitales interactivos desarrollados con arquitecturas modernas, optimización de rendimiento y código limpio.",
+      "Aplicaciones web a medida, herramientas especializadas y productos digitales interactivos que he desarrollado con arquitecturas modernas, poniendo el foco en rendimiento y código limpio.",
   },
 ];
 
 // Hero Content (ES)
 export const hero_content_es = {
-  headline: "Desarrollador Web especializado en WordPress y Front-End: desarrollo a medida, consultoría y partner tecnológico para agencias y marcas.",
-  subtitle: "Ayudo a agencias de diseño, equipos de producto y empresas a desarrollar nuevas plataformas web, resolver retos técnicos complejos y optimizar sus proyectos con bases sólidas de ingeniería (HTML, CSS, JS/React, PHP).",
-  manifesto: "Desarrollo y mantenimiento con criterio técnico, no parches. Cada proyecto tiene sus propias limitaciones y stack técnico. Mi enfoque no se limita a imponer una tecnología concreta, sino a entender la arquitectura existente, sea un maquetador, un tema a medida o un entorno con bloques, para desarrollar soluciones sólidas, optimizar su rendimiento y garantizar que la plataforma crezca de forma estable.",
+  headline: "Desarrollador Web especializado en WordPress y Front-End. Desarrollo a medida, consultoría y partner tecnológico para agencias y marcas.",
+  subtitle: "Ayudo a agencias de diseño, equipos de producto y empresas a crear plataformas web, resolver retos técnicos complejos y hacer crecer sus proyectos con bases sólidas de ingeniería (HTML, CSS, JS/React, PHP).",
+  manifesto: "Criterio técnico, no parches. Cada proyecto tiene sus propias limitaciones y su propio stack. No impongo una tecnología concreta; me centro en entender lo que ya hay, sea un maquetador, un tema a medida o un entorno con bloques, para construir soluciones sólidas, mejorar el rendimiento y asegurar que la plataforma pueda crecer.",
 };
 
 // Services — Intro Headline & Subtitle (ES)
 export const services_intro_es = {
-  headline: "Servicios técnicos especializados para agencias y marcas que necesitan desarrollo a medida, criterio técnico y plataformas web fiables.",
-  subtitle: "Desde desarrollo full-stack y colaboración técnica para agencias hasta consultoría, auditorías exhaustivas y mantenimiento proactivo.",
+  headline: "Servicios técnicos para agencias y marcas que necesitan desarrollo a medida, criterio técnico y plataformas web que funcionen de verdad.",
+  subtitle: "Desarrollo full-stack a medida, colaboración técnica con agencias, auditorías, consultoría y mantenimiento proactivo.",
 };
 
 // Services List (ES)
@@ -352,17 +352,17 @@ export const services_list_es = [
   {
     id: 1,
     title: "Desarrollo Web & WordPress a Medida",
-    description: "Desarrollo frontend y WordPress a medida con arquitecturas modernas, maquetación limpia (HTML5/CSS3/JS/React), creación de temas y plugins personalizados, integración de APIs y bloques nativos (FSE/Gutenberg). Código modular, mantenible y optimizado para SEO técnico y velocidad de carga.",
+    description: "Desarrollo frontend y WordPress a medida con arquitecturas modernas, maquetación limpia (HTML5/CSS3/JS/React), temas y plugins personalizados, integración de APIs y bloques nativos (FSE/Gutenberg). Código modular, mantenible y pensado para SEO técnico y tiempos de carga rápidos.",
   },
   {
     id: 2,
     title: "Auditoría Técnica de WordPress",
-    description: "Diagnóstico integral de rendimiento, salud de la base de datos, arquitectura de plugins/tema y vulnerabilidades de seguridad. Entrega de un informe con plan de acción priorizado.",
+    description: "Diagnóstico a fondo de rendimiento, salud de la base de datos, arquitectura de plugins/tema y vulnerabilidades de seguridad. Incluye un informe claro con plan de acción priorizado.",
   },
   {
     id: 3,
     title: "Consultoría Técnica y Arquitectura",
-    description: "Asesoramiento estratégico previo a un desarrollo o migración. Definición del stack ideal (maquetador vs. bloques vs. a medida), arquitectura de datos e integraciones con APIs o CRMs.",
+    description: "Asesoramiento estratégico antes de un desarrollo o migración. Elegir el stack ideal (maquetador vs. bloques vs. a medida), planificar la arquitectura de datos y definir integraciones con APIs o CRMs.",
   },
   {
     id: 4,
@@ -372,31 +372,31 @@ export const services_list_es = [
   {
     id: 5,
     title: "WPO y Optimización de Rendimiento",
-    description: "Optimización real de la velocidad de carga y Core Web Vitals (LCP, CLS, INP) mediante limpieza de código no utilizado, optimización de consultas a base de datos y configuración de caché.",
+    description: "Optimización real de la velocidad y Core Web Vitals (LCP, CLS, INP) atacando la causa raíz: limpieza de código, optimización de consultas a base de datos y configuración de caché.",
   },
   {
     id: 6,
     title: "Resolución de Problemas y Diagnóstico",
-    description: "Intervención técnica especializada para aislar y resolver errores críticos, conflictos de plugins, fallos tras actualizaciones o problemas de seguridad/malware.",
+    description: "Intervención técnica para aislar y resolver errores críticos, conflictos de plugins, fallos tras actualizaciones o problemas de seguridad y malware.",
   },
   {
     id: 7,
     title: "Acompañamiento en Lanzamientos",
-    description: "Despliegue técnico controlado para el paso a producción: listas de verificación pre-lanzamiento, mapeo de redirecciones SEO (301), pruebas de carga y monitorización post-despliegue.",
+    description: "Despliegue controlado para el paso a producción: checklist pre-lanzamiento, mapeo de redirecciones SEO (301), pruebas de carga y monitorización post-despliegue.",
   },
 ];
 
 // Client Fit (ES)
 export const client_fit_es = {
   bestFit: [
-    "Agencias de diseño y comunicación que necesitan un partner técnico senior en quien delegar el desarrollo, soporte o resolución de problemas de sus clientes sin sorpresas.",
-    "Empresas o marcas con webs activas (ya sean montadas con maquetadores, temas a medida o bloques) que experimentan problemas de rendimiento, caídas, errores tras actualizaciones o limitaciones técnicas.",
+    "Agencias de diseño y comunicación que buscan un partner técnico senior en quien confiar el desarrollo, soporte o resolución de problemas de sus clientes.",
+    "Empresas o marcas con webs activas (maquetadores, temas a medida o bloques) que se encuentran con problemas de rendimiento, caídas, errores tras actualizaciones o limitaciones técnicas.",
     "Equipos que necesitan integrar su web con APIs externas, CRMs o funcionalidades a medida en PHP/JS.",
     "Proyectos que requieren una mirada estratégica antes de rediseñar o migrar, eligiendo la mejor solución según las necesidades del negocio.",
   ],
   notFit: [
-    "Quienes buscan soluciones inmediatas basadas en parches superficiales sin querer revisar la causa raíz del problema.",
-    "Colaboraciones donde no se valore el aporte técnico ni haya apertura para mejorar el proyecto en conjunto. La escala nunca es un filtro: me involucro con la misma dedicación en proyectos pequeños o grandes que tengan sentido y me motiven, siempre que prioricemos ante todo una comunicación clara, honesta y fluida para trabajar con criterio.",
+    "Quienes buscan soluciones rápidas a base de parches sin querer investigar la causa real del problema.",
+    "Colaboraciones donde no se valore el criterio técnico ni haya apertura para mejorar el proyecto juntos. La escala nunca es un filtro: me involucro con la misma dedicación en proyectos pequeños o grandes que tengan sentido y me motiven, siempre que prioricemos una comunicación clara, honesta y directa.",
   ],
 };
 
@@ -404,19 +404,19 @@ export const client_fit_es = {
 export const faqs_es = [
   {
     question: "¿Cómo integras la Inteligencia Artificial y qué valor aporta el criterio técnico frente a la IA?",
-    answer: "La IA es parte activa de nuestro presente y un acelerador fundamental en mi flujo de trabajo —esta misma web y muchos de mis proyectos integran herramientas y código potenciados por IA—. Sin embargo, generar código o maquetar rápido no equivale automáticamente a tener una plataforma segura, optimizada y escalable. La IA amplifica la velocidad y la creatividad, pero el criterio de ingeniería web, el diagnóstico profundo, la arquitectura y la responsabilidad de lo que se entrega a producción siguen requiriendo una mirada técnica especializada para evitar deuda técnica y garantizar resultados fiables a largo plazo.",
+    answer: "La IA ya es parte de mi día a día. Esta misma web y muchos de mis proyectos usan herramientas y código asistido por IA. Pero generar código rápido no significa automáticamente tener una plataforma segura, optimizada y escalable. La IA acelera y abre posibilidades creativas, pero el criterio de ingeniería, el diagnóstico profundo, la arquitectura sólida y la responsabilidad sobre lo que se sube a producción siguen siendo lo que evita deuda técnica y garantiza resultados fiables.",
   },
   {
     question: "¿Cómo evitas que la acumulación de parches y plugins genere deuda técnica o caídas tras actualizaciones?",
-    answer: "La acumulación de parches y plugins innecesarios es la causa principal de lentitud y fallos repentinos. Mi enfoque consiste en diagnosticar la raíz del problema, sustituir plugins superfluos por código nativo y limpio, y probar cualquier actualización en entornos de prueba (Staging) con copias de seguridad activas.",
+    answer: "Acumular parches y plugins innecesarios es la causa principal de que una web vaya lenta o se rompa. Mi enfoque: buscar la raíz del problema, sustituir lo que sobra por código nativo y limpio, y probar cualquier actualización en Staging con copias de seguridad activas.",
   },
   {
     question: "¿Cómo te integras con agencias de diseño y equipos de trabajo?",
-    answer: "Actúo como partner técnico o marca blanca. Puedo integrarme en tu flujo habitual (Slack, Figma, GitHub, Notion) respetando entregas, estándares de código y la visión de diseño del equipo.",
+    answer: "Trabajo como partner técnico o marca blanca. Me integro en tu flujo habitual (Slack, Figma, GitHub, Notion) respetando entregas, estándares de código y la visión de diseño.",
   },
   {
     question: "¿Trabajas únicamente con desarrollo a medida o también con maquetadores como Elementor o WPBakery?",
-    answer: "Trabajo sobre el entorno que requiera el proyecto. Si tienes un sitio en producción construido sobre un maquetador, puedo auditarlo, optimizarlo y corregir sus fallos sin necesidad de rehacerlo desde cero. Si el proyecto nace desde cero, valoramos juntos la mejor opción.",
+    answer: "Trabajo sobre el entorno que necesite el proyecto. Si tienes un sitio en producción montado con un maquetador, puedo auditarlo, optimizarlo y corregir fallos sin rehacerlo desde cero. Si el proyecto nace de cero, evaluamos juntos la mejor opción.",
   },
   {
     question: "¿Cómo iniciamos la colaboración?",
@@ -424,15 +424,15 @@ export const faqs_es = [
   },
   {
     question: "¿Qué diferencia tu mantenimiento técnico del que ofrecen otros proveedores?",
-    answer: "No me limito a hacer clic en 'actualizar' en la web pública. Reviso y testeo las actualizaciones en un entorno clonado (Staging) antes de aplicarlas en producción, con copias de seguridad activas y monitorización constante.",
+    answer: "No me limito a hacer clic en 'actualizar' en la web pública. Pruebo las actualizaciones en un entorno clonado (Staging) antes de aplicarlas en producción, con backups activos y monitorización constante para que nada se rompa.",
   },
   {
     question: "¿Qué incluye una Auditoría Técnica?",
-    answer: "Recibirás un documento claro con el diagnóstico del estado de tu web: análisis de velocidad real, carga en base de datos, riesgo de plugins/tema y seguridad, acompañado de un listado de acciones ordenadas por prioridad e impacto.",
+    answer: "Recibirás un documento claro con el diagnóstico del estado de tu web: velocidad real, carga en base de datos, riesgo de plugins/tema y seguridad, junto con una lista de acciones ordenadas por prioridad e impacto.",
   },
   {
     question: "¿El código y la web siguen siendo de mi propiedad?",
-    answer: "Absolutamente. Todo el código, repositorio, accesos e información transferida pertenecen al cliente o agencia. Se entrega con la documentación necesaria para que el equipo mantenga total independencia.",
+    answer: "Totalmente. Todo el código, repositorio, accesos e información pertenecen al cliente o agencia. Se entrega con documentación para que el equipo tenga total independencia.",
   },
 ];
 

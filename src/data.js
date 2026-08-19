@@ -63,7 +63,7 @@ export const works = [
     tags: ["UI", "UX", "Heuristic Analysis"],
     cover: "./img/projects/amazon_fe.webp",
     link: "https://www.amazonfutureengineer.com/",
-    blog_link: "https://juanfalibene.com/writing/#/case-study/109",
+    blog_link: "https://juanfalibene.com/writing/#/project/109",
     class: "square half",
   },
   {
@@ -301,14 +301,14 @@ export const about = [
     imagePic: "./img/juanfalibene_profilepic_06_2025.webp",
     resume_page: "./resume/index.html",
     bio_lead:
-      "Full-cycle web development with technical criteria, clean architecture, and reliable execution.",
+      "Full-cycle web development. Technical criteria, clean architecture, and results you can trust.",
     bio_story:
-      "My journey as a developer has been shaped by a hybrid path of continuous self-directed learning and working side by side with agencies and individual clients. You can read more about my background in my <a href='https://juanfalibene.com/writing/#/post/id=522&category=historia' target='_blank' rel='noopener noreferrer'>story on the blog</a>.",
+      "I got into development through a mix of self-teaching and working alongside agencies and individual clients. If you're curious, I wrote about my background in my <a href='https://juanfalibene.com/writing/#/post/id=522&category=historia' target='_blank' rel='noopener noreferrer'>story on the blog</a>.",
     bio_excerpt:
-      "With over 6 years of experience across design studios, agency workflows, and direct clients, I operate flexibly as a custom developer, white-label tech partner, or technical consultant. My approach bridges design fidelity and clean code, ensuring every platform is fast, secure, and built to scale.",
+      "After 6+ years working with design studios, agencies, and direct clients, I adapt to what each project needs: custom development, white-label tech support, or consulting. I care about getting the design right and writing clean code, so every platform ends up fast, secure, and ready to grow.",
     bio_values:
-      "Technical criteria over quick fixes. Every project comes with its own tech stack and constraints. My focus isn't on pushing a single tool, but on understanding the existing architecture to develop reliable solutions, optimize performance, fix complex issues, and ensure a scalable digital asset.",
-    bio: "My <a href='https://juanfalibene.com/writing/#/post/id=522&category=historia' target='_blank' rel='noopener noreferrer'>journey</a> has been shaped by a combination of formal education and self-taught expertise, growing alongside agencies and individual clients. I thrive on collaboration throughout the entire process, ensuring that every project balances creativity, performance, and client-specific goals.",
+      "Technical criteria over quick fixes. Every project has its own stack and its own constraints. I don't push a single tool; I focus on understanding what's already there, building solid solutions, improving performance, and making sure the platform can actually scale.",
+    bio: "My <a href='https://juanfalibene.com/writing/#/post/id=522&category=historia' target='_blank' rel='noopener noreferrer'>path</a> has been a combination of formal education and self-taught learning, growing alongside agencies and individual clients. I enjoy collaborating through every phase of a project, always looking for the right balance between creativity, performance, and what the client actually needs.",
   },
 ];
 // Sections
@@ -316,31 +316,31 @@ export const section_description = [
   {
     section: "Works",
     description:
-      "Over the past 6 years, I have specialized in designing and developing WordPress websites for agencies and individual clients. I provide complete solutions, including design, development, support, and knowledge transfer to ensure every project's success.",
+      "For the past 6 years I've been designing and developing WordPress sites for agencies and individual clients. I handle the full picture: design, development, support, and handing over everything so teams can keep moving on their own.",
   },
   {
     section: "Blog",
     description:
-      "I invite you to explore my <a href='https://juanfalibene.com/writing/' target='_blank' rel='noopener noreferrer'>blog</a>, where I share more about my journey and expand on my work. You'll find insights into my latest projects, reflections on web development, and an archive of my work's.",
+      "On my <a href='https://juanfalibene.com/writing/' target='_blank' rel='noopener noreferrer'>blog</a> I write about what I'm working on, share project breakdowns, and reflect on web development topics. It's also where I keep an archive of everything I've built.",
   },
   {
     section: "Projects",
     description:
-      "A curated selection of custom web applications, specialized tools, and interactive digital products engineered with modern web architectures, performance optimization, and clean code.",
+      "Custom web apps, specialized tools, and interactive digital products I've built using modern architectures, with a focus on performance and clean code.",
   },
 ];
 
 // Hero Content
 export const hero_content = {
-  headline: "Web Developer specializing in WordPress & Front-End — custom development, technical consulting, and tech partner for agencies and brands.",
-  subtitle: "Helping design agencies, product leads, and businesses build new web platforms, unblock complex technical challenges, and scale digital products with solid engineering fundamentals (HTML, CSS, JS/React, PHP).",
-  manifesto: "Technical criteria over quick fixes. Every project comes with its own tech stack and constraints. My focus isn't on pushing a single tool, but on understanding the existing architecture — whether it's a page builder, a custom theme, or a block-based setup — to develop reliable solutions, optimize performance, and ensure a scalable digital asset.",
+  headline: "Web Developer specializing in WordPress & Front-End. Custom development, technical consulting, and tech partner for agencies and brands.",
+  subtitle: "I help design agencies, product leads, and businesses build web platforms, solve complex technical problems, and scale digital products with solid engineering (HTML, CSS, JS/React, PHP).",
+  manifesto: "Technical criteria over quick fixes. Every project has its own stack and constraints. I don't push a single tool. I focus on understanding what's already in place, whether it's a page builder, a custom theme, or a block-based setup, to build reliable solutions, improve performance, and make sure the platform can grow.",
 };
 
 // Services — Intro Headline & Subtitle
 export const services_intro = {
-  headline: "Specialized web engineering for agencies and brands that demand custom development, technical criteria, and reliable platforms.",
-  subtitle: "From custom full-stack development and agency tech partnering to in-depth technical audits, consulting, and proactive maintenance.",
+  headline: "Web engineering for agencies and brands that need custom development, technical criteria, and platforms that actually work.",
+  subtitle: "Custom full-stack development, agency tech partnering, technical audits, consulting, and proactive maintenance.",
 };
 
 // Services List
@@ -348,17 +348,17 @@ export const services_list = [
   {
     id: 1,
     title: "Custom Web & WordPress Development",
-    description: "Custom frontend and WordPress development built on modern architectures: clean markup (HTML5/CSS3/JS/React), custom theme and plugin engineering, API integrations, and native block development (FSE/Gutenberg). Modular, maintainable code engineered for technical SEO and peak load speed.",
+    description: "Custom frontend and WordPress development with modern architectures: clean markup (HTML5/CSS3/JS/React), custom themes and plugins, API integrations, and native block development (FSE/Gutenberg). Modular, maintainable code built for technical SEO and fast load times.",
   },
   {
     id: 2,
     title: "Technical WordPress Audit",
-    description: "Deep-dive diagnosis of performance, database health, plugin/theme architecture, and security risks, delivered with a prioritized action plan.",
+    description: "A thorough diagnosis of performance, database health, plugin/theme architecture, and security risks. You get a clear, prioritized action plan.",
   },
   {
     id: 3,
     title: "Technical Consulting & Architecture",
-    description: "Strategic guidance before major builds or migrations. Selection of the right stack (builders vs. native blocks vs. custom code), data architecture, and API/CRM integrations.",
+    description: "Strategic guidance before a major build or migration. Choosing the right stack (builders vs. native blocks vs. custom code), planning data architecture, and mapping out API/CRM integrations.",
   },
   {
     id: 4,
@@ -368,31 +368,31 @@ export const services_list = [
   {
     id: 5,
     title: "Performance & Speed Optimization (WPO)",
-    description: "Root-cause optimization targeting Core Web Vitals (LCP, CLS, INP) through code cleanup, database query tuning, and proper caching strategies.",
+    description: "Speed optimization that goes after the root cause: Core Web Vitals (LCP, CLS, INP), code cleanup, database query tuning, and proper caching.",
   },
   {
     id: 6,
     title: "Troubleshooting & Issue Resolution",
-    description: "Focused technical intervention to isolate and fix critical breakages, plugin conflicts, post-update errors, or security/malware issues.",
+    description: "Targeted intervention to isolate and fix critical breakages, plugin conflicts, post-update errors, or security and malware issues.",
   },
   {
     id: 7,
     title: "Launch Support & Deployment",
-    description: "Controlled production rollouts including pre-launch checklists, SEO 301 redirect mapping, stress testing, and post-launch monitoring.",
+    description: "Controlled production rollouts with pre-launch checklists, SEO 301 redirect mapping, stress testing, and post-launch monitoring.",
   },
 ];
 
 // Client Fit
 export const client_fit = {
   bestFit: [
-    "Design & marketing agencies seeking a senior technical partner to handle development, support, or troubleshooting for their clients reliably.",
-    "Businesses with live sites (whether built with page builders, custom themes, or native blocks) facing performance bottlenecks, update breakages, or technical limits.",
+    "Design and marketing agencies looking for a senior technical partner who can take on development, support, or troubleshooting for their clients.",
+    "Businesses with live sites (page builders, custom themes, or native blocks) running into performance problems, update breakages, or technical walls.",
     "Teams needing custom PHP/JS features or seamless API/CRM integrations.",
     "Projects requiring strategic technical guidance prior to a redesign or platform migration.",
   ],
   notFit: [
-    "Clients looking for superficial, quick-fix patches without addressing the root cause of the issue.",
-    "Collaborations where technical input is not valued or where there is no openness to improve the project together across all fronts. Scale is never a barrier: I get fully involved in both small and large projects that make strategic sense or spark genuine motivation, as long as we prioritize clear, honest, and transparent communication above all else.",
+    "Clients who only want a surface-level patch without looking into the actual root cause.",
+    "Collaborations where technical input isn't valued or there's no openness to improve the project together. Scale is never a filter: I get equally involved in small and large projects that make sense or genuinely motivate me, as long as we keep communication clear, honest, and straightforward.",
   ],
 };
 
@@ -400,19 +400,19 @@ export const client_fit = {
 export const faqs = [
   {
     question: "How do you integrate AI into your workflow, and why is technical criteria still essential?",
-    answer: "AI is an active part of our present and a key accelerator in my daily workflow — this very portfolio and many of my projects leverage AI-assisted tools and coding workflows. However, generating code or building pages quickly does not automatically produce a secure, performant, and scalable platform. AI amplifies speed and creativity, but web engineering fundamentals, deep diagnostics, solid architecture, and production accountability remain indispensable to avoid technical debt and guarantee long-term reliability.",
+    answer: "AI is already part of how I work every day. This portfolio and many of my projects use AI-assisted tools and workflows. But generating code fast doesn't automatically mean you get a secure, performant, and scalable platform. AI speeds things up and opens creative possibilities, but solid engineering, deep diagnostics, good architecture, and accountability for what goes to production are still what keep technical debt away and results reliable over time.",
   },
   {
     question: "How do you prevent plugin accumulation and quick fixes from causing technical debt or update breakages?",
-    answer: "Accumulated quick fixes and unvetted plugins are the primary cause of site instability and slow speeds. I diagnose the root causes, replace bloated third-party dependencies with clean, native code, and test all updates in isolated Staging environments with automated rollbacks.",
+    answer: "Piling up quick fixes and unvetted plugins is the main reason sites get slow and unstable. I look for the root cause, swap out bloated dependencies for clean native code, and test every update in an isolated Staging environment with automated rollbacks.",
   },
   {
     question: "How do you collaborate with design agencies and team workflows?",
-    answer: "I operate as a technical partner or white-label developer. I can integrate seamlessly into your tools (Slack, Figma, GitHub, Notion) respecting timelines, code quality, and design specifications.",
+    answer: "I work as a technical partner or white-label developer. I plug into your existing tools (Slack, Figma, GitHub, Notion) and respect your timelines, code standards, and design specs.",
   },
   {
     question: "Do you only work with custom code, or do you also support page builders like Elementor or WPBakery?",
-    answer: "I work with the stack that best fits the project. If you have an existing site on a page builder, I can audit, optimize, and fix issues without forcing a ground-up rebuild. For new projects, we evaluate the best direction (native FSE/blocks, custom ACF build, or a builder if required).",
+    answer: "I work with whatever stack fits the project best. If you already have a site on a page builder, I can audit it, optimize it, and fix issues without forcing a rebuild from scratch. For new projects, we figure out the best approach together (native FSE/blocks, custom ACF build, or a builder if that's what makes sense).",
   },
   {
     question: "How do we get started?",
@@ -420,15 +420,15 @@ export const faqs = [
   },
   {
     question: "How is your technical maintenance different from standard options?",
-    answer: "I don't just hit \"update\" on a live site. Updates are tested in a Staging environment first, backed by automated backups and active monitoring to ensure continuous uptime.",
+    answer: "I don't just hit \"update\" on a live site. I test updates in a Staging environment first, with automated backups and active monitoring to make sure nothing breaks in production.",
   },
   {
     question: "What is included in a Technical Audit?",
-    answer: "You get a clear report diagnosing your site's current state: real-world speed analysis, database queries, plugin/theme risk assessment, and a prioritized action roadmap.",
+    answer: "You get a clear report on where your site stands: real-world speed analysis, database queries, plugin/theme risk assessment, and a prioritized list of what to fix first.",
   },
   {
     question: "Will I fully own the code and project assets?",
-    answer: "Yes, 100%. All developed code, repositories, configurations, and access credentials belong to you or your agency, complete with documentation for full autonomy.",
+    answer: "Yes, 100%. All code, repos, configurations, and access credentials belong to you or your agency. Everything comes with documentation so your team has full autonomy.",
   },
 ];
 // Blog Links
