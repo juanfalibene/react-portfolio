@@ -100,7 +100,7 @@ export default function ContactPage() {
       }\nService: ${formData.service}\n\nMessage:\n${trimmedMessage}`
     );
 
-    window.location.href = `mailto:hola@juanfalibene.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:web@juanfalibene.com?subject=${subject}&body=${body}`;
     setSubmitted(true);
   };
 
@@ -159,8 +159,8 @@ export default function ContactPage() {
                       {language === "en"
                         ? "If your email app didn't open automatically, you can write directly to "
                         : "Si tu aplicación de correo no se abrió automáticamente, puedes escribir directamente a "}
-                      <a href='mailto:hola@juanfalibene.com'>
-                        hola@juanfalibene.com
+                      <a href='mailto:web@juanfalibene.com'>
+                        web@juanfalibene.com
                       </a>
                     </p>
                     <button
@@ -388,8 +388,8 @@ export default function ContactPage() {
                 <div className='calendly-card-footer'>
                   <div className='direct-contact-item'>
                     <span className='direct-label'>{language === "en" ? "Direct Email:" : "Email Directo:"}</span>
-                    <a href='mailto:hola@juanfalibene.com' className='direct-val'>
-                      hola@juanfalibene.com
+                    <a href='mailto:web@juanfalibene.com' className='direct-val'>
+                      web@juanfalibene.com
                     </a>
                   </div>
                   <div className='direct-contact-item'>

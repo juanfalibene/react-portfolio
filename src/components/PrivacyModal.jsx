@@ -24,7 +24,7 @@ export default function PrivacyModal({ isOpen, onClose }) {
               {language === "en"
                 ? "Juan Falibene — Web & WordPress Developer based in Barcelona, Spain. Email: "
                 : "Juan Falibene — Desarrollador Web & WordPress con base en Barcelona, España. Correo: "}
-              <a href='mailto:hola@juanfalibene.com'>hola@juanfalibene.com</a>
+              <a href='mailto:web@juanfalibene.com'>web@juanfalibene.com</a>
             </p>
           </section>
 
@@ -52,7 +52,7 @@ export default function PrivacyModal({ isOpen, onClose }) {
               {language === "en"
                 ? "You have the right to access, rectify, or delete any personal information by simply sending an email to "
                 : "Puedes ejercer tus derechos de acceso, rectificación y supresión de datos en cualquier momento enviando un correo a "}
-              <a href='mailto:hola@juanfalibene.com'>hola@juanfalibene.com</a>.
+              <a href='mailto:web@juanfalibene.com'>web@juanfalibene.com</a>.
             </p>
           </section>
         </div>
